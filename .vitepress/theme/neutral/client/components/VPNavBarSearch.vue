@@ -8,7 +8,7 @@ import {
   onUnmounted,
   ref
 } from 'vue'
-import type { DefaultTheme } from '../../shared/shared'
+import type { DefaultTheme } from '../../shared'
 import { useData } from '../composables/data'
 import VPNavBarSearchButton from './VPNavBarSearchButton.vue'
 

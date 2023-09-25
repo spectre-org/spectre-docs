@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { computed } from 'vue'
 import { normalizeLink } from '../support/utils'
-import { EXTERNAL_URL_RE } from '../../shared/shared'
+import { EXTERNAL_URL_RE } from '../../shared'
 
 const props = defineProps<{
   tag?: string

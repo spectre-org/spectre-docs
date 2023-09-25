@@ -11,7 +11,7 @@ import {
   type ComputedRef,
   type Ref
 } from 'vue'
-import { inBrowser, isActive } from '../../shared/shared'
+import { inBrowser, isActive } from '../../shared'
 import {
   hasActiveLink as containsActiveLink,
   getSidebar,
