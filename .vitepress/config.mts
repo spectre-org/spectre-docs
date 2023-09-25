@@ -19,9 +19,7 @@ const sidebar = generateSidebar({
   // sortMenusOrderByDescending: false,
   // manualSortFileNameByPriority: ['first.md', 'second', 'third.md'],
   // excludeFiles: ['first.md', 'secret.md'],
-  excludeFolders: [
-    'vitepress'
-  ],
+  // excludeFolders: [],
   // includeDotFiles: false,
   // includeRootIndexFile: false,
   // includeFolderIndexFile: false,
@@ -45,8 +43,8 @@ sidebar[0].items.forEach(item => {
 // sort
 const order = [
   '/docs/getting-started/',
-  '/docs/elements/',
   '/docs/layout/',
+  '/docs/elements/',
   '/docs/components/',
   '/docs/experimentals/',
   '/docs/utilities/',

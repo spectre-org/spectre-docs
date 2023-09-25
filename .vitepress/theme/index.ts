@@ -7,6 +7,9 @@ import Theme from './neutral/client'
 import './styles/style.css'
 import './styles/custom.scss'
 
+// components
+import Card from './components/Card.vue'
+
 export default {
   extends: Theme,
   Layout: () => {
@@ -15,6 +18,6 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.component('Card', Card)
   },
 }
