@@ -1,7 +1,7 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from 'vue'
-import Theme from 'vitepress/theme'
-// import Theme from './neutral/client'
+// import Theme from 'vitepress/theme'
+import Theme from './neutral/client'
 
 import './style.css'
 import './custom.scss'
