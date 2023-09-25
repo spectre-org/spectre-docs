@@ -1,0 +1,32 @@
+// fix sidebar padding
+nav a,
+nav li,
+nav p {
+  margin: 0 !important;
+}
+nav h2 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+// fix page menu bullets
+nav ul {
+  list-style: none;
+}
+
+// fix page padding
+.VPDoc {
+  > .container {
+    padding: 0 1rem 8rem !important;
+
+    > .content {
+      padding: 0;
+    }
+  }
+
+  .content-container,
+  .vp-doc {
+    padding: 0;
+    max-width: unset !important;
+  }
+}

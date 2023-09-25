@@ -3,8 +3,9 @@ import { h } from 'vue'
 // import Theme from 'vitepress/theme'
 import Theme from './neutral/client'
 
-import './style.css'
-import './custom.scss'
+// styles
+import './styles/style.css'
+import './styles/custom.scss'
 
 export default {
   extends: Theme,

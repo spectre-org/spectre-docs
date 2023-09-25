@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "old:preview": "npx serve -p 8000 _docs",
+    "old:preview": "npx serve .docs",
     "old:convert": "nodemon .vitepress/scripts/convert",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
