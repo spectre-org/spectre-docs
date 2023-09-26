@@ -40,9 +40,9 @@ sidebar[0].items.forEach(item => {
   }
 })
 
-// sort
+// folder order
 const order = [
-  '/docs/getting-started/',
+  '/docs/setup/',
   '/docs/layout/',
   '/docs/elements/',
   '/docs/components/',
@@ -71,17 +71,27 @@ export default defineConfig({
 
   description: 'A lightweight, responsive and modern CSS framework',
 
+  // https://vuepress.vuejs.org/config/#base
   base: '/spectre-docs/',
 
+  // https://vuepress.vuejs.org/config/#head
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    // stylesheet('/css/docs.css'),
-    // stylesheet('/css/spectre.css'),
-    // stylesheet('/css/spectre-exp.css'),
-    // stylesheet('/css/spectre-icons.css'),
-    // stylesheet('/css/spectre-rtl.css'),
+    // stylesheet('https://unpkg.com/spectre.css/dist/spectre.css'),
+    // stylesheet('https://unpkg.com/spectre.css/dist/spectre-exp.css'),
+    // stylesheet('https://unpkg.com/spectre.css/dist/spectre-icons.css'),
+    // stylesheet('https://unpkg.com/spectre.css/dist/spectre-rtl.css'),
   ],
 
+  // remove dark mode toggle
+  appearance: false,
+
+  // ensure code only uses light theme
+  markdown: {
+    theme: 'github-light',
+  },
+
+  // https://vuepress.vuejs.org/theme/default-theme-config.html
   themeConfig: {
     sidebar: sidebar[0].items,
 
