@@ -60,7 +60,8 @@ sidebar[0].items.sort((a, b) => {
 })
 
 function stylesheet (href): HeadConfig {
-  return ['link', { rel: 'stylesheet', href }]
+  const id = href.split('/').pop().split('.').shift()
+  return ['link', { rel: 'stylesheet', id, href }]
 }
 
 
@@ -72,10 +73,10 @@ export default defineConfig({
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    stylesheet('/css/docs.css'),
-    stylesheet('/css/spectre.css'),
-    stylesheet('/css/spectre-exp.css'),
-    stylesheet('/css/spectre-icons.css'),
+    // stylesheet('/css/docs.css'),
+    // stylesheet('/css/spectre.css'),
+    // stylesheet('/css/spectre-exp.css'),
+    // stylesheet('/css/spectre-icons.css'),
     // stylesheet('/css/spectre-rtl.css'),
   ],
 
