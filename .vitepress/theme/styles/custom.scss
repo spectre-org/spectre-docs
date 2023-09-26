@@ -8,6 +8,7 @@ nav li,
 nav p {
   margin: 0 !important;
 }
+
 nav h2 {
   padding: 0 !important;
   margin: 0 !important;
@@ -33,4 +34,36 @@ nav ul {
     padding: 0;
     max-width: unset !important;
   }
+}
+
+.flex-reverse {
+  flex-direction: row-reverse;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-space-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-stretch {
+  justify-content: stretch;
 }
