@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Get started
-      link: /docs/index.html
+      link: docs/index.html
 
 features:
   - title: Lightweight

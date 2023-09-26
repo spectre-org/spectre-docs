@@ -12,7 +12,11 @@ Navbar is a layout container that appears in the header of apps and websites.
 <div class="docs-demo columns">
   <div class="column">
     <div class="navbar">
-      <div class="navbar-section"><a class="navbar-brand text-bold mr-2" href="#navbar">SPECTRE.CSS</a><a class="btn btn-link" href="#navbar">Docs</a><a class="btn btn-link" href="https://github.com/picturepan2/spectre">GitHub</a></div>
+      <div class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" href="#navbar">Spectre</a>
+        <a class="btn btn-link" href="#navbar">Docs</a>
+        <a class="btn btn-link" href="https://github.com/picturepan2/spectre">GitHub</a>
+      </div>
       <div class="navbar-section">
         <div class="input-group input-inline">
           <input class="form-input" type="text" placeholder="search">
