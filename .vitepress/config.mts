@@ -71,6 +71,8 @@ export default defineConfig({
 
   description: 'A lightweight, responsive and modern CSS framework',
 
+  base: '/spectre-docs/',
+
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     // stylesheet('/css/docs.css'),
