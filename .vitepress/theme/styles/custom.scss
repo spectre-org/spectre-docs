@@ -2,6 +2,10 @@ body {
   overflow-y: scroll;
 }
 
+footer {
+  display: none;
+}
+
 // fix sidebar padding
 nav a,
 nav li,
