@@ -35,7 +35,7 @@ It is recommended to customize Spectre by importing Sass source files to your pr
 * Then create your `project-name.scss` file in the root folder. You can use `project-name.scss` to define your variables.
 * Compile the Sass file to CSS to get the custom version of Spectre.
 
-```sass
+```scss
 // Example of project-name.scss
 // Define variables to override default ones
 $primary-color: #2e5bec;
@@ -48,7 +48,7 @@ $dark-color: #3e396b;
 
 Alternatively, you can create custom `_variables.scss` and import it to `project-name.scss`.
 
-```sass
+```scss
 // Example of project-name.scss
 @import "variables";
 
@@ -188,7 +188,7 @@ There are 2 button variant mixins in `_mixins.scss` to generate different color 
 * @mixin button-variant(`$color`: $primary-color);
 * @mixin button-outline-variant(`$color`: $primary-color);
 
-```sass
+```scss
 <!-- filled button with the success color -->
 .btn-success {
   @include button-variant($success-color);
@@ -220,7 +220,7 @@ npm install gulp-css-prefix
 
 To add `spectre-` to all classes, you can add the Gulp task to `gulpfile.js` file.
 
-```
+```js
 var cssPrefix = require('gulp-css-prefix');
 
 function prefix() {
@@ -233,4 +233,4 @@ function prefix() {
 exports.prefix = prefix;
 ```
 
-After you compile your version of Spectre in the /dist, run `gulp prefix` in the directory of Spectre.
+After you compile your version of Spectre in the `/dist` folder, run `gulp prefix` in the directory of Spectre.
