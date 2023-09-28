@@ -212,14 +212,21 @@ Climb leg rub face on everything give attitude nap all day for under the bed. Ch
 
 ## Fonts
 
-Spectre sets the most common and best `font-family` for each OS with fallback support in old systems. There are also fonts targeted East Asian typography.
+Spectre sets the most common and best `font-family` for each OS with fallback support in old systems.
 
-```
+```scss
 /* Western typography targeted */
 font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
 /* Monospace typography targeted */
 font-family: "SF Mono", "Segoe UI Mono", "Roboto Mono", Menlo, Courier, monospace;
+```
 
+## East Asian font optimizations
+
+
+There are also fonts targeted to East Asian typography.
+
+```scss
 /* Chinese (lang="zh" and lang="zh-Hans") targeted */
 font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", sans-serif;
 /* Chinese (lang="zh-Hant") targeted */
@@ -231,20 +238,17 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "
 ```
 
 
-## East Asian font optimizations
-
-
 <div class="docs-demo columns">
   <div class="column">
-    <p class="h5"><small class="lang-zh-hans">你好</small>, <small class="lang-ja">こんにちは</small>, <small class="lang-ko">안녕하세요</small></p>
+    <blockquote class="h5"><small class="lang-zh-hans">你好</small>, <small class="lang-ja">こんにちは</small>, <small class="lang-ko">안녕하세요</small></blockquote>
     <p class="h6">Chinese (Simplified)</p>
-    <p class="lang-zh-hans">革命不是请客吃饭，不是做文章，不是绘画绣花，不能那样雅致，那样从容不迫，“文质彬彬”，那样“温良恭俭让”。革命就是暴动，是一个阶级推翻一个阶级的暴烈的行动。</p>
+    <blockquote class="lang-zh-hans">革命不是请客吃饭，不是做文章，不是绘画绣花，不能那样雅致，那样从容不迫，“文质彬彬”，那样“温良恭俭让”。革命就是暴动，是一个阶级推翻一个阶级的暴烈的行动。</blockquote>
     <p class="h6">Chinese (Tranditional)</p>
-    <p class="lang-zh-hant">山不在高，有仙則名；水不在深，有龍則靈。斯是陋室，惟吾德馨。苔痕上階綠，草色入簾青；談笑有鴻儒，往來無白丁。可以調素琴，閱金經。無絲竹之亂耳，無案牘之勞形。南陽諸葛廬，西蜀子雲亭。孔子云：「何陋之有？」</p>
+    <blockquote class="lang-zh-hant">山不在高，有仙則名；水不在深，有龍則靈。斯是陋室，惟吾德馨。苔痕上階綠，草色入簾青；談笑有鴻儒，往來無白丁。可以調素琴，閱金經。無絲竹之亂耳，無案牘之勞形。南陽諸葛廬，西蜀子雲亭。孔子云：「何陋之有？」</blockquote>
     <p class="h6">Japanese</p>
-    <p class="lang-ja">祇園精舎の鐘の声、諸行無常の響きあり。沙羅双樹の花の色、盛者必衰の理をあらはす。おごれる人も久しからず。ただ春の夜の夢のごとし。たけき者も遂にはほろびぬ、ひとへ‌​に風の前の塵に同じ。</p>
+    <blockquote class="lang-ja">祇園精舎の鐘の声、諸行無常の響きあり。沙羅双樹の花の色、盛者必衰の理をあらはす。おごれる人も久しからず。ただ春の夜の夢のごとし。たけき者も遂にはほろびぬ、ひとへ‌​に風の前の塵に同じ。</blockquote>
     <p class="h6">Korean</p>
-    <p class="lang-ko">나라말이 중국과 달라, 한문・한자와 서로 통하지 아니하므로, 어리석은 백성들이 말하고자 하는 바가 있어도, 끝내 제 뜻을 펴지 못하는 사람이 많다. 내가 이를 불쌍히 여겨, 새로 스물 여덟 글자를 만드니, 사람마다 하여금 쉽게 익혀, 날마다 씀에 편하게 하고자 할 따름이다.</p>
+    <blockquote class="lang-ko">나라말이 중국과 달라, 한문・한자와 서로 통하지 아니하므로, 어리석은 백성들이 말하고자 하는 바가 있어도, 끝내 제 뜻을 펴지 못하는 사람이 많다. 내가 이를 불쌍히 여겨, 새로 스물 여덟 글자를 만드니, 사람마다 하여금 쉽게 익혀, 날마다 씀에 편하게 하고자 할 따름이다.</blockquote>
   </div>
 </div>
 
@@ -262,7 +266,9 @@ And you can use the `lang-cjk` class or the `lang` attribute to add spacing betw
 
 <div class="docs-demo columns">
   <div class="column">
-    <p lang="ja"><u>祇園</u><u>精舎</u>の鐘の声、諸行無常の響きあり。</p>
+    <p lang="ja">
+      <u>祇園</u><u>精舎</u>の鐘の声、諸行無常の響きあり。
+    </p>
     <p lang="ja">
       <del>祇園</del><del>精舎</del>の鐘の声、諸行無常の響きあり。
     </p>
@@ -270,6 +276,10 @@ And you can use the `lang-cjk` class or the `lang` attribute to add spacing betw
 </div>
 
 ```html
-<p class="lang-cjk"><u>祇園</u><u>精舎</u>の鐘の声、諸行無常の響きあり。……</p>
-<p lang="ja"><del>祇園</del><del>精舎</del>の鐘の声、諸行無常の響きあり。……</p>
+<p class="lang-cjk">
+  <u>祇園</u><u>精舎</u>の鐘の声、諸行無常の響きあり。……
+</p>
+<p lang="ja">
+  <del>祇園</del><del>精舎</del>の鐘の声、諸行無常の響きあり。……
+</p>
 ```

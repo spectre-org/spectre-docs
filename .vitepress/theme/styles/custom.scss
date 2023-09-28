@@ -40,6 +40,11 @@ nav ul {
   }
 }
 
+
+.vp-doc > div > :where(h2, h3, h4, h5) {
+  margin-top: 2em;
+}
+
 .flex-reverse {
   flex-direction: row-reverse;
 }
