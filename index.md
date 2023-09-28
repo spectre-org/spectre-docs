@@ -10,6 +10,9 @@ hero:
     - theme: brand
       text: Get started
       link: docs/index.html
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/spectre-org/spectre-css
 
 features:
   - title: Lightweight
