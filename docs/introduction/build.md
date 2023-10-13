@@ -15,7 +15,9 @@ There are two main ways to customise the output:
 
 ## User variables
 
-Override Spectre's [variables](variables.md) before you import the Spectre source: 
+Create a new file `styles.scss`.
+
+In this file, override Spectre's [variables](variables.md) then import Spectre's source: 
 
 ```scss
 $primary-color: #2e5bec;
@@ -24,23 +26,22 @@ $dark-color: #3e396b;
 @import "node_modules/@spectre-org/spectre-css/src/spectre";
 ```
 
-In your project's entry point, import this file:
-
-```js
-import './styles.scss'  
-```
-
-
-If you have a lot of variables, you can place them in a partial, such as `_variables.scss`:
+If you have a lot of variables, you can move them to a partial, e.g. `_variables.scss`:
 
 ```scss
 @import "./variables.scss";
 @import "node_modules/@spectre-org/spectre-css/src/spectre";
 ```
 
+Finally, import your styles from your project's entry point:
+
+```js
+import './styles.scss'  
+```
+
 ## Selective imports
 
-If you only want to use some of Spectre CSS, you can just import only what you need:
+If you only want to use some of Spectre CSS, you can import only the partials you need:
 
 ```scss
 @import "node_modules/@spectre-org/spectre-css/src/buttons";
@@ -48,11 +49,13 @@ If you only want to use some of Spectre CSS, you can just import only what you n
 @import "node_modules/@spectre-org/spectre-css/src/...";
 ```
 
-The full list of files can be found [here](https://github.com/spectre-org/spectre-css/tree/main/src).
+The full list of partials can be found at:
+
+- https://github.com/spectre-org/spectre-css/tree/main/src
 
 #### Shortening the paths
 
-If you intend to import a lot of files, these long paths can become unwieldy.
+If you intend to import many partials, these long paths can become unwieldy.
 
 You might consider using a library like [Alias HQ](https://github.com/davestewart/alias-hq) which will allow you to alias the `src` folder:
 
