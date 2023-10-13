@@ -1,14 +1,14 @@
 ---
-title: Custom build
+title: Build
 description: 
 order: 3
 ---
 
-# Custom build
+# Build
 
 This section assumes you are using a modern bundling setup.
 
-There are two main ways to customise the output:
+There are two main ways to customise the build output:
 
 - [user variables](#user-variables) – to customise the look and feel
 - [selective imports](#selective-imports) – to include only the classes you need

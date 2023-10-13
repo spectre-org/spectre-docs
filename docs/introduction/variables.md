@@ -128,12 +128,12 @@ There are 2 button variant mixins in `_mixins.scss` to generate different color 
 ```
 
 ```scss
-<!-- filled button with the success color -->
+// filled button with the success color
 .btn-success {
   @include button-variant($success-color);
 }
 
-<!-- outlined button with the success color -->
+// outlined button with the success color
 .btn-outline-success {
   @include button-outline-variant($success-color);
 }

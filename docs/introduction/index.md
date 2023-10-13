@@ -12,7 +12,7 @@ Spectre CSS is a lightweight, responsive and modern CSS framework for faster and
   <Card title="Installation"
         desc="How to install and use Spectre CSS"
         path="installation.html" />
-  <Card title="Custom build"
+  <Card title="Build"
         desc="Including Spectre CSS in a bundled project"
         path="build.html" />
   <Card title="Variables"
