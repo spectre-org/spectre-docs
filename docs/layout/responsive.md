@@ -56,6 +56,9 @@ Resize the window to see:
   </div>
 </div>
 
+
+Spectre also has a responsive testing tool which you can [use online](https://picturepan2.github.io/responsive-resizer/) or locally by cloning the [repo](https://github.com/picturepan2/responsive-resizer).
+
 ## Columns
 
 The `column` and `col-*-*` classes create responsive columns for various breakpoints:
@@ -82,7 +85,7 @@ The following 5 variants apply to columns when the window width is **less than o
 - `col-lg-<1-12>` - **960px**
 - `col-xl-<1-12>` - **1280px**
 
-## Container / Grid
+## Container
 
 The responsive layout also provides fixed-width containers:
 
@@ -95,7 +98,7 @@ The responsive layout also provides fixed-width containers:
 </div>
 ```
 
-Add the following classes to the `.container` for a fixed-width container with the **specific max-width**:
+Add the following classes to the `.container` for a fixed-width container limited to **specific max-widths**:
 
 - `grid-xs` - **480px**
 - `grid-sm` - **600px**
@@ -103,7 +106,7 @@ Add the following classes to the `.container` for a fixed-width container with t
 - `grid-lg` - **960px**
 - `grid-xl` - **1280px**
 
-## Showing / Hiding
+## Visibility
 
 The responsive visibility utilities help show and hide elements on specific viewport sizes.
 
@@ -345,9 +348,3 @@ The following 5 variants **show** elements when the window width is **less than 
 * `show-md` - **840px**
 * `show-lg` - **960px**
 * `show-xl` - **1280px**
-
-## Responsive resizer
-
- Spectre also has a responsive web test tool [Responsive Resizer](https://picturepan2.github.io/responsive-resizer/).
- 
-You can clone the [GitHub Repo](https://github.com/picturepan2/responsive-resizer) to use it locally or use it online.

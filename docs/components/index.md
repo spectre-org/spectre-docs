@@ -43,7 +43,7 @@ Spectre provides a range of pure CSS components.
         desc="Vertical list of links"
         path="nav.html" />
   <Card title="Pagination"
-        desc="Vertical list of links or buttons for actions and navigation"
+        desc="Pagination enables easily navigating paged content"
         path="pagination.html" />
   <Card title="Panels"
         desc="Flexible view container with auto-expand content section"

@@ -6,6 +6,7 @@ order:
 
 # Pagination
 
+Pagination enables easily navigating paged content.
  
 <div class="docs-demo columns">
   <div class="column col-xs-12">
