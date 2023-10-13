@@ -4,9 +4,9 @@ import Theme from './neutral/client'
 
 // lib
 import './styles/spectre/docs.css'
-import './styles/spectre/spectre.css'
-import './styles/spectre/spectre-exp.css'
-import './styles/spectre/spectre-icons.css'
+import '@spectre-org/spectre-css/dist/spectre.min.css'
+import '@spectre-org/spectre-css/dist/spectre-exp.min.css'
+import '@spectre-org/spectre-css/dist/spectre-icons.min.css'
 // import './styles/spectre/spectre-rtl.css'
 
 // styles

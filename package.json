@@ -4,9 +4,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
   },
   "author": "Dave Stewart",
   "license": "ISC",
@@ -14,5 +14,8 @@
     "sass": "^1.68.0",
     "vitepress": "^1.0.0-rc.10",
     "vitepress-sidebar": "^1.16.5"
+  },
+  "dependencies": {
+    "@spectre-org/spectre-css": "^1.0.0"
   }
 }
