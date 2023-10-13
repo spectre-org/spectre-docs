@@ -4,14 +4,14 @@ description:
 order: 
 ---
 
-# ![Spectre.css CSS Framework](/img/spectre-logo.svg) Spectre CSS
+# ![Spectre CSS CSS Framework](/img/spectre-logo.svg) Spectre CSS
 
 > A Lightweight, Responsive and Modern CSS Framework
 
 <div class="docs-demo columns">
-    <Card title="Setup"
+    <Card title="Introduction"
           desc="Install the framework or compile from source"
-          path="setup/index.html" />
+          path="introduction/index.html" />
     <Card title="Layout"
           desc="Responsive columns, grids and nav bars"
           path="layout/index.html" />

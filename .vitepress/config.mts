@@ -42,7 +42,7 @@ sidebar[0].items.forEach(item => {
 
 // folder order
 const order = [
-  '/docs/setup/',
+  '/docs/introduction/',
   '/docs/layout/',
   '/docs/elements/',
   '/docs/components/',
