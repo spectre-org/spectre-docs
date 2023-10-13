@@ -8,40 +8,57 @@ order: 1
 
 Spectre provides a neat responsive layout grid system and responsive visibility utilities.
 
- 
+## Modifiers
+
+The following class name modifiers can be applied to some class names:
+
+- `xs` - **480px**
+- `sm` - **600px**
+- `md` - **840px**
+- `lg` - **960px**
+- `xl` - **1280px**
+
+On this page, the classes which will be affected by these modifiers are:
+
+- `col-<size>-<1-12>` - columns
+- `grid-<size>` - containers
+- `hide-<size>` - hide below
+- `show-<size>` - show below
+
+## Demo
+
+The following markup combines columns and showing/hiding for different breakpoints.
+
+Resize the window to see:
+
 <div class="docs-demo columns">
-  <div class="column col-10 col-lg-8 col-md-6 col-sm-4">
+  <div class="column col-8 col-lg-8 col-md-6 col-sm-4">
     <div class="bg-gray docs-block">
-      <div class="text-primary">col-10</div>
-      <div class="text-dark hide-lg">col-lg-8</div>
-      <div class="text-primary show-lg">col-lg-8</div>
-      <div class="text-dark hide-md">col-md-6</div>
-      <div class="text-primary show-md">col-md-6</div>
-      <div class="text-dark hide-sm">col-sm-4</div>
-      <div class="text-primary show-sm">col-sm-4</div>
+      <div class="text-primary">col-10 <small>(show)</small></div>
+      <div class="hide-lg text-dark">col-lg-8 <small>(hide)</small></div>
+      <div class="show-lg text-primary">col-lg-8 <small>(show)</small></div>
+      <div class="hide-md text-dark">col-md-6 <small>(hide)</small></div>
+      <div class="show-md text-primary">col-md-6 <small>(show)</small></div>
+      <div class="hide-sm text-dark">col-sm-4 <small>(hide)</small></div>
+      <div class="show-sm text-primary">col-sm-4 <small>(show)</small></div>
     </div>
   </div>
-  <div class="column col-2 col-lg-4 col-md-6 col-sm-8">
+  <div class="column col-4 col-lg-4 col-md-6 col-sm-8">
     <div class="bg-gray docs-block">
-      <div class="text-primary">col-2</div>
-      <div class="text-dark hide-lg">col-lg-4</div>
-      <div class="text-primary show-lg">col-lg-4</div>
-      <div class="text-dark hide-md">col-md-6</div>
-      <div class="text-primary show-md">col-md-6</div>
-      <div class="text-dark hide-sm">col-sm-8</div>
-      <div class="text-primary show-sm">col-sm-8</div>
+      <div class="text-primary">col-2 <small>(show)</small></div>
+      <div class="hide-lg text-dark">col-lg-4 <small>(hide)</small></div>
+      <div class="show-lg text-primary">col-lg-4 <small>(show)</small></div>
+      <div class="hide-md text-dark">col-md-6 <small>(hide)</small></div>
+      <div class="show-md text-primary">col-md-6 <small>(show)</small></div>
+      <div class="hide-sm text-dark">col-sm-8 <small>(hide)</small></div>
+      <div class="show-sm text-primary">col-sm-8 <small>(show)</small></div>
     </div>
   </div>
 </div>
 
-There are `col-xs-<1-12>`, `col-sm-<1-12>`, `col-md-<1-12>`, `col-lg-<1-12>` and `col-xl-<1-12>` available for flexible grid across mobile, tablet and desktop viewport usage.
+## Columns
 
-* `col-xs-<1-12>` apply to window width smaller than or equal to **480px**.
-* `col-sm-<1-12>` apply to window width smaller than or equal to **600px**.
-* `col-md-<1-12>` apply to window width smaller than or equal to **840px**.
-* `col-lg-<1-12>` apply to window width smaller than or equal to **960px**.
-* `col-xl-<1-12>` apply to window width smaller than or equal to **1280px**.
-* `col-<1-12>` apply to all window width, including the width wider than **1280px**.
+The `column` and `col-*-*` classes create responsive columns for various breakpoints:
 
 ```html
 <div class="container">
@@ -51,12 +68,23 @@ There are `col-xs-<1-12>`, `col-sm-<1-12>`, `col-md-<1-12>`, `col-lg-<1-12>` and
     <div class="column col-xs-3">col-xs-3</div>
   </div>
 </div>
-
 ```
 
-## Responsive container
+The base classes apply to columns for **any** window width:
 
- The responsive layout also provides fixed-width containers. Use `grid-xs`(480px), `grid-sm`(600px), `grid-md`(840px), `grid-lg`(960px) or `grid-xl`(1280px) to the container for a fixed-width container with the specific max-width.
+- `col-<1-12>` all windows
+
+The following 5 variants apply to columns when the window width is **less than or equal to**:
+
+- `col-xs-<1-12>` - **480px**
+- `col-sm-<1-12>` - **600px**
+- `col-md-<1-12>` - **840px**
+- `col-lg-<1-12>` - **960px**
+- `col-xl-<1-12>` - **1280px**
+
+## Container / Grid
+
+The responsive layout also provides fixed-width containers:
 
 ```html
 <!-- 100% width container with max-width set to grid-lg (960px) -->
@@ -67,11 +95,20 @@ There are `col-xs-<1-12>`, `col-sm-<1-12>`, `col-md-<1-12>`, `col-lg-<1-12>` and
 </div>
 ```
 
-## Responsive visibility
+Add the following classes to the `.container` for a fixed-width container with the **specific max-width**:
+
+- `grid-xs` - **480px**
+- `grid-sm` - **600px**
+- `grid-md` - **840px**
+- `grid-lg` - **960px**
+- `grid-xl` - **1280px**
+
+## Showing / Hiding
 
 The responsive visibility utilities help show and hide elements on specific viewport sizes.
 
- 
+### Hiding content
+
 <div class="docs-demo columns">
   <div class="column col-12">
     <table class="docs-table table table-striped text-center">
@@ -181,14 +218,17 @@ The responsive visibility utilities help show and hide elements on specific view
   </div>
 </div>
 
-For hiding elements on specific viewport sizes, there are classes `hide-xs`, `hide-sm`, `hide-md`, `hide-lg` and `hide-xl` available.
+The following 5 variants **hide** elements when the window width is **less than or equal to**:
 
-* `hide-xs` hides elements when the window width is smaller than or equal to **480px**.
-* `hide-sm` hides elements when the window width is smaller than or equal to **600px**.
-* `hide-md` hides elements when the window width is smaller than or equal to **840px**.
-* `hide-lg` hides elements when the window width is smaller than or equal to **960px**.
-* `hide-xl` hides elements when the window width is smaller than or equal to **1280px**.
+* `hide-xs` - **480px**
+* `hide-sm` - **600px**
+* `hide-md` - **840px**
+* `hide-lg` - **960px**
+* `hide-xl` - **1280px**
  
+
+### Showing content
+
 <div class="docs-demo columns">
   <div class="column col-12">
     <table class="docs-table table table-striped text-center">
@@ -298,16 +338,16 @@ For hiding elements on specific viewport sizes, there are classes `hide-xs`, `hi
   </div>
 </div>
 
-For showing elements on specific viewport sizes, there are classes `show-xs`, `show-sm`, `show-md`, `show-lg` and `show-xl` available.
+The following 5 variants **show** elements when the window width is **less than or equal to**:
 
-* `show-xs` shows elements when the window width is smaller than or equal to **480px**.
-* `show-sm` shows elements when the window width is smaller than or equal to **600px**.
-* `show-md` shows elements when the window width is smaller than or equal to **840px**.
-* `show-lg` shows elements when the window width is smaller than or equal to **960px**.
-* `show-xl` shows elements when the window width is smaller than or equal to **1280px**.
+* `show-xs` - **480px**
+* `show-sm` - **600px**
+* `show-md` - **840px**
+* `show-lg` - **960px**
+* `show-xl` - **1280px**
 
-## Responsive Resizer
+## Responsive resizer
 
- Spectre also has a responsive web test tool Responsive Resizer. You can clone the [GitHub Repo](https://github.com/picturepan2/responsive-resizer) to use it locally or use it online.
-
-[Responsive Resizer](https://picturepan2.github.io/responsive-resizer/)
+ Spectre also has a responsive web test tool [Responsive Resizer](https://picturepan2.github.io/responsive-resizer/).
+ 
+You can clone the [GitHub Repo](https://github.com/picturepan2/responsive-resizer) to use it locally or use it online.
