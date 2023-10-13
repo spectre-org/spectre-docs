@@ -58,7 +58,7 @@ Autocomplete form component provides suggestions while you type. It is often use
 
 Add a container element with the `form-autocomplete` class. There are 2 parts of it, one is `form-autocomplete-input`, another is `menu` component. You may add the `is-focused` class to `form-autocomplete-input` to make it appear as focus state.
 
- Spectre.css does NOT include JavaScript code, you will need to implement your JS to interact with the autocomplete. The autocomplete HTML structure is exampled below.
+ Spectre CSS does NOT include JavaScript code, you will need to implement your JS to interact with the autocomplete. The autocomplete HTML structure is exampled below.
 
  
 <div class="docs-demo columns">

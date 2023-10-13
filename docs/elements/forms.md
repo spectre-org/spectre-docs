@@ -472,7 +472,7 @@ You can use the `loading` class for loading or posting state.
           <label class="form-label" for="input-example-9">URL</label>
         </div>
         <div class="col-9">
-          <input class="form-input" id="input-example-9" type="url" placeholder="URL" value="https://github.com/picturepan2/spectre">
+          <input class="form-input" id="input-example-9" type="url" placeholder="URL" value="https://github.com/spectre-org/spectre-css">
         </div>
       </div>
       <div class="form-group">

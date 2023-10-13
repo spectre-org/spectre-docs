@@ -77,10 +77,10 @@ export default defineConfig({
   // https://vuepress.vuejs.org/config/#head
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    // stylesheet('https://unpkg.com/spectre.css/dist/spectre.css'),
-    // stylesheet('https://unpkg.com/spectre.css/dist/spectre-exp.css'),
-    // stylesheet('https://unpkg.com/spectre.css/dist/spectre-icons.css'),
-    // stylesheet('https://unpkg.com/spectre.css/dist/spectre-rtl.css'),
+    // stylesheet('https://unpkg.com/spectre-css/dist/spectre-css'),
+    // stylesheet('https://unpkg.com/spectre-css/dist/spectre-exp.css'),
+    // stylesheet('https://unpkg.com/spectre-css/dist/spectre-icons.css'),
+    // stylesheet('https://unpkg.com/spectre-css/dist/spectre-rtl.css'),
   ],
 
   // remove dark mode toggle

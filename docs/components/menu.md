@@ -63,7 +63,7 @@ Menus are vertical list of links or buttons for actions and navigation.
   </div>
 </div>
 
-Add a container element with the `menu` class. And add child elements with the `menu-item` class. You can separate menu items with a `divider`. Spectre.css does not include JavaScript code, you will need to implement your JS to interact with the menus.
+Add a container element with the `menu` class. And add child elements with the `menu-item` class. You can separate menu items with a `divider`. Spectre CSS does not include JavaScript code, you will need to implement your JS to interact with the menus.
 
 Menus also have [Form controls](../elements/forms) (checkbox, radio and checkbox) support.
 

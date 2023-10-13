@@ -40,9 +40,14 @@ nav ul {
   }
 }
 
+// fix code for new Spectre CSS
+pre code {
+  background: unset;
+  color: unset;
+}
 
 .vp-doc > div > :where(h2, h3, h4, h5) {
-  margin-top: 2em;
+  margin-top: 1.4em;
 }
 
 .flex-reverse {

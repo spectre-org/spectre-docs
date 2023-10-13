@@ -40,7 +40,7 @@ Modals are flexible dialog prompts.
 
 Add a container element with the `modal` class. And add a real container `modal-container` and overlay `modal-overlay` inside it. You can add child elements with the `modal-header`, `modal-body` and `modal-footer` \- any or all of them.
 
- Spectre.css does not include JavaScript code, you will need to implement your JS to interact with modals. To make a modal appear, add the `active` class to the `modal` container.
+ Spectre CSS does not include JavaScript code, you will need to implement your JS to interact with modals. To make a modal appear, add the `active` class to the `modal` container.
 
 ```html
 <div class="modal active" id="modal-id">

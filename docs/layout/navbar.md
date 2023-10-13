@@ -15,7 +15,7 @@ Navbar is a layout container that appears in the header of apps and websites.
       <div class="navbar-section">
         <a class="navbar-brand text-bold mr-2" href="#navbar">Spectre</a>
         <a class="btn btn-link" href="#navbar">Docs</a>
-        <a class="btn btn-link" href="https://github.com/picturepan2/spectre">GitHub</a>
+        <a class="btn btn-link" href="https://github.com/spectre-org/spectre-css">GitHub</a>
       </div>
       <div class="navbar-section">
         <div class="input-group input-inline">
@@ -32,7 +32,7 @@ Navbar is a layout container that appears in the header of apps and websites.
 ```html
 <header class="navbar">
   <section class="navbar-section">
-    <a href="..." class="navbar-brand mr-2">Spectre.css</a>
+    <a href="..." class="navbar-brand mr-2">Spectre CSS</a>
     <a href="..." class="btn btn-link">Docs</a>
     <a href="..." class="btn btn-link">GitHub</a>
   </section>
@@ -53,8 +53,8 @@ You can use `navbar-center` class to have a centered section.
   <div class="column col-12">
     <div class="navbar">
       <div class="navbar-section"><a class="btn btn-link" href="#navbar">Docs</a><a class="btn btn-link" href="#navbar">Examples</a></div>
-      <div class="navbar-center"><img src="/img/spectre-logo.svg" alt="Spectre.css"></div>
-      <div class="navbar-section"><a class="btn btn-link" href="https://twitter.com/spectrecss">Twitter</a><a class="btn btn-link" href="https://github.com/picturepan2/spectre">GitHub</a></div>
+      <div class="navbar-center"><img src="/img/spectre-logo.svg" alt="Spectre CSS"></div>
+      <div class="navbar-section"><a class="btn btn-link" href="https://twitter.com/spectrecss">Twitter</a><a class="btn btn-link" href="https://github.com/spectre-org/spectre-css">GitHub</a></div>
     </div>
   </div>
 </div>

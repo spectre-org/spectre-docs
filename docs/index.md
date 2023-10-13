@@ -4,7 +4,7 @@ description:
 order: 
 ---
 
-# ![Spectre CSS CSS Framework](/img/spectre-logo.svg) Spectre CSS
+# ![Spectre CSS Framework](/img/spectre-logo.svg) Spectre CSS
 
 > A Lightweight, Responsive and Modern CSS Framework
 

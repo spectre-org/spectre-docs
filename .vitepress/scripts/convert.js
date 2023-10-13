@@ -50,7 +50,7 @@ function makeMarkdown (html) {
   $('h1 a, h2 a, h3 a, h4 a, h5 a').remove()
 
   // meta
-  // const title = $('title').text().replace(' - Spectre.css CSS Framework', '')
+  // const title = $('title').text().replace(' - Spectre CSS Framework', '')
 
   // grab demo elements
   const demos = $('.docs-demo')
