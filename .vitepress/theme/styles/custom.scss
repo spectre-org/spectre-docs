@@ -44,6 +44,12 @@ h1 img {
   }
 }
 
+// fix search
+.results li {
+  list-style: none;
+}
+
+// enable hero text to go wider
 .VPHero .text {
   max-width: unset !important;
 
