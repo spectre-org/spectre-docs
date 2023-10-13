@@ -44,6 +44,14 @@ h1 img {
   }
 }
 
+.VPHero .text {
+  max-width: unset !important;
+
+  @media (min-width: 1280px) {
+    max-width: 66% !important;
+  }
+}
+
 // fix code for new Spectre CSS
 pre code {
   background: unset;
