@@ -15,9 +15,9 @@ There are two main ways to customise the build output:
 
 ## User variables
 
-Create a new file `styles.scss`.
+Create a new file, for example `assets/spectre.scss`.
 
-In this file, override Spectre's [variables](variables.md) then import Spectre's source: 
+In this file, override Spectre's [variables](variables.md) then import Spectre's SCSS source: 
 
 ```scss
 $primary-color: #2e5bec;
@@ -29,19 +29,19 @@ $dark-color: #3e396b;
 If you have a lot of variables, you can move them to a partial, e.g. `_variables.scss`:
 
 ```scss
-@import "./variables.scss";
+@import "./variables";
 @import "node_modules/@spectre-org/spectre-css/src/spectre";
 ```
 
-Finally, import your styles from your project's entry point:
+Finally, in your project's entry point, import your modified version of Spectre:
 
 ```js
-import './styles.scss'  
+import './assets/spectre.scss'  
 ```
 
 ## Selective imports
 
-If you only want to use some of Spectre CSS, you can import only the partials you need:
+If you only want to use some of Spectre's features, you can import just the partials you need:
 
 ```scss
 @import "node_modules/@spectre-org/spectre-css/src/buttons";
@@ -57,7 +57,7 @@ The full list of partials can be found at:
 
 If you intend to import many partials, these long paths can become unwieldy.
 
-You might consider using a library like [Alias HQ](https://github.com/davestewart/alias-hq) which will allow you to alias the `src` folder:
+You might consider using a library like [Alias HQ](https://github.com/davestewart/alias-hq) which will allow you to alias Spectre's `src` folder:
 
 ```json5
 // tsconfig.json
@@ -71,7 +71,7 @@ You might consider using a library like [Alias HQ](https://github.com/davestewar
 ```
 
 ```scss
-// styles.scss
+// assets/spectre.scss
 @import "@spectre/forms";
 @import "@spectre/buttons";
 @import "@spectre/...";
