@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as a,a as n}from"./chunks/framework.8669db73.js";const m=JSON.parse('{"title":"Spectre Docs","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","filePath":"README.md"}'),t={name:"README.md"},o=n("",5),p=[o];function l(c,r,i,d,_,h){return s(),a("div",null,p)}const b=e(t,[["render",l]]);export{m as __pageData,b as default};
