@@ -91,6 +91,15 @@ export default defineConfig({
     theme: 'github-light',
   },
 
+  // prevents inline HTML code examples running elements together
+  vue: {
+    template: {
+      compilerOptions: {
+        whitespace: 'preserve'
+      }
+    }
+  },
+
   // https://vuepress.vuejs.org/theme/default-theme-config.html
   themeConfig: {
     sidebar: sidebar[0].items,
