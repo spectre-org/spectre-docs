@@ -9,7 +9,7 @@ order:
  Bars represent the progress of a task or the value within the known range. Bars are custom components for displaying HTML5 `<progress>`, `<meter>` and input range elements.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-8 col-xs-12">
     <div class="bar bar-sm">
       <div class="bar-item tooltip" data-tooltip="25%" role="progressbar" style="width:25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -51,7 +51,7 @@ There is the `bar-sm` class for thinner Bars. Also, you could use [Tooltips](#to
 ## Slider bars
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-8 col-xs-12">
     <div class="bar bar-slider">
       <div class="bar-item" role="progressbar" style="width:50%;">

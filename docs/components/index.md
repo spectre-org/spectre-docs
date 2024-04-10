@@ -8,7 +8,7 @@ order:
 
 Spectre provides a range of pure CSS components.
 
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <Card title="Accordions"
         desc="Used to toggle sections of content"
         path="accordions.html" />

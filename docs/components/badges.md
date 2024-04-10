@@ -9,7 +9,7 @@ order:
 Badges are often used as unread number indicators.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-3 col-xs-6"><span class="badge" data-badge="">Notifications</span></div>
   <div class="column col-3 col-xs-6"><span class="badge" data-badge="8">Notifications</span></div>
   <div class="column col-3 col-xs-6"><span class="badge" data-badge="88">Notifications</span></div>
@@ -21,7 +21,7 @@ Add the `badge` class to non self closing elements. And add the `data-badge` att
 If there is no `data-badge` or the attribute is not specified, the badge will appear as a dot.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-sm-12">
     <button class="btn badge" data-badge="">Button</button>
     <button class="btn badge" data-badge="8">Button</button>

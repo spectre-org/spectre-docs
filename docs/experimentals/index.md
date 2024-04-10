@@ -8,7 +8,7 @@ order:
 
 The Experimentals include experimental elements and features, mostly are not yet ready for wide use. These elements and components are limited inside `spectre-exp.scss` before browsers fully support them. Sometimes, there are some specific browsers targeted components.
 
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <Card title="360-Degree Viewer"
         desc="Interactive 360-degree product photo viewer"
         path="autocomplete.html" />

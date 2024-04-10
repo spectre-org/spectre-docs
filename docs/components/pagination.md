@@ -8,7 +8,7 @@ order:
 
 Pagination enables easily navigating paged content.
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-xs-12">
     <ul class="pagination">
       <li class="page-item"><a href="#pagination">Prev</a></li>
@@ -65,7 +65,7 @@ Add a container element with the `pagination` class. And add child elements with
 ```
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <ul class="pagination">
       <li class="page-item page-prev"><a href="#pagination">

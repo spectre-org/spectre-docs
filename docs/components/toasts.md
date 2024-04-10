@@ -9,7 +9,7 @@ order:
 Toasts are used to show alert or information to users.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-9 col-sm-12">
     <div class="toast">
       <button class="btn btn-clear float-right"></button>
@@ -35,7 +35,7 @@ Add a container element with the `toast` class. You can add any text within the 
 ```
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-sm-12">
     <div class="toast toast-success">
       <button class="btn btn-clear float-right"></button>

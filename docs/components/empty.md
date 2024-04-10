@@ -9,7 +9,7 @@ order:
 Empty states/blank slates are commonly used as placeholders for first time use, empty data and error screens.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <div class="empty">
       <div class="empty-icon"><i class="icon icon-3x icon-mail"></i></div>

@@ -9,7 +9,7 @@ order: 8
 CSS ONLY
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column">
     <div class="toast toast-primary">Spectre CSS Icons will be moved to a new <a href="https://github.com/picturepan2/icons.css" target="_blank">GitHub Repo</a> while Spectre will only include basic icons.</div>
   </div>
@@ -20,7 +20,7 @@ CSS ONLY
 ## Navigation icons
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-3 col-md-6">
     <button class="btn btn-primary btn-action btn-lg"><i class="icon icon-arrow-up"></i></button>
     <p>icon-arrow-up</p>
@@ -78,7 +78,7 @@ CSS ONLY
 ## Action icons
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-3 col-md-6">
     <button class="btn btn-primary btn-action btn-lg"><i class="icon icon-resize-horiz"></i></button>
     <p>icon-resize-horiz</p>
@@ -156,7 +156,7 @@ CSS ONLY
 ## Object icons
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-3 col-md-6">
     <button class="btn btn-primary btn-action btn-lg"><i class="icon icon-mail"></i></button>
     <p>icon-mail</p>
@@ -201,7 +201,7 @@ CSS ONLY
 Use `icon-2x`, `icon-3x` and `icon-4x` classes to increase icon sizes. You can set `font-size` to have different icon sizes.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-3 col-md-6">
     <p><i class="icon icon-2x icon-mail"></i></p>
     <p>icon-2x (32px)</p>

@@ -10,7 +10,7 @@ Color utilities are used for changing colors for text, link and background.
 
 ## Text colors
 
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
     <div class="column col-3"><span class="text-primary">primary color</span></div>
     <div class="column col-3"><span class="text-secondary">secondary color</span></div>
     <div class="column col-3"><span class="text-dark">dark color</span></div>
@@ -37,7 +37,7 @@ Color utilities are used for changing colors for text, link and background.
 <span class="text-error">error color</span>
 ```
 
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
     <div class="column col-3"><a class="text-primary p-1" href="#colors">primary link</a></div>
     <div class="column col-3"><a class="text-secondary p-1" href="#colors">secondary link</a></div>
     <div class="column col-3"><a class="text-dark p-1" href="#colors">dark link</a></div>
@@ -66,7 +66,7 @@ Color utilities are used for changing colors for text, link and background.
 
 ## Background colors
 
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
     <div div class="column col-3"><span class="bg-primary p-1 rounded">primary bg</span></div>
     <div div class="column col-3"><span class="bg-secondary text-primary p-1 rounded">secondary bg</span></div>
     <div div class="column col-3"><span class="bg-dark p-1 rounded">dark bg</span></div>

@@ -9,7 +9,7 @@ order:
 The Progress indicates the progress completion of a task.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-3 col-xs-12">
     <progress class="progress" value="75" max="100"></progress>
   </div>

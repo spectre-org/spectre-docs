@@ -8,8 +8,7 @@ order:
 
 Modals are flexible dialog prompts.
 
- 
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column"><a class="btn btn-primary" href="#example-modal-1">Open Modal</a>
     <div class="modal" id="example-modal-1"><a class="modal-overlay" href="#modals" aria-label="Close"></a>
       <div class="modal-container" role="document">
@@ -66,7 +65,7 @@ Add a container element with the `modal` class. And add a real container `modal-
 ## Modal sizes
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12"><a class="btn btn-primary" href="#example-modal-2">Open small size Modal</a>
     <div class="modal modal-sm" id="example-modal-2"><a class="modal-overlay" href="#modals-sizes" aria-label="Close"></a>
       <div class="modal-container" role="document">
@@ -103,7 +102,7 @@ Add a container element with the `modal` class. And add a real container `modal-
 Use the `modal-sm` class for a smaller modal dialog. The container max width is `320px`.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column"><a class="btn btn-primary" href="#example-modal-3">Open large size Modal</a>
     <div class="modal modal-lg" id="example-modal-3"><a class="modal-overlay" href="#modals-sizes" aria-label="Close"></a>
       <div class="modal-container" role="document">

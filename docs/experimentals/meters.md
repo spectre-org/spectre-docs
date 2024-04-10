@@ -9,7 +9,7 @@ order:
 Meters represent the value within the known range.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-3 col-xs-12">
     <meter class="meter" value="20" min="0" max="100"></meter>
   </div>

@@ -9,7 +9,7 @@ order:
 Cards are flexible content containers.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
     <div class="card">
       <div class="card-image"><img class="img-responsive" src="/img/osx-el-capitan.jpg" alt="OS X El Capitan"></div>

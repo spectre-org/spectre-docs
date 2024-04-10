@@ -9,7 +9,7 @@ order:
 Chips are complex entities in small blocks.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12"><span class="chip">Crime</span><span class="chip">Drama</span><span class="chip">Biography<a class="btn btn-clear" href="#" aria-label="Close" role="button"></a></span><span class="chip">Mystery<a class="btn btn-clear" href="#" aria-label="Close" role="button"></a></span></div>
   <div class="column col-12">
     <div class="chip">

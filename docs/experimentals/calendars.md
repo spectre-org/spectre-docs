@@ -9,7 +9,7 @@ order:
 Calendars are designed for date or date range picker and events display. It is made with flex layout.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-4 col-md-12">
     <div class="calendar">
       <div class="calendar-nav navbar">
@@ -224,7 +224,7 @@ Calendars are designed for date or date range picker and events display. It is m
 ## Calendars sizes
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <div class="calendar calendar-lg">
       <div class="calendar-nav navbar">

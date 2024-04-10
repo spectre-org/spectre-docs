@@ -9,7 +9,7 @@ order:
 Tabs enable quick switch between different views.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-6 col-sm-12">
     <ul class="tab">
       <li class="tab-item active"><a href="#tabs">Music</a></li>
@@ -48,7 +48,7 @@ Add a container element with the `tab` class. And add child elements with the `t
 ```
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-sm-12">
     <ul class="tab">
       <li class="tab-item active"><a class="badge" href="#tabs" data-badge="999">Music</a></li>
@@ -79,7 +79,7 @@ If you need `badges` on tabs, you can add badge class to the element within `tab
 ```
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <ul class="tab">
       <li class="tab-item active"><a href="#tabs">Music<span class="btn btn-clear"></span></a></li>

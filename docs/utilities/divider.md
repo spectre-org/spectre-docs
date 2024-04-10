@@ -9,17 +9,17 @@ order:
 The Divider is used for separating elements.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column">
     <div class="divider"></div>
   </div>
 </div> 
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, dictum in vehicula sit amet, feugiat tempus tellus.
     <div class="divider text-center" data-content="OR"></div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, dictum in vehicula sit amet, feugiat tempus tellus.
   </div>
 </div> 
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column">
     <form>
       <div class="form-group">

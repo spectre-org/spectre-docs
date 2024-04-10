@@ -9,7 +9,7 @@ order:
 Menus are vertical list of links or buttons for actions and navigation.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-4 col-xs-12">
     <ul class="menu">
       <li class="menu-item">
@@ -115,7 +115,7 @@ Menus also have [Form controls](../elements/forms) (checkbox, radio and checkbox
 The dropdown is a combination of buttons and menus.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-xs-12">
     <div class="dropdown">
       <div class="btn-group"><a class="btn btn-primary">dropdown button</a><a class="btn btn-primary dropdown-toggle" tabindex="0"><i class="icon icon-caret"></i></a>
@@ -145,7 +145,7 @@ Add a container element with the `dropdown` class. And add a focusable element w
 If the dropdown is close to the right edge of the browser, you can add the `dropdown-right` class to the container to prevent it appearing off screen.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-xs-12 text-right">
     <div class="dropdown dropdown-right"><a class="btn btn-primary dropdown-toggle" tabindex="0">dropdown button <i class="icon icon-caret"></i></a>
       <ul class="menu text-left">

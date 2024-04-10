@@ -40,7 +40,7 @@ All variables include the `!default` flag, allowing you to [override](build.md#u
 
 ## Colors
 
-<div class="docs-demo">
+<div class="vp-raw docs-demo">
   <div class="columns">
     <div class="column col-2 col-md-6">
       <div class="docs-color" style="background:#5755d9;color:#fff;">

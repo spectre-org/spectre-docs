@@ -8,7 +8,7 @@ order: 1
 
 Spectre CSS is a lightweight, responsive and modern CSS framework for faster and extensible development.
 
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <Card title="Installation"
         desc="How to install and use Spectre CSS"
         path="installation.html" />

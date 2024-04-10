@@ -8,7 +8,7 @@ order:
 
 Nav components show a vertical list of links.
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
     <ul class="nav">
       <li class="nav-item"><a href="#nav">Elements</a></li>

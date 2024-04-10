@@ -9,7 +9,7 @@ order: 3
 Buttons include simple button styles for actions in different types and sizes.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <button class="btn">default button</button>
     <button class="btn btn-primary">primary button</button>
@@ -29,7 +29,7 @@ Add the `btn` class to `<a>`, `<input>` or `<button>` elements for a default but
 ## Button colors
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <button class="btn btn-success">success button</button>
     <button class="btn btn-error">error button</button>
@@ -47,7 +47,7 @@ Add the `btn-success` or `btn-error` class for success (green) or error (red) bu
 ## Button sizes
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <button class="btn btn-primary btn-lg">large <i class="icon icon-arrow-down"></i></button>
     <button class="btn btn-primary btn-lg">large button</button>
@@ -79,7 +79,7 @@ Add the `btn-sm` or `btn-lg` class for small or large button size. Also, you can
 Please note that you could use the `btn-action` class for a square button, or add another `s-circle` class for a round button, which is often used as a Float Action Button (FAB).
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-xs-12">
     <button class="btn btn-action btn-primary btn-lg"><i class="icon icon-menu"></i></button>
     <button class="btn btn-action btn-primary"><i class="icon icon-menu"></i></button>
@@ -103,7 +103,7 @@ Please note that you could use the `btn-action` class for a square button, or ad
 Add the `active` class for active button state style.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <button class="btn active">default active</button>
     <button class="btn btn-primary active">primary active</button>
@@ -114,7 +114,7 @@ Add the `active` class for active button state style.
 Add the `disabled` class or the `disabled` attribute for disabled button state style.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <button class="btn disabled" tabindex="-1">default disabled</button>
     <button class="btn btn-primary" disabled="" tabindex="-1">primary disabled</button>
@@ -132,7 +132,7 @@ Add the `disabled` class or the `disabled` attribute for disabled button state s
 A button with the `loading` class can show loading indicator.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <button class="btn loading">default button</button>
     <button class="btn btn-primary loading">primary button</button>
@@ -150,7 +150,7 @@ A button with the `loading` class can show loading indicator.
 ## Button groups
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-6 col-md-12">
     <div class="btn-group">
       <button class="btn">first button</button>

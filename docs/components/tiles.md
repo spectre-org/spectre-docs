@@ -9,7 +9,7 @@ order:
 Tiles are repeatable or embeddable information blocks.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-9 col-sm-12">
     <div class="tile">
       <div class="tile-icon">
@@ -71,7 +71,7 @@ There is compact version of Tiles component, which is often used as contact and 
 Add the `tile-centered` class to the container `tile`. The `tile-icon`, `tile-content` and `tile-action` will be vertically centered.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-6 col-md-9 col-xs-12">
     <div class="tile tile-centered">
       <div class="tile-icon">

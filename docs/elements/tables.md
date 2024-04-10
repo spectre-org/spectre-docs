@@ -9,7 +9,7 @@ order: 4
 Tables include default styles for tables and data sets.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <table class="table">
       <thead>
@@ -70,7 +70,7 @@ Add the `table` class to any `<table>` element. The class will add padding, bord
 ## Striped tables
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <table class="table table-striped table-hover">
       <thead>
@@ -133,7 +133,7 @@ Use the `active` class to make `<tr>` element highlighted.
 ## Scrollable tables
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <table class="table table-scroll">
       <thead>

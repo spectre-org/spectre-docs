@@ -8,7 +8,7 @@ order:
 
 Spectre provides basic styles for typography and elements.
 
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <Card title="Typography"
         desc="Headings, paragraphs, semantic text, blockquote and lists elements"
         path="typography.html" />

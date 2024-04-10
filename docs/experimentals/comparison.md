@@ -11,7 +11,7 @@ CSS ONLY
 Comparison Sliders are sliders for comparing two images. It is built in pure CSS.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <div class="comparison-slider">
       <figure class="comparison-before"><img class="rounded" src="/img/macos-sierra-2.jpg" alt="macOS Sierra Wallpaper">

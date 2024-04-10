@@ -9,7 +9,7 @@ order:
  Loading indicator is used for loading or updating. You can add the `loading` class to a container for loading status.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12 text-center">
     <div class="loading"></div>
   </div>
@@ -18,7 +18,7 @@ order:
 Add the `loading-lg` class for large size.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12 text-center">
     <div class="loading loading-lg"></div>
   </div>

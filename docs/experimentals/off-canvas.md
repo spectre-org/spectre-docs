@@ -13,7 +13,7 @@ The Off-canvas is a navigation layout that the sidebar can slide in and out of t
  By default, the off-canvas menu is collapsed whenever the window width is. But you can add the `off-canvas-sidebar-show` class to the `off-canvas` to make the sidebar expanded when the window width is larger than or equal to **960px**.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column">
     <div class="off-canvas off-canvas-sidebar-show"><a class="off-canvas-toggle btn btn-primary btn-action" href="#sidebar-demo"><i class="icon icon-menu"></i></a>
       <div class="off-canvas-sidebar flex-centered" id="sidebar-demo"><span>Sidebar</span></div><a class="off-canvas-overlay" href="#close"></a>

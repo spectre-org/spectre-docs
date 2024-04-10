@@ -11,7 +11,7 @@ CSS ONLY
 Carousels are slideshows for cycling images. It is built in pure CSS.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <div class="carousel">
       <input class="carousel-locator" id="slide-1" type="radio" name="carousel-radio" hidden="" checked="">

@@ -11,7 +11,7 @@ CSS ONLY
 The Parallax acts like Apple TV/tvOS hover parallax effect. It is built in pure CSS.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-sm-12 col-8 col-mx-auto">
     <div class="parallax">
       <div class="parallax-top-left" tabindex="1"></div>

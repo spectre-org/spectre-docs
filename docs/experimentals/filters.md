@@ -11,7 +11,7 @@ CSS ONLY
 Filters are CSS only content filters.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <div class="filter">
       <input class="filter-tag" id="tag-0" type="radio" name="filter-radio" hidden="" checked="">

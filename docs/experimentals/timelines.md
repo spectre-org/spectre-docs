@@ -9,7 +9,7 @@ order:
 The Timelines are ordered sequences of activities.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-9 col-sm-12">
     <div class="timeline">
       <div class="timeline-item" id="timeline-example-1">

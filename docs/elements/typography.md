@@ -11,7 +11,7 @@ Typography sets default styles for headings, paragraphs, semantic text, blockquo
 ## Headings
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <h1>H1 Heading <small class="label">40px</small></h1>
   </div>
@@ -150,7 +150,7 @@ Climb leg rub face on everything give attitude nap all day for under the bed. Ch
 ## Lists
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-4 col-xs-12">
     <ul class="list">
       <li>list item 1</li>
@@ -238,7 +238,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "
 ```
 
 
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column">
     <blockquote class="h5"><small class="lang-zh-hans">你好</small>, <small class="lang-ja">こんにちは</small>, <small class="lang-ko">안녕하세요</small></blockquote>
     <p class="h6">Chinese (Simplified)</p>
@@ -264,7 +264,7 @@ Add the `lang` attribute to the `<html>` element or use the class `lang-zh`, `la
 
 And you can use the `lang-cjk` class or the `lang` attribute to add spacing between underlines and strike-through text for better Chinese and Japanese readability.
 
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column">
     <p lang="ja">
       <u>祇園</u><u>精舎</u>の鐘の声、諸行無常の響きあり。

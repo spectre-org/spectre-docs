@@ -9,7 +9,7 @@ order:
 Steps are progress indicators of a sequence of task steps.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <ul class="step">
       <li class="step-item"><a class="tooltip" href="#steps" data-tooltip="Step 1 Tooltip"></a></li>

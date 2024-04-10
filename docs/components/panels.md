@@ -9,7 +9,7 @@ order:
 Panels are flexible view container with auto-expand content section.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
     <div class="panel">
       <div class="panel-header text-center">

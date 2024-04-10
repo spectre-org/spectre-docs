@@ -9,7 +9,7 @@ order:
 Tooltips provide context information labels that appear on hover and focus. Tooltips component is built entirely in CSS.
 
  
-<div class="docs-demo columns text-center">
+<div class="vp-raw docs-demo columns text-center">
   <div class="column col-xs-12">
     <button class="btn btn-primary tooltip" data-tooltip="Top Tooltip Text">top tooltip</button>
   </div>
@@ -38,7 +38,7 @@ And add the `tooltip-right`, `tooltip-bottom` or `tooltip-left` class to define 
 ## Multiline tooltips
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <button class="btn btn-primary tooltip" data-tooltip="First Line Tooltip Text 
  Second Line Tooltip Text 

@@ -9,7 +9,7 @@ order:
 Accordions are used to toggle sections of content.
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-6 col-md-12">
     <div class="accordion">
       <input id="accordion-1" type="radio" name="accordion-radio" hidden="" checked="">

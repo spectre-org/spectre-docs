@@ -9,7 +9,7 @@ order:
 Avatars are user profile pictures. 
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
     <figure class="avatar avatar-xl mr-2"><img src="/img/avatar-1.png" alt="Avatar XL"></figure>
     <figure class="avatar avatar-lg mr-2"><img src="/img/avatar-2.png" alt="Avatar LG"></figure>
@@ -48,7 +48,7 @@ Add the `avatar` class to `<img>` element. There are 4 additional sizes availabl
 ## Avatar icons
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
     <figure class="avatar avatar-xl mr-2"><img src="/img/avatar-1.png" alt="Avatar"><img class="avatar-icon" src="/img/avatar-2.png" alt="Avatar"></figure>
     <figure class="avatar avatar-lg mr-2"><img src="/img/avatar-2.png" alt="Avatar"><img class="avatar-icon" src="/img/avatar-3.png" alt="Avatar"></figure>
@@ -69,7 +69,7 @@ Add the `avatar` class to `<img>` element. There are 4 additional sizes availabl
 ## Avatar presence
 
  
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
     <figure class="avatar avatar-xl mr-2" data-initial="YZ"><i class="avatar-presence online"></i></figure>
     <figure class="avatar avatar-lg mr-2" data-initial="YZ"><i class="avatar-presence busy"></i></figure>

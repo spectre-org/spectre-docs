@@ -31,7 +31,7 @@ The following markup combines columns and showing/hiding for different breakpoin
 
 Resize the window to see:
 
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-8 col-lg-8 col-md-6 col-sm-4">
     <div class="bg-gray docs-block">
       <div class="text-primary">col-10 <small>(show)</small></div>
@@ -112,7 +112,7 @@ The responsive visibility utilities help show and hide elements on specific view
 
 ### Hiding content
 
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <table class="docs-table table table-striped text-center">
       <thead>
@@ -232,7 +232,7 @@ The following 5 variants **hide** elements when the window width is **less than 
 
 ### Showing content
 
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <table class="docs-table table table-striped text-center">
       <thead>

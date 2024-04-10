@@ -8,7 +8,7 @@ order:
 
 > A Lightweight, Responsive and Modern CSS Framework
 
-<div class="docs-demo columns">
+<div class="vp-raw docs-demo columns">
     <Card title="Introduction"
           desc="Install the framework or compile from source"
           path="introduction/index.html" />
