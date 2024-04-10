@@ -158,7 +158,7 @@ Forms provide the most common control styles used in forms, including input, tex
 ## Form checkbox
 
  
-<div class="docs-demo columns">
+<div class="docs-demo columns" id="checkbox-example">
   <div class="column col-6 col-xs-12">
     <div class="form-group">
       <label class="form-checkbox">
@@ -167,7 +167,7 @@ Forms provide the most common control styles used in forms, including input, tex
     </div>
     <div class="form-group">
       <label class="form-checkbox">
-        <input type="checkbox" checked=""><i class="form-icon"></i> Remember me
+        <input type="checkbox" checked><i class="form-icon"></i> Remember me
       </label>
     </div>
   </div>
@@ -184,21 +184,13 @@ Forms provide the most common control styles used in forms, including input, tex
 
 ```
 
- 
-<div class="docs-demo columns">
-  <div class="column">
-    <div class="form-group">
-      <label class="form-checkbox">
-        <input id="docs-demo-checkbox" type="checkbox"><i class="form-icon"></i> Select all
-      </label>
-    </div>
-  </div>
-</div> 
+You can change checkbox to indeterminate state by setting the `indeterminate` property of checkbox inputs to `true` via JavaScript:
 
-You can change checkbox to indeterminate state by setting the `indeterminate` property of input checkboxes to `true`.
+```js
+$('#checkbox-example input').indeterminate = true
+```
 
 ## Inline forms
-
  
 <div class="docs-demo columns">
   <div class="column col-6 col-xs-12">
