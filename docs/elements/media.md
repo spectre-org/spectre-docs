@@ -73,7 +73,7 @@ For responsive video, add a container with the `video-responsive` class. Insert 
 <div class="docs-demo columns">
   <div class="column col-12">
     <div class="video-responsive">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/7DbslbKsQSk" allowfullscreen=""></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/4xDzrJKXOOY" allowfullscreen=""></iframe>
     </div>
   </div>
 </div>
