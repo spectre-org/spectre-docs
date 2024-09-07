@@ -22,7 +22,7 @@ Add the `img-responsive` class to `<img>` elements. The images will scale with t
 
 ```
 
-Add the `img-fit-contain` or `img-fit-cover` class to `<img>` or `<video>` elements. The media will crop itself to fit inside the element (and you don't need another container). This feature can replace the classic background image trick. Microsoft Edge support [is shipped](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/objectfitandobjectposition/) with Build Number 16299+.
+Add the `img-fit-contain` or `img-fit-cover` class to `<img>` or `<video>` elements. The media will crop itself to fit inside the element (and you don't need another container). This feature can replace the classic background image trick.
 
  
 <div class="vp-raw docs-demo columns">
