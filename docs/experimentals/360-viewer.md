@@ -6,7 +6,7 @@ order: 1
 
 # 360-Degree Viewer
 
-CSS ONLY
+<small class="label label-secondary">CSS ONLY</small>
 
 360-Degree Viewer is an interactive product photo viewer. It is built in pure CSS. 
 

@@ -6,7 +6,7 @@ order:
 
 # Carousels
 
-CSS ONLY
+<small class="label label-secondary">CSS ONLY</small>
 
 Carousels are slideshows for cycling images. It is built in pure CSS.
 

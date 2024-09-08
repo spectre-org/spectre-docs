@@ -6,7 +6,7 @@ order:
 
 # Filters
 
-CSS ONLY
+<small class="label label-secondary">CSS ONLY</small>
 
 Filters are CSS only content filters.
 
