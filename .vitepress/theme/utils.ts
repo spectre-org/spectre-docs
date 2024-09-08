@@ -2,6 +2,29 @@ import { onMounted, watch } from 'vue'
 import { useRoute } from 'vitepress'
 
 /**
+ * Prevent VitePress from intercepting hash links and preventing Spectre from working properly
+ *
+ * @usage
+ *
+ *  Merge with theme layout rendering in Layout: `h({ ...Theme.Layout, mounted: fixClicks })`
+ *
+ *  @see https://vitepress.dev/guide/extending-default-theme#layout-slots
+ *
+ */
+export function fixClicks () {
+  document.querySelector('main').addEventListener('click', e => {
+    const target: HTMLElement = e.target as HTMLElement
+    const href = target?.getAttribute('href')
+    if (href?.startsWith('#')) {
+      const el = document.getElementById(href.substring(1))
+      if (!el || el.tagName === 'H1') {
+        e.preventDefault()
+      }
+    }
+  }, { capture: true })
+}
+
+/**
  * Automatically open menu groups to the active section
  *
  * @usage

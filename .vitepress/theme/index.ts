@@ -16,15 +16,17 @@ import './styles/custom.scss'
 // components
 import Card from './components/Card.vue'
 
+// utils
+import { fixClicks } from './utils'
+
 // theme
 export default {
   extends: Theme,
   Layout: () => {
-    return h(Theme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    })
+    // https://vitepress.dev/guide/extending-default-theme#layout-slots
+    return h({ ...Theme.Layout, mounted: fixClicks })
   },
-  enhanceApp({ app, router, siteData }) {
+  enhanceApp ({ app, router, siteData }) {
     app.component('Card', Card)
-  },
+  }
 }
