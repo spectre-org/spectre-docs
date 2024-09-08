@@ -9,10 +9,15 @@ order:
 Modals are flexible dialog prompts.
 
 <div class="vp-raw docs-demo columns">
-  <div class="column"><a class="btn btn-primary" href="#example-modal-1">Open Modal</a>
-    <div class="modal" id="example-modal-1"><a class="modal-overlay" href="#modals" aria-label="Close"></a>
-      <div class="modal-container" role="document">
-        <div class="modal-header"><a class="btn btn-clear float-right" href="#modals" aria-label="Close"></a>
+  <div class="column">
+    <a class="btn btn-primary" href="#example-modal-1"
+      @click.prevent="$refs.modal1.classList.add('active')"
+    >Open Modal</a>
+    <div class="modal" id="example-modal-1" ref="modal1">
+      <a class="modal-overlay" href="#modals-all" aria-label="Close" @click.prevent="$refs.modal1.classList.remove('active')"></a>
+      <div class="modal-container">
+        <div class="modal-header">
+          <a class="btn btn-clear float-right" href="#modals-all" aria-label="Close"></a>
           <div class="modal-title h5">Modal title</div>
         </div>
         <div class="modal-body">
@@ -30,7 +35,8 @@ Modals are flexible dialog prompts.
           </div>
         </div>
         <div class="modal-footer">
-          <button class="btn btn-primary">Share</button><a class="btn btn-link" href="#modals">Close</a>
+          <button class="btn btn-primary">Share</button>
+          <a class="btn btn-link" href="#modals" @click.prevent="$refs.modal1.classList.remove('active')">Close</a>
         </div>
       </div>
     </div>
@@ -39,7 +45,6 @@ Modals are flexible dialog prompts.
 
 Add a container element with the `modal` class. And add a real container `modal-container` and overlay `modal-overlay` inside it. You can add child elements with the `modal-header`, `modal-body` and `modal-footer` \- any or all of them.
 
- Spectre CSS does not include JavaScript code, you will need to implement your JS to interact with modals. To make a modal appear, add the `active` class to the `modal` container.
 
 ```html
 <div class="modal active" id="modal-id">
@@ -59,17 +64,24 @@ Add a container element with the `modal` class. And add a real container `modal-
     </div>
   </div>
 </div>
-
 ```
+
+The CSS-only version works by leveraging the CSS pseudo-property [`:target`](https://developer.mozilla.org/en-US/docs/Web/CSS/:target) which works in conjunction with the location hash, thus clicking on a link with `href` `#modal-1` changes the URL and displays the HTML element with the `id` `modal-1`.
+
+If you want to use Spectre modals in a JavaScript context, you will need to implement your JS to interact with modals. To make a modal appear, add the `active` class to the `modal` container.
+
 
 ## Modal sizes
 
- 
 <div class="vp-raw docs-demo columns">
-  <div class="column col-6 col-xs-12"><a class="btn btn-primary" href="#example-modal-2">Open small size Modal</a>
-    <div class="modal modal-sm" id="example-modal-2"><a class="modal-overlay" href="#modals-sizes" aria-label="Close"></a>
-      <div class="modal-container" role="document">
-        <div class="modal-header"><a class="btn btn-clear float-right" href="#modals-sizes" aria-label="Close"></a>
+  <div class="column col-6 col-xs-12">
+    <a class="btn btn-primary" href="#example-modal-2"
+      @click.prevent="$refs.modal2.classList.add('active')"
+    >Open small size Modal</a>
+    <div class="modal modal-sm" id="example-modal-2" ref="modal2">
+      <a class="modal-overlay" href="#modals-sizes" aria-label="Close" @click.prevent="$refs.modal2.classList.remove('active')"></a>
+      <div class="modal-container">
+        <div class="modal-header"><a class="btn btn-clear float-right" href="#modals-sizes" aria-label="Close" @click.prevent="$refs.modal2.classList.remove('active')"></a>
           <div class="modal-title h5">Modal title</div>
         </div>
         <div class="modal-body">
@@ -92,7 +104,7 @@ Add a container element with the `modal` class. And add a real container `modal-
           </div>
         </div>
         <div class="modal-footer">
-          <button class="btn btn-primary">Submit</button><a class="btn btn-link" href="#modals-sizes" aria-label="Close">Close</a>
+          <button class="btn btn-primary">Submit</button><a class="btn btn-link" href="#modals-sizes" aria-label="Close" @click.prevent="$refs.modal2.classList.remove('active')">Close</a>
         </div>
       </div>
     </div>
@@ -101,12 +113,15 @@ Add a container element with the `modal` class. And add a real container `modal-
 
 Use the `modal-sm` class for a smaller modal dialog. The container max width is `320px`.
 
- 
 <div class="vp-raw docs-demo columns">
-  <div class="column"><a class="btn btn-primary" href="#example-modal-3">Open large size Modal</a>
-    <div class="modal modal-lg" id="example-modal-3"><a class="modal-overlay" href="#modals-sizes" aria-label="Close"></a>
-      <div class="modal-container" role="document">
-        <div class="modal-header"><a class="btn btn-clear float-right" href="#modals-sizes" aria-label="Close"></a>
+  <div class="column">
+    <a class="btn btn-primary" href="#example-modal-2"
+      @click.prevent="$refs.modal3.classList.add('active')"
+    >Open large size Modal</a>
+    <div class="modal modal-lg" id="example-modal-3" ref="modal3">
+      <a class="modal-overlay" href="#modals-sizes" aria-label="Close" @click.prevent="$refs.modal3.classList.remove('active')"></a>
+      <div class="modal-container">
+        <div class="modal-header"><a class="btn btn-clear float-right" href="#modals-sizes" aria-label="Close" @click.prevent="$refs.modal3.classList.remove('active')"></a>
           <div class="modal-title h5">Modal title</div>
         </div>
         <div class="modal-body">
@@ -124,7 +139,7 @@ Use the `modal-sm` class for a smaller modal dialog. The container max width is 
           </div>
         </div>
         <div class="modal-footer">
-          <button class="btn btn-primary">Share</button><a class="btn btn-link" href="#modals-sizes">Close</a>
+          <button class="btn btn-primary">Share</button><a class="btn btn-link" href="#modals-sizes" @click.prevent="$refs.modal3.classList.remove('active')">Close</a>
         </div>
       </div>
     </div>
