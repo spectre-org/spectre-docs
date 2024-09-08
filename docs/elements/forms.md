@@ -10,7 +10,6 @@ Forms provide the most common control styles used in forms, including input, tex
 
 ## Form input
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
     <div class="form-group">
@@ -30,12 +29,10 @@ Forms provide the most common control styles used in forms, including input, tex
   <label class="form-label" for="input-example-1">Name</label>
   <input class="form-input" type="text" id="input-example-1" placeholder="Name">
 </div>
-
 ```
 
 ## Form textarea
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
     <div class="form-group">
@@ -51,12 +48,10 @@ Forms provide the most common control styles used in forms, including input, tex
   <label class="form-label" for="input-example-3">Message</label>
   <textarea class="form-input" id="input-example-3" placeholder="Textarea" rows="3"></textarea>
 </div>
-
 ```
 
 ## Form select
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
     <div class="form-group">
@@ -88,12 +83,10 @@ Forms provide the most common control styles used in forms, including input, tex
     <option>Hipchat</option>
   </select>
 </div>
-
 ```
 
 ## Form radio
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
     <form>
@@ -123,12 +116,10 @@ Forms provide the most common control styles used in forms, including input, tex
     <i class="form-icon"></i> Female
   </label>
 </div>
-
 ```
 
 ## Form switch
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
     <div class="form-group">
@@ -152,7 +143,6 @@ Forms provide the most common control styles used in forms, including input, tex
     <i class="form-icon"></i> Send me emails with news and tips
   </label>
 </div>
-
 ```
 
 ## Form checkbox
@@ -180,7 +170,6 @@ Forms provide the most common control styles used in forms, including input, tex
     <i class="form-icon"></i> Remember me
   </label>
 </div>
-
 ```
 
 You can change checkbox to indeterminate state by setting the `indeterminate` property of checkbox inputs to `true` via JavaScript:
@@ -234,14 +223,12 @@ You can add the `form-inline` class to the form components to make them inline i
     <input type="checkbox" checked=""><i class="form-icon"></i> Checkbox 2
   </label>
 </div>
-
 ```
 
 ## Horizontal forms
 
 If you want to have a horizontal form, add the `form-horizontal` class to the `<form>` container. And add the `col-<1-12>` and `col-xs/sm/lg/xl-<1-12>` class to the child elements for responsive form row layout.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-9 col-sm-12">
     <form class="form-horizontal" action="#forms">
@@ -324,14 +311,12 @@ If you want to have a horizontal form, add the `form-horizontal` class to the `<
   </div>
   <!-- form structure -->
 </form>
-
 ```
 
 ## Form sizes
 
 For smaller or larger input and select controls, you could add the `input-sm`/`input-lg`, `select-sm`/`select-lg` and `label-sm`/`label-lg` classes to the elements.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-4 col-xs-12">
     <label class="form-label label-sm">Label</label>
@@ -371,7 +356,6 @@ Spectre Forms components has [Spectre Icons](icons) support.
 
 Add a wrapper with the `has-icon-left`/`has-icon-right` class to `<input>` element. And add the icon with `form-icon` class next to the `<input>`.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-4 col-xs-12">
     <div class="has-icon-left">
@@ -411,12 +395,10 @@ Add a wrapper with the `has-icon-left`/`has-icon-right` class to `<input>` eleme
   <input type="text" class="form-input" placeholder="...">
   <i class="form-icon icon icon-check"></i>
 </div>
-
 ```
 
 You can use the `loading` class for loading or posting state.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-4 col-xs-12">
     <div class="has-icon-right">
@@ -441,12 +423,10 @@ You can use the `loading` class for loading or posting state.
   <input type="text" class="form-input" placeholder="...">
   <i class="form-icon loading"></i>
 </div>
-
 ```
 
 ## Input types
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-9 col-sm-12">
     <form class="form-horizontal" action="#forms">
@@ -528,7 +508,6 @@ You can use the `loading` class for loading or posting state.
 
 ## Input groups
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
     <div class="input-group">
@@ -617,12 +596,10 @@ If you want to attach text and button along with an input, add the `input-group`
   <input type="text" class="form-input" placeholder="...">
   <button class="btn btn-primary input-group-btn">Submit</button>
 </div>
-
 ```
 
 ## Form validation styles
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-9 col-sm-12">
     <fieldset>
@@ -709,10 +686,8 @@ To use form validation styles, you can either add `is-success` or `is-error` cla
     </label>
   </div>
 </form>
-
 ```
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-9 col-sm-12">
     <div class="form-group">
@@ -734,14 +709,12 @@ You can use input `pattern` attribute to validate the value as well.
 
 <!-- pattern validation example for password (8 or more characters that are of at least one number, and one uppercase and lowercase letter) -->
 <input class="form-input" type="password" placeholder="Password" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{8,}$">
-
 ```
 
 ## Form disabled styles
 
- Add the `disabled` attribute to the element or `<fieldset>` for a disabled form components style.
+Add the `disabled` attribute to the element or `<fieldset>` for a disabled form components style.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
     <form action="#forms">
@@ -830,3 +803,5 @@ You can use input `pattern` attribute to validate the value as well.
     </div>
   </fieldset>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

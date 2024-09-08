@@ -10,7 +10,6 @@ order:
 
 Filters are CSS only content filters.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <div class="filter">
@@ -153,3 +152,5 @@ Filters use `tag-1` to `tag-8` to flag different tags.`tag-0` is reserved for cl
   </div>
 </div>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

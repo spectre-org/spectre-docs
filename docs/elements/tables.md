@@ -8,7 +8,6 @@ order: 4
 
 Tables include default styles for tables and data sets.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <table class="table">
@@ -64,12 +63,10 @@ Add the `table` class to any `<table>` element. The class will add padding, bord
     </tr>
   </tbody>
 </table>
-
 ```
 
 ## Striped tables
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <table class="table table-striped table-hover">
@@ -127,12 +124,10 @@ Use the `active` class to make `<tr>` element highlighted.
     </tr>
   </tbody>
 </table>
-
 ```
 
 ## Scrollable tables
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <table class="table table-scroll">
@@ -191,3 +186,5 @@ Add the `table-scroll` class to `<table>` to have a horizontally scrollable tabl
   ...
 </table>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

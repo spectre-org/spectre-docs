@@ -1,6 +1,6 @@
 ---
 title: Autocomplete
-description: 
+description:
 order: 
 ---
 
@@ -8,7 +8,6 @@ order:
 
 Autocomplete form component provides suggestions while you type. It is often used for tags and contacts input.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-9 col-xs-12">
     <div class="form-group">
@@ -34,33 +33,36 @@ Autocomplete form component provides suggestions while you type. It is often use
         </div>
         <ul class="menu">
           <li class="menu-item"><a href="#autocomplete">
-              <div class="tile tile-centered">
-                <div class="tile-icon"><img class="avatar avatar-sm" src="/img/avatar-4.png" alt="Steve Rogers"></div>
-                <div class="tile-content">
-                  <mark>S</mark>teve Roger
-                  <mark>s</mark>
-                </div>
-              </div></a></li>
+            <div class="tile tile-centered">
+              <div class="tile-icon"><img class="avatar avatar-sm" src="/img/avatar-4.png" alt="Steve Rogers"></div>
+              <div class="tile-content">
+                <mark>S</mark>teve Roger
+                <mark>s</mark>
+              </div>
+            </div></a></li>
           <li class="menu-item"><a href="#autocomplete">
-              <div class="tile tile-centered">
-                <div class="tile-icon">
-                  <figure class="avatar avatar-sm" data-initial="TS" style="background-color: #5755d9;"></figure>
-                </div>
-                <div class="tile-content">Tony 
-                  <mark>S</mark>tark
-                </div>
-              </div></a></li>
+            <div class="tile tile-centered">
+              <div class="tile-icon">
+                <figure class="avatar avatar-sm" data-initial="TS" style="background-color: #5755d9;"></figure>
+              </div>
+              <div class="tile-content">Tony
+                <mark>S</mark>tark
+              </div>
+            </div></a></li>
         </ul>
       </div>
     </div>
   </div>
 </div>
 
-Add a container element with the `form-autocomplete` class. There are 2 parts of it, one is `form-autocomplete-input`, another is `menu` component. You may add the `is-focused` class to `form-autocomplete-input` to make it appear as focus state.
+Add a container element with the `form-autocomplete` class. There are 2 parts of it, one is `form-autocomplete-input`,
+another is `menu` component. You may add the `is-focused` class to `form-autocomplete-input` to make it appear as focus
+state.
 
- Spectre CSS does NOT include JavaScript code, you will need to implement your JS to interact with the autocomplete. The autocomplete HTML structure is exampled below.
+Spectre CSS does NOT include JavaScript code, you will need to implement your JS to interact with the autocomplete. The
+autocomplete HTML structure is exampled below.
 
- 
+
 <div class="vp-raw docs-demo columns">
   <div class="column col-9 col-xs-12">
     <div class="form-group">
@@ -79,6 +81,7 @@ Add a container element with the `form-autocomplete` class. There are 2 parts of
 </div>
 
 ```html
+
 <div class="form-autocomplete">
   <!-- autocomplete input container -->
   <div class="form-autocomplete-input form-input">
@@ -112,3 +115,5 @@ Add a container element with the `form-autocomplete` class. There are 2 parts of
   </ul>
 </div>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

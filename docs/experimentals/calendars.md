@@ -8,7 +8,6 @@ order:
 
 Calendars are designed for date or date range picker and events display. It is made with flex layout.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-4 col-md-12">
     <div class="calendar">
@@ -218,12 +217,10 @@ Calendars are designed for date or date range picker and events display. It is m
     </div>
   </div>
 </div>
-
 ```
 
 ## Calendars sizes
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <div class="calendar calendar-lg">
@@ -378,3 +375,5 @@ Calendars are designed for date or date range picker and events display. It is m
   </div>
 </div>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

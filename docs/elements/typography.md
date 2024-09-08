@@ -10,7 +10,6 @@ Typography sets default styles for headings, paragraphs, semantic text, blockquo
 
 ## Headings
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <h1>H1 Heading <small class="label">40px</small></h1>
@@ -36,7 +35,6 @@ Typography sets default styles for headings, paragraphs, semantic text, blockquo
 <h1>H1 Heading</h1>
 <h1>H1 Heading <small class="label">40px</small></h1>
 <span class="h1">H1 Heading</span>
-
 ```
 
 ## Paragraphs
@@ -48,7 +46,6 @@ Climb leg rub face on everything give attitude nap all day for under the bed. Ch
 ```html
 <p>Lorem ipsum dolor sit amet, ...</p>
 <p>...</p>
-
 ```
 
 ## Semantic elements
@@ -144,12 +141,10 @@ Climb leg rub face on everything give attitude nap all day for under the bed. Ch
   <p>The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life. </p>
   <cite>- Bill Gates</cite>
 </blockquote>
-
 ```
 
 ## Lists
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-4 col-xs-12">
     <ul class="list">
@@ -283,3 +278,5 @@ And you can use the `lang-cjk` class or the `lang` attribute to add spacing betw
   <del>祇園</del><del>精舎</del>の鐘の声、諸行無常の響きあり。……
 </p>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

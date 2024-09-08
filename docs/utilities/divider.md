@@ -8,7 +8,6 @@ order:
 
 The Divider is used for separating elements.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column">
     <div class="divider"></div>

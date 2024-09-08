@@ -8,7 +8,6 @@ order:
 
 Cursor utilities specify which mouse cursor to display when mouseover.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-4">
     <div class="bg-gray docs-block c-hand">c-hand</div>

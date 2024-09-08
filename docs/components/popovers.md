@@ -8,7 +8,6 @@ order:
 
 Popovers are small overlay content containers. Popovers component is built entirely in CSS.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-3 col-sm-6">
     <div class="popover"><a class="btn btn-primary" href="#popovers">top popover</a>
@@ -98,3 +97,5 @@ Also, you can add the `popover-right`, `popover-bottom` or `popover-left` class 
   </div>
 </div>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

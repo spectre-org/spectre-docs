@@ -34,3 +34,5 @@ Spectre provides basic styles for typography and elements.
         desc="Single-element, responsive and pure CSS icons"
         path="icons.html" />
 </div>
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

@@ -67,3 +67,5 @@ Spectre provides a range of pure CSS components.
         desc="Context information labels that appear on hover and focus"
         path="tooltips.html" />
 </div>
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

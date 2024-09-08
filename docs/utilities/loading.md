@@ -6,9 +6,8 @@ order:
 
 # Loading
 
- Loading indicator is used for loading or updating. You can add the `loading` class to a container for loading status.
+Loading indicator is used for loading or updating. You can add the `loading` class to a container for loading status.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-12 text-center">
     <div class="loading"></div>
@@ -17,7 +16,6 @@ order:
 
 Add the `loading-lg` class for large size.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-12 text-center">
     <div class="loading loading-lg"></div>

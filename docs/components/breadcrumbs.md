@@ -8,7 +8,6 @@ order:
 
 Breadcrumbs are used as navigational hierarchies to indicate current location.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <ul class="breadcrumb">
@@ -47,3 +46,5 @@ Add a container element with the `breadcrumb` class. And add child elements with
   </li>
 </ul>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

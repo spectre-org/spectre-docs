@@ -8,7 +8,6 @@ order: 2
 
 Layout includes flexbox based responsive grid system with 12 columns.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column">
     <div class="bg-primary text-secondary docs-block"></div>
@@ -80,7 +79,6 @@ Layout includes flexbox based responsive grid system with 12 columns.
     <div class="column col-1">col-1</div>
   </div>
 </div>
-
 ```
 
 Add the `columns` class to a container with the `container` class. And add any element you want with the `column` class inside the container. These columns will take up the space equally. You can specify the width of each column by adding class `col-<1-12>`.
@@ -89,7 +87,6 @@ Add the `columns` class to a container with the `container` class. And add any e
 
 And you can add the `col-gapless` class to the `columns` to have gapless columns.
 
- 
 <div class="vp-raw docs-demo columns col-gapless">
   <div class="column col-6">
     <div class="bg-gray docs-block">col-6 (gapless)</div>
@@ -105,12 +102,10 @@ And you can add the `col-gapless` class to the `columns` to have gapless columns
   <div class="column col-6">col-6</div>
   <div class="column col-6">col-6</div>
 </div>
-
 ```
 
 By default, Spectre grid has multi-line flexbox enabled. You can add the `col-oneline` class to `columns` to make all its child columns positioned in the same single row.
 
- 
 <div class="vp-raw docs-demo columns col-oneline">
   <div class="column col-8">
     <div class="bg-gray docs-block">col-8</div>
@@ -126,14 +121,12 @@ By default, Spectre grid has multi-line flexbox enabled. You can add the `col-on
   <div class="column col-8">col-8</div>
   <div class="column col-8">col-8</div>
 </div>
-
 ```
 
 ## Grid nesting
 
 To nest grids, add the new `columns` and `column` structure within an existing column.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6">
     <div class="bg-gray docs-block">col-6</div>
@@ -164,14 +157,12 @@ To nest grids, add the new `columns` and `column` structure within an existing c
     <div class="column col-6">col-6</div>
   </div>
 </div>
-
 ```
 
 ## Column offset
 
  The Flexbox grid provides margin auto utilities to set offset. There are `col-mx-auto`, `col-ml-auto` and `col-mr-auto` to set margins between columns without using empty columns.
 
- 
 <div class="vp-raw docs-demo">
   <div class="columns text-center">
     <div class="column col-2">
@@ -228,14 +219,12 @@ To nest grids, add the new `columns` and `column` structure within an existing c
     <div class="column col-2">col-2</div>
   </div>
 </div>
-
 ```
 
 ## Auto width column
 
 You can add the `col-auto` class to the `column` to have auto width columns. There are `col-xl-auto`, `col-lg-auto`, `col-md-auto`, `col-sm-auto` and `col-xs-auto` to set auto width in different viewport sizes.
 
- 
 <div class="vp-raw docs-demo">
   <div class="columns">
     <div class="column col-auto">

@@ -10,7 +10,6 @@ order:
 
 Comparison Sliders are sliders for comparing two images. It is built in pure CSS.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <div class="comparison-slider">
@@ -39,3 +38,5 @@ Comparison Sliders are sliders for comparing two images. It is built in pure CSS
   </figure>
 </div>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

@@ -8,7 +8,6 @@ order:
 
 Tabs enable quick switch between different views.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-sm-12">
     <ul class="tab">
@@ -44,10 +43,8 @@ Add a container element with the `tab` class. And add child elements with the `t
     <a href="#">Connect</a>
   </li>
 </ul>
-
 ```
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-sm-12">
     <ul class="tab">
@@ -75,10 +72,8 @@ If you need `badges` on tabs, you can add badge class to the element within `tab
     </a>
   </li>
 </ul>
-
 ```
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <ul class="tab">
@@ -96,7 +91,7 @@ If you need `badges` on tabs, you can add badge class to the element within `tab
   </div>
 </div>
 
- You could add a search box or buttons inside a tab. Add the `tab-action` class to the `tab-item`.
+You could add a search box or buttons inside a tab. Add the `tab-action` class to the `tab-item`.
 
 ```html
 <ul class="tab">
@@ -113,3 +108,5 @@ If you need `badges` on tabs, you can add badge class to the element within `tab
   </li>
 </ul>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->
