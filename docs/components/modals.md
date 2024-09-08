@@ -49,7 +49,11 @@ Add a container element with the `modal` class. And add a real container `modal-
 
 
 ```html
-<div class="modal active" id="modal-id">
+<!-- button trigger -->
+<a class="btn btn-primary" href="#modal-1">Open Modal</a>
+
+<!-- modal container -->
+<div class="modal" id="modal-1">
   <a href="#close" class="modal-overlay" aria-label="Close"></a>
   <div class="modal-container">
     <div class="modal-header">

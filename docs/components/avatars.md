@@ -25,7 +25,14 @@ Avatars are user profile pictures.
   </div>
 </div>
 
-Add the `avatar` class to `<img>` element. There are 4 additional sizes available, including `avatar-xl`(64px), `avatar-lg`(48px), `avatar-sm`(24px), and `avatar-xs`(16px). By default, the avatar size is 32px.
+Add the `avatar` class to `<img>` element. There are 4 additional sizes available:
+
+- `avatar-xl` (64px)
+- `avatar-lg` (48px)
+- `avatar-sm` (24px)
+- `avatar-xs` (16px)
+
+By default, the avatar size is 32px.
 
 For users who don't have profile pictures, you may use their initials for avatars. Add the `avatar` class and avatar size class to `<div>` element. The `data-initial` attribute is the name appear inside the avatar.
 

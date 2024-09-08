@@ -17,7 +17,7 @@ Cards are flexible content containers.
         <div class="card-subtitle text-gray">Software and hardware</div>
       </div>
       <div class="card-body">Empower every person and every organization on the planet to achieve more.</div>
-      <div class="card-footer"><a class="btn btn-primary" href="#cards">Do</a></div>
+      <div class="card-footer"><a class="btn btn-primary" href="#cards">Do Something</a></div>
     </div>
   </div>
   <div class="column col-6 col-xs-12">

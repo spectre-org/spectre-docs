@@ -18,7 +18,7 @@ Nav components show a vertical list of links.
         <ul class="nav">
           <li class="nav-item"><a href="#nav">Flexbox grid</a></li>
           <li class="nav-item"><a href="#nav">Responsive</a></li>
-          <li class="nav-item"><a href="#nav">Navbar</a></li>
+          <li class="nav-item active"><a href="#nav">Navbar</a></li>
           <li class="nav-item"><a href="#nav">Empty states</a></li>
         </ul>
       </li>

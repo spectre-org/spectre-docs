@@ -6,6 +6,8 @@ order:
 
 # Meters
 
+<span class="label label-warning">Deprecated</span>
+
 Meters represent the value within the known range.
 
 <div class="vp-raw docs-demo columns">
