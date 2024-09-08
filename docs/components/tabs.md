@@ -6,6 +6,8 @@ order:
 
 # Tabs
 
+<small class="label label-secondary">JS Required</small>
+
 Tabs enable quick switch between different views.
 
 <div class="vp-raw docs-demo columns">
@@ -45,6 +47,8 @@ Add a container element with the `tab` class. And add child elements with the `t
 </ul>
 ```
 
+For tabs to show alternative toggle content on click, you will need to use JavaScript.
+
 <div class="vp-raw docs-demo columns">
   <div class="column col-sm-12">
     <ul class="tab">
@@ -77,10 +81,10 @@ If you need `badges` on tabs, you can add badge class to the element within `tab
 <div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <ul class="tab">
-      <li class="tab-item active"><a href="#tabs">Music<span class="btn btn-clear"></span></a></li>
-      <li class="tab-item"><a href="#tabs">Playlists</a></li>
-      <li class="tab-item"><a href="#tabs">Radio</a></li>
-      <li class="tab-item"><a href="#tabs">Store</a></li>
+      <li class="tab-item active"><a href="#tab-1">Music<span class="btn btn-clear"></span></a></li>
+      <li class="tab-item"><a href="#tab-2">Playlists</a></li>
+      <li class="tab-item"><a href="#tab-3">Radio</a></li>
+      <li class="tab-item"><a href="#tab-4">Store</a></li>
       <li class="tab-item tab-action">
         <div class="input-group input-inline">
           <input class="form-input input-sm" type="text">

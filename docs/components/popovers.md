@@ -6,7 +6,7 @@ order:
 
 # Popovers
 
-Popovers are small overlay content containers. Popovers component is built entirely in CSS.
+Popovers are small overlay content containers.
 
 <div class="vp-raw docs-demo columns">
   <div class="column col-3 col-sm-6">

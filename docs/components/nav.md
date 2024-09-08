@@ -6,6 +6,8 @@ order:
 
 # Nav
 
+<small class="label label-secondary">JS Optional</small>
+
 Nav components show a vertical list of links.
  
 <div class="vp-raw docs-demo columns">

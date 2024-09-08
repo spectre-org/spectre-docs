@@ -6,6 +6,8 @@ order:
 
 # Modals
 
+<small class="label label-secondary">JS Optional</small>
+
 Modals are flexible dialog prompts.
 
 <div class="vp-raw docs-demo columns">
@@ -66,10 +68,9 @@ Add a container element with the `modal` class. And add a real container `modal-
 </div>
 ```
 
-The CSS-only version works by leveraging the CSS pseudo-property [`:target`](https://developer.mozilla.org/en-US/docs/Web/CSS/:target) which works in conjunction with the location hash, thus clicking on a link with `href` `#modal-1` changes the URL and displays the HTML element with the `id` `modal-1`.
+The CSS-only version works by leveraging the CSS pseudo-property [`:target`](https://developer.mozilla.org/en-US/docs/Web/CSS/:target) which works in conjunction with the location hash; clicking on a link with `href` `#modal-1` changes the URL and displays the HTML element with the `id` `modal-1`. To close, you can change the location hash to something like `#close` or just `#`.
 
-If you want to use Spectre modals in a JavaScript context, you will need to implement your JS to interact with modals. To make a modal appear, add the `active` class to the `modal` container.
-
+In JavaScript, you can toggle `modal` container visibility by adding the `active` class.
 
 ## Modal sizes
 

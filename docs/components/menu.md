@@ -6,6 +6,8 @@ order:
 
 # Menu
 
+<small class="label label-secondary">JS Optional</small>
+
 Menus are vertical list of links or buttons for actions and navigation.
 
 <div class="vp-raw docs-demo columns">
@@ -136,9 +138,9 @@ The dropdown is a combination of buttons and menus.
   </div>
 </div>
 
-Dropdown menus component is built entirely in CSS. It is triggered by `:focus` event.
-
 Add a container element with the `dropdown` class. And add a focusable element with the `dropdown-toggle` class for the button and a `menu` component right next to it. You also need to add `tabindex` to make the buttons focusable.
+
+It works by leveraging the `:focus` [pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus) and the [next-sibling](https://developer.mozilla.org/en-US/docs/Web/CSS/Next-sibling_combinator) selector `+` to toggle the `.menu` container.
 
 If the dropdown is close to the right edge of the browser, you can add the `dropdown-right` class to the container to prevent it appearing off screen.
 
@@ -154,7 +156,7 @@ If the dropdown is close to the right edge of the browser, you can add the `drop
   </div>
 </div>
 
-Also, you can implement your JS to interact with the dropdown menus by adding the `active` class to the `dropdown` container.
+In JavaScript, you can toggle `dropdown` container visibility by adding the `active` class.
 
 ```html
 <!-- basic dropdown button -->

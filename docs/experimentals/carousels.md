@@ -6,8 +6,6 @@ order:
 
 # Carousels
 
-<small class="label label-secondary">CSS ONLY</small>
-
 Carousels are slideshows for cycling images. It is built in pure CSS.
 
 <div class="vp-raw docs-demo columns">
@@ -44,6 +42,8 @@ Carousels are slideshows for cycling images. It is built in pure CSS.
     </div>
   </div>
 </div>
+
+It works by leveraging the `:checked` [pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:target) and the [subsequent-sibling](https://developer.mozilla.org/en-US/docs/Web/CSS/Subsequent-sibling_combinator) selector `~` to hide elements which do not match the combination.
 
 The default image number of Carousels is `8`. You can add more images by changing the variable `$carousel-number` in `_carousels.scss` and re-compiling the CSS.
 

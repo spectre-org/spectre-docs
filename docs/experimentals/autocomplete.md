@@ -6,6 +6,8 @@ order:
 
 # Autocomplete
 
+<small class="label label-secondary">JS Required</small>
+
 Autocomplete form component provides suggestions while you type. It is often used for tags and contacts input.
 
 <div class="vp-raw docs-demo columns">

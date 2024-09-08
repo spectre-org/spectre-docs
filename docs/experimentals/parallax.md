@@ -6,9 +6,7 @@ order:
 
 # Parallax
 
-<small class="label label-secondary">CSS ONLY</small>
-
-The Parallax acts like Apple TV/tvOS hover parallax effect. It is built in pure CSS.
+The Parallax acts like Apple TV/tvOS hover parallax effect.
 
 <div class="vp-raw docs-demo columns">
   <div class="column col-sm-12 col-8 col-mx-auto">

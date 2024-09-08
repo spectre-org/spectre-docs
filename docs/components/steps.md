@@ -6,6 +6,8 @@ order:
 
 # Steps
 
+<small class="label label-secondary">JS Optional</small>
+
 Steps are progress indicators of a sequence of task steps.
 
 <div class="vp-raw docs-demo columns">
@@ -27,7 +29,11 @@ Steps are progress indicators of a sequence of task steps.
   </div>
 </div>
 
-Add a container element with the `step` class. And add child elements with the `step-item` class. The `step-item` with the `active` class will be highlighted and indicate the current state of progress.
+Add a container element with the `step` class. And add child elements with the `step-item` class.
+
+The `step-item` with the `active` class will be highlighted and indicate the current state of progress.
+
+Use JavaScript to change this dynamically.
 
 ```html
 <ul class="step">

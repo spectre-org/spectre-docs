@@ -30,7 +30,7 @@ const sidebar = generateSidebar({
   // convertSameNameSubFileToGroupIndexPage: false,
   // folderLinkNotIncludesFileName: false,
   // keepMarkdownSyntaxFromTitle: false,
-  // debugPrint: false,
+  // debugPrint: true,
 })
 
 // add links
@@ -39,6 +39,45 @@ sidebar[0].items.forEach(item => {
     item.link = `/${item.link}`
   }
 })
+
+// add js badge; use ! for "required"
+const links = [
+  // introduction
+  'javascript!',
+
+  // elements
+  'forms',
+
+  // components
+  'accordions',
+  'menu',
+  'modals',
+  'steps',
+  'tabs',
+
+  // experimental
+  'autocomplete!',
+  'calendars',
+  'off-canvas',
+  '360-viewer!',
+  'sliders',
+].map(text => {
+  return {
+    page: '/' + text.split('!').at(0),
+    class: text.includes('!') ? 'primary' : 'secondary',
+  }
+})
+sidebar[0].items.forEach(item => {
+  if (item.items) {
+    item.items.forEach(item => {
+      const link = links.find(link => item.link.endsWith(link.page))
+      if (link) {
+        item.text += ` <small class="label label-${link.class}">JS</small>`
+      }
+    })
+  }
+})
+
 
 function stylesheet (href): HeadConfig {
   const id = href.split('/').pop().split('.').shift()
@@ -97,5 +136,12 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/spectre-org/spectre-css' }
     ]
+  },
+
+  vite: {
+    // ...
+    define: {
+      __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: true,
+    },
   }
 })

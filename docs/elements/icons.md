@@ -6,8 +6,6 @@ order: 8
 
 # Icons
 
-<small class="label label-secondary">CSS ONLY</small>
-
 <div class="vp-raw docs-demo columns">
   <div class="column">
     <div class="toast toast-primary">Spectre CSS Icons will be moved to a new <a href="https://github.com/picturepan2/icons.css" target="_blank">GitHub Repo</a> while Spectre will only include basic icons.</div>

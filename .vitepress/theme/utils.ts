@@ -77,10 +77,7 @@ export function useMenu (init = true) {
   if (init) {
     onMounted(showCurrent)
     const route = useRoute()
-    watch(() => route.path, path => {
-      console.log(path)
-      showCurrent()
-    })
+    watch(() => route.path, showCurrent)
   }
 
   return {

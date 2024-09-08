@@ -5,6 +5,8 @@ order:
 ---
 # Accordions
 
+<small class="label label-secondary">JS Optional</small>
+
 Accordions are used to toggle sections of content.
 
 <div class="vp-raw docs-demo columns">
@@ -73,6 +75,9 @@ Accordions are used to toggle sections of content.
     </div>
   </div>
 </div>
+
+
+It works by leveraging the `:checked` [pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:target) and the [subsequent-sibling](https://developer.mozilla.org/en-US/docs/Web/CSS/Subsequent-sibling_combinator) selector `~` to hide elements which do not match the combination.
 
 ```html
 <!-- standard Accordions example -->
