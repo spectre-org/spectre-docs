@@ -17,6 +17,9 @@ Spectre provides basic styles for typography and elements, flexbox based respons
   <Card title="Build"
         desc="Including Spectre CSS in a bundled project"
         path="build.html" />
+  <Card title="JavaScript"
+        desc="When to use JavaScript in addition to CSS"
+        path="javascript.html" />
   <Card title="Variables"
         desc="Customise the look and feel Spectre CSS"
         path="variables.html" />
