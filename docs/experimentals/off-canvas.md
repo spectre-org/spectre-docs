@@ -6,7 +6,7 @@ order:
 
 # Off-canvas
 
-CSS ONLY
+<small class="label label-secondary">CSS ONLY</small>
 
 The Off-canvas is a navigation layout that the sidebar can slide in and out of the viewport. It is built in pure CSS.
 

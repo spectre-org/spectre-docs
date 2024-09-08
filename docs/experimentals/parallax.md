@@ -6,7 +6,7 @@ order:
 
 # Parallax
 
-CSS ONLY
+<small class="label label-secondary">CSS ONLY</small>
 
 The Parallax acts like Apple TV/tvOS hover parallax effect. It is built in pure CSS.
 

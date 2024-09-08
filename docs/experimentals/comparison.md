@@ -6,7 +6,7 @@ order:
 
 # Comparison sliders
 
-CSS ONLY
+<small class="label label-secondary">CSS ONLY</small>
 
 Comparison Sliders are sliders for comparing two images. It is built in pure CSS.
 
