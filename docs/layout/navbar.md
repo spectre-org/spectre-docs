@@ -8,7 +8,6 @@ order: 3
 
 Navbar is a layout container that appears in the header of apps and websites.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column">
     <div class="navbar">
@@ -27,7 +26,7 @@ Navbar is a layout container that appears in the header of apps and websites.
   </div>
 </div>
 
- The navbar component can include logo brand, nav links and buttons, search box or any combination of those elements. Each section with the `navbar-section` class will be evenly distributed in the container.
+The navbar component can include logo brand, nav links and buttons, search box or any combination of those elements. Each section with the `navbar-section` class will be evenly distributed in the container.
 
 ```html
 <header class="navbar">
@@ -43,12 +42,10 @@ Navbar is a layout container that appears in the header of apps and websites.
     </div>
   </section>
 </header>
-
 ```
 
 You can use `navbar-center` class to have a centered section.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <div class="navbar">

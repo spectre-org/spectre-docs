@@ -8,7 +8,6 @@ order:
 
 Empty states/blank slates are commonly used as placeholders for first time use, empty data and error screens.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <div class="empty">
@@ -46,7 +45,7 @@ Empty states/blank slates are commonly used as placeholders for first time use, 
   </div>
 </div>
 
- An empty state component can include icons, messages (title and subtitle messages) and action buttons or any combination of those elements. Add `empty-icon`, `empty-title`, `empty-subtitle` or `empty-action` to the elements. HTML structure is exampled below.
+An empty state component can include icons, messages (title and subtitle messages) and action buttons or any combination of those elements. Add `empty-icon`, `empty-title`, `empty-subtitle` or `empty-action` to the elements. HTML structure is exampled below.
 
 ```html
 <div class="empty">
@@ -60,3 +59,5 @@ Empty states/blank slates are commonly used as placeholders for first time use, 
   </div>
 </div>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

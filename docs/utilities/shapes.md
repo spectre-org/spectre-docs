@@ -8,7 +8,6 @@ order:
 
 Shape utilities are used for changing element shapes.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 text-center">
     <div class="bg-primary text-light docs-shape s-rounded centered">s-rounded</div>

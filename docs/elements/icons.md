@@ -14,11 +14,10 @@ order: 8
   </div>
 </div>
 
- Icons.css are single-element, responsive and pure CSS icons. You can include `spectre-icons.css` located in the `dist` folder to your web `<head>` to have these CSS icons.
+Icons.css are single-element, responsive and pure CSS icons. You can include `spectre-icons.css` located in the `dist` folder to your web `<head>` to have these CSS icons.
 
 ## Navigation icons
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-3 col-md-6">
     <button class="btn btn-primary btn-action btn-lg"><i class="icon icon-arrow-up"></i></button>
@@ -76,7 +75,6 @@ order: 8
 
 ## Action icons
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-3 col-md-6">
     <button class="btn btn-primary btn-action btn-lg"><i class="icon icon-resize-horiz"></i></button>
@@ -154,7 +152,6 @@ order: 8
 
 ## Object icons
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-3 col-md-6">
     <button class="btn btn-primary btn-action btn-lg"><i class="icon icon-mail"></i></button>
@@ -192,14 +189,12 @@ order: 8
 
 ```html
 <i class="icon icon-menu"></i>
-
 ```
 
 ## Icon sizes
 
 Use `icon-2x`, `icon-3x` and `icon-4x` classes to increase icon sizes. You can set `font-size` to have different icon sizes.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-3 col-md-6">
     <p><i class="icon icon-2x icon-mail"></i></p>
@@ -218,3 +213,5 @@ Use `icon-2x`, `icon-3x` and `icon-4x` classes to increase icon sizes. You can s
 ```html
 <i class="icon icon-2x icon-mail"></i>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

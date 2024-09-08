@@ -8,7 +8,6 @@ order:
 
 The Timelines are ordered sequences of activities.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-9 col-sm-12">
     <div class="timeline">
@@ -85,3 +84,5 @@ The Timelines are ordered sequences of activities.
   ...
 </div>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

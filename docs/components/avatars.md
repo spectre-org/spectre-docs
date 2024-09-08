@@ -8,7 +8,6 @@ order:
 
 Avatars are user profile pictures. 
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
     <figure class="avatar avatar-xl mr-2"><img src="/img/avatar-1.png" alt="Avatar XL"></figure>
@@ -28,7 +27,7 @@ Avatars are user profile pictures.
 
 Add the `avatar` class to `<img>` element. There are 4 additional sizes available, including `avatar-xl`(64px), `avatar-lg`(48px), `avatar-sm`(24px), and `avatar-xs`(16px). By default, the avatar size is 32px.
 
- For users who don't have profile pictures, you may use their initials for avatars. Add the `avatar` class and avatar size class to `<div>` element. The `data-initial` attribute is the name appear inside the avatar.
+For users who don't have profile pictures, you may use their initials for avatars. Add the `avatar` class and avatar size class to `<div>` element. The `data-initial` attribute is the name appear inside the avatar.
 
 ```html
 <!-- Basic avatar examples -->
@@ -42,12 +41,10 @@ Add the `avatar` class to `<img>` element. There are 4 additional sizes availabl
 <figure class="avatar avatar-xl" data-initial="YZ" style="background-color: #5755d9;">
   <img src="/img/avatar-1.png" alt="...">
 </figure>
-
 ```
 
 ## Avatar icons
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
     <figure class="avatar avatar-xl mr-2"><img src="/img/avatar-1.png" alt="Avatar"><img class="avatar-icon" src="/img/avatar-2.png" alt="Avatar"></figure>
@@ -63,12 +60,10 @@ Add the `avatar` class to `<img>` element. There are 4 additional sizes availabl
   <img src="/img/avatar-1.png" alt="...">
   <img src="/img/avatar-5.png" class="avatar-icon" alt="...">
 </figure>
-
 ```
 
 ## Avatar presence
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
     <figure class="avatar avatar-xl mr-2" data-initial="YZ"><i class="avatar-presence online"></i></figure>
@@ -79,7 +74,7 @@ Add the `avatar` class to `<img>` element. There are 4 additional sizes availabl
   </div>
 </div>
 
- Avatars support presence indicators. You can add an `<i>` element with the `avatar-presence` class, and add `online`, `busy` or `away` class for different status colors. The default is gray which means offline.
+Avatars support presence indicators. You can add an `<i>` element with the `avatar-presence` class, and add `online`, `busy` or `away` class for different status colors. The default is gray which means offline.
 
 ```html
 <figure class="avatar avatar-xl">
@@ -87,3 +82,5 @@ Add the `avatar` class to `<img>` element. There are 4 additional sizes availabl
   <i class="avatar-presence online"></i>
 </figure>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

@@ -3,12 +3,10 @@ title: Accordions
 description: 
 order: 
 ---
-
 # Accordions
 
 Accordions are used to toggle sections of content.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-md-12">
     <div class="accordion">
@@ -99,7 +97,6 @@ Accordions are used to toggle sections of content.
     <!-- Accordions content -->
   </div>
 </div>
-
 ```
 
 Alternatively, you can use `details` and `summary` instead of `input` radio or checkbox trick. Add the `open` attribute to `details` to expand it.
@@ -116,3 +113,5 @@ Alternatively, you can use `details` and `summary` instead of `input` radio or c
   </div>
 </details>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

@@ -7,7 +7,7 @@ order:
 # Pagination
 
 Pagination enables easily navigating paged content.
- 
+
 <div class="vp-raw docs-demo columns">
   <div class="column col-xs-12">
     <ul class="pagination">
@@ -61,10 +61,8 @@ Add a container element with the `pagination` class. And add child elements with
     <a href="#">Next</a>
   </li>
 </ul>
-
 ```
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <ul class="pagination">
@@ -96,3 +94,5 @@ You could use previous and next pagination to navigate.
   </li>
 </ul>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

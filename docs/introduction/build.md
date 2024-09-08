@@ -77,11 +77,10 @@ You might consider using a library like [Alias HQ](https://github.com/davestewar
 @import "@spectre/...";
 ```
 
-<!--
-
-This technique seems to no longer work under Node 14+ due to circular dependency issues
-
 ## Prefixing
+
+> [!NOTE]
+> This technique seems to no longer work under Node 14+ due to circular dependency issues
 
 If you want to prefix all classes, you will need to clone the [spectre-css](https://github.com/spectre-org/spectre-css) repository and build from source.
 
@@ -108,5 +107,3 @@ exports.prefix = prefix;
 ```
 
 After you compile your version of Spectre in the `/dist` folder, run `gulp prefix` in the directory of Spectre.
-
--->

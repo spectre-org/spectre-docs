@@ -46,3 +46,5 @@ The Experimentals include experimental elements and features, mostly are not yet
         desc="Ordered sequences of activities"
         path="timelines.html" />
 </div>
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

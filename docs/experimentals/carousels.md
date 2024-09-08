@@ -10,7 +10,6 @@ order:
 
 Carousels are slideshows for cycling images. It is built in pure CSS.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <div class="carousel">
@@ -89,3 +88,5 @@ The default image number of Carousels is `8`. You can add more images by changin
   </div>
 </div>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

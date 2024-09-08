@@ -8,7 +8,6 @@ order:
 
 Toasts are used to show alert or information to users.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-9 col-sm-12">
     <div class="toast">
@@ -31,10 +30,8 @@ Add a container element with the `toast` class. You can add any text within the 
 <div class="toast">
   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 </div>
-
 ```
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-sm-12">
     <div class="toast toast-success">
@@ -64,3 +61,5 @@ And you can add the `toast-primary`, `toast-success`, `toast-warning` or `toast-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 </div>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

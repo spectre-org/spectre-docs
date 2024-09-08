@@ -20,4 +20,3 @@ Spectre uses [Autoprefixer](https://github.com/postcss/autoprefixer) to make mos
 See the main project repo:
 
 - [github.com/spectre-org/spectre-css/CHANGELOG.md](https://github.com/spectre-org/spectre-css/blob/main/CHANGELOG.md)
-

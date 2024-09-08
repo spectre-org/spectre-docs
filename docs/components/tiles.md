@@ -8,7 +8,6 @@ order:
 
 Tiles are repeatable or embeddable information blocks.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-9 col-sm-12">
     <div class="tile">
@@ -61,7 +60,6 @@ There are `tile-title` and `tile-subtitle` classes for title and subtitle text s
     <button class="btn btn-primary">Join</button>
   </div>
 </div>
-
 ```
 
 ## Compact tiles
@@ -70,7 +68,6 @@ There is compact version of Tiles component, which is often used as contact and 
 
 Add the `tile-centered` class to the container `tile`. The `tile-icon`, `tile-content` and `tile-action` will be vertically centered.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-md-9 col-xs-12">
     <div class="tile tile-centered">
@@ -105,3 +102,5 @@ Add the `tile-centered` class to the container `tile`. The `tile-icon`, `tile-co
   </div>
 </div>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

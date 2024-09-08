@@ -12,7 +12,6 @@ Code is used for styling inline and multiline code snippets.
 
 ```html
 <code>...</code>
-
 ```
 
 For inline code, you can use the `<code>` element. 
@@ -32,3 +31,5 @@ const content = document.querySelector('#content')
   </code>
 </pre>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

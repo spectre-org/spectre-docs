@@ -10,9 +10,8 @@ order:
 
 The Off-canvas is a navigation layout that the sidebar can slide in and out of the viewport. It is built in pure CSS.
 
- By default, the off-canvas menu is collapsed whenever the window width is. But you can add the `off-canvas-sidebar-show` class to the `off-canvas` to make the sidebar expanded when the window width is larger than or equal to **960px**.
+By default, the off-canvas menu is collapsed whenever the window width is. But you can add the `off-canvas-sidebar-show` class to the `off-canvas` to make the sidebar expanded when the window width is larger than or equal to **960px**.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column">
     <div class="off-canvas off-canvas-sidebar-show"><a class="off-canvas-toggle btn btn-primary btn-action" href="#sidebar-demo"><i class="icon icon-menu"></i></a>
@@ -48,3 +47,5 @@ You can open the sidebar by adding the class `active` to `off-canvas-sidebar`. A
   </div>
 </div>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

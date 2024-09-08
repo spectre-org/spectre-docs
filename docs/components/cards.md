@@ -8,7 +8,6 @@ order:
 
 Cards are flexible content containers.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
     <div class="card">
@@ -98,3 +97,5 @@ Add a container element with the `card` class. And add child elements with the `
   </div>
 </div>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

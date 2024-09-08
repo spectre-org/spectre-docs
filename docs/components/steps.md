@@ -8,7 +8,6 @@ order:
 
 Steps are progress indicators of a sequence of task steps.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <ul class="step">
@@ -46,3 +45,5 @@ Add a container element with the `step` class. And add child elements with the `
   </li>
 </ul>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

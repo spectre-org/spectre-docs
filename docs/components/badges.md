@@ -8,7 +8,6 @@ order:
 
 Badges are often used as unread number indicators.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-3 col-xs-6"><span class="badge" data-badge="">Notifications</span></div>
   <div class="column col-3 col-xs-6"><span class="badge" data-badge="8">Notifications</span></div>
@@ -20,7 +19,6 @@ Add the `badge` class to non self closing elements. And add the `data-badge` att
 
 If there is no `data-badge` or the attribute is not specified, the badge will appear as a dot.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-sm-12">
     <button class="btn badge" data-badge="">Button</button>
@@ -56,3 +54,5 @@ Badges support `button` and `avatars` elements as well.
   <img src="/img/avatar-3.png" alt="YZ">
 </figure>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

@@ -8,7 +8,6 @@ order:
 
 Chips are complex entities in small blocks.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-12"><span class="chip">Crime</span><span class="chip">Drama</span><span class="chip">Biography<a class="btn btn-clear" href="#" aria-label="Close" role="button"></a></span><span class="chip">Mystery<a class="btn btn-clear" href="#" aria-label="Close" role="button"></a></span></div>
   <div class="column col-12">
@@ -36,3 +35,5 @@ Add a container element with the `chip` class. And add child text element, butto
   <a href="#" class="btn btn-clear" aria-label="Close" role="button"></a>
 </div>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

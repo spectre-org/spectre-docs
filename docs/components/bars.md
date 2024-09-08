@@ -6,9 +6,8 @@ order:
 
 # Bars
 
- Bars represent the progress of a task or the value within the known range. Bars are custom components for displaying HTML5 `<progress>`, `<meter>` and input range elements.
+Bars represent the progress of a task or the value within the known range. Bars are custom components for displaying HTML5 `<progress>`, `<meter>` and input range elements.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-8 col-xs-12">
     <div class="bar bar-sm">
@@ -45,12 +44,10 @@ There is the `bar-sm` class for thinner Bars. Also, you could use [Tooltips](#to
   <div class="bar-item tooltip" data-tooltip="25%" style="width:25%;">25%</div>
   <div class="bar-item" style="width:15%;background:#818bd5;">15%</div>
 </div>
-
 ```
 
 ## Slider bars
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-8 col-xs-12">
     <div class="bar bar-slider">
@@ -93,3 +90,5 @@ If there are two `bar-item` divs in one bar-slider, you will have a range slider
   </div>
 </div>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

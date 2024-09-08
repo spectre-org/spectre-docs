@@ -8,7 +8,6 @@ order: 4
 
 The Hero container shows key featured content or information.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column">
     <div class="hero bg-gray">
@@ -31,7 +30,6 @@ The Hero container shows key featured content or information.
 
 Use `hero-sm` and `hero-lg `to the hero container for smaller and larger padding. 
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column">
     <div class="hero hero-sm bg-dark">

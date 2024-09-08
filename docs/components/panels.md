@@ -8,7 +8,6 @@ order:
 
 Panels are flexible view container with auto-expand content section.
 
- 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
     <div class="panel">
@@ -138,3 +137,5 @@ Add a container element with the `panel` class. And add child elements with the 
   </div>
 </div>
 ```
+
+<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->
