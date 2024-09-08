@@ -70,6 +70,8 @@ There is the `bar-sm` class for thinner Bars. Also, you could use [Tooltips](#to
 
 You can add the `bar-slider` class to the Bars container. And add child elements with the `bar-item` class and `bar-slider-btn` inside bar-item. You need to set the `bar-item` width manually to have the slider point.
 
+See the experimental [Slider](../experimentals/sliders.md) component for an interactive version.
+
 If there are two `bar-item` divs in one bar-slider, you will have a range slider.
 
 ```html

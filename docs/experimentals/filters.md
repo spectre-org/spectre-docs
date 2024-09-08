@@ -6,8 +6,6 @@ order:
 
 # Filters
 
-<small class="label label-secondary">CSS ONLY</small>
-
 Filters are CSS only content filters.
 
 <div class="vp-raw docs-demo columns">
@@ -128,6 +126,8 @@ Filters are CSS only content filters.
 </div>
 
 Filters use `tag-1` to `tag-8` to flag different tags.`tag-0` is reserved for clearing filter (or showing all). You can overwrite `$filter-number` in `_filters.scss` to have more filters.
+
+It works by leveraging the `:checked` [pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:target) and the [subsequent-sibling](https://developer.mozilla.org/en-US/docs/Web/CSS/Subsequent-sibling_combinator) selector `~` to hide elements which do not match the combination.
 
 ```html
 <div class="filter">

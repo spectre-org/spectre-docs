@@ -60,6 +60,8 @@ The Timelines are ordered sequences of activities.
   </div>
 </div>
 
+The `timeline-item` `id` and `timeline-icon` `href` work together to make the timeline navigable.
+
 ```html
 <div class="timeline">
   <div class="timeline-item" id="timeline-example-1">

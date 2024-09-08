@@ -6,7 +6,9 @@ order:
 
 # Calendars
 
-Calendars are designed for date or date range picker and events display. It is made with flex layout.
+<small class="label label-secondary">JS Optional</small>
+
+Calendars are designed for date or date range picker and events display.
 
 <div class="vp-raw docs-demo columns">
   <div class="column col-4 col-md-12">

@@ -6,25 +6,31 @@ order:
 
 # Sliders
 
-The Sliders are for selecting values from ranges.
+<small class="label label-secondary">JS Optional</small>
 
-You can add the class `tooltip` to have tooltip labels. If no `data-tooltip` is set, the `value` will be used instead.
+The Sliders are for selecting values from ranges.
 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
-    <input class="slider tooltip" type="range" min="0" max="100" value="50" oninput="this.setAttribute('value', this.value);">
+    <input
+      ref="slider" class="slider tooltip" type="range" min="0" max="100" value="50"
+      @input="event => event.target.setAttribute('data-tooltip', event.target.value)"
+    >
   </div>
   <div class="column col-6 col-xs-12">
     <input class="slider" type="range" min="0" max="100" value="50" disabled="">
   </div>
 </div>
 
+You can add the class `tooltip` to have tooltip labels, along with a JavaScript handler to update the `data-tooltip` attribute. If no `data-tooltip` is set, the `value` will be used instead.
+
 ```html
-<!-- Sliders -->
+<!-- slider -->
 <input class="slider" type="range" min="0" max="100" value="50">
 
-<!-- Sliders with tooltips -->
-<input class="slider tooltip" type="range" min="0" max="100" value="50" oninput="this.setAttribute('value', this.value);">
+<!-- slider with tooltip -->
+<input class="slider tooltip" 
+       type="range" min="0" max="100" value="50" 
+       oninput="this.setAttribute('data-tooltip', this.value)"
+>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

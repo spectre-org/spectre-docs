@@ -6,8 +6,6 @@ order:
 
 # Comparison sliders
 
-<small class="label label-secondary">CSS ONLY</small>
-
 Comparison Sliders are sliders for comparing two images. It is built in pure CSS.
 
 <div class="vp-raw docs-demo columns">

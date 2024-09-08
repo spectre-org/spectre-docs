@@ -22,13 +22,16 @@ Chips are complex entities in small blocks.
 Add a container element with the `chip` class. And add child text element, buttons or avatars with the `avatar` class.
 
 ```html
+<!-- basic chip -->
 <span class="chip">Crime</span>
 
+<!-- chip with close button -->
 <span class="chip">
   Biography
   <a href="#" class="btn btn-clear" aria-label="Close" role="button"></a>
 </span>
 
+<!-- chip with avatar and close button -->
 <div class="chip">
   <img src="/img/avatar-1.png" class="avatar avatar-sm">
   Yan Zhu

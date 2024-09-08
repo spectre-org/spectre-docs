@@ -6,6 +6,8 @@ order:
 
 # Pagination
 
+## Multiple pages
+
 Pagination enables easily navigating paged content.
 
 <div class="vp-raw docs-demo columns">
@@ -62,6 +64,8 @@ Add a container element with the `pagination` class. And add child elements with
   </li>
 </ul>
 ```
+
+## Previous and Next
 
 <div class="vp-raw docs-demo columns">
   <div class="column col-12">

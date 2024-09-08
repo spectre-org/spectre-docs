@@ -6,9 +6,9 @@ order:
 
 # Off-canvas
 
-<small class="label label-secondary">CSS ONLY</small>
+<small class="label label-secondary">JS Optional</small>
 
-The Off-canvas is a navigation layout that the sidebar can slide in and out of the viewport. It is built in pure CSS.
+The Off-canvas is a navigation layout that the sidebar can slide in and out of the viewport.
 
 By default, the off-canvas menu is collapsed whenever the window width is. But you can add the `off-canvas-sidebar-show` class to the `off-canvas` to make the sidebar expanded when the window width is larger than or equal to **960px**.
 
@@ -27,7 +27,9 @@ By default, the off-canvas menu is collapsed whenever the window width is. But y
   </div>
 </div>
 
-You can open the sidebar by adding the class `active` to `off-canvas-sidebar`. And remove the `active` to close it.
+The CSS-only version works by leveraging the CSS pseudo-property [`:target`](https://developer.mozilla.org/en-US/docs/Web/CSS/:target) which works in conjunction with the location hash; clicking on a link with `href` `#sidebar` changes the URL and displays the HTML element with the `id` `sidebar`. To close, you can change the location hash to something like `#close` or just `#`.
+
+In JavaScript you can open the sidebar by adding the class `active` to `off-canvas-sidebar`, and removing it to close it.
 
 ```html
 <div class="off-canvas">

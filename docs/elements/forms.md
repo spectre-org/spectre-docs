@@ -6,6 +6,8 @@ order: 2
 
 # Forms
 
+<small class="label label-secondary">JS Optional</small>
+
 Forms provide the most common control styles used in forms, including input, textarea, select, checkbox, radio and switch.
 
 ## Form input

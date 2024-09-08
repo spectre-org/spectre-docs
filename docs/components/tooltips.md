@@ -6,7 +6,7 @@ order:
 
 # Tooltips
 
-Tooltips provide context information labels that appear on hover and focus. Tooltips component is built entirely in CSS.
+Tooltips provide context information labels that appear on hover and focus.
 
 <div class="vp-raw docs-demo columns text-center">
   <div class="column col-xs-12">
