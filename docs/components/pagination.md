@@ -6,7 +6,9 @@ order:
 
 # Pagination
 
-Pagination enables easily navigating paged content.<div class="vp-raw docs-demo columns">
+Pagination enables easily navigating paged content.
+
+<div class="vp-raw docs-demo columns">
   <div class="column col-xs-12">
     <ul class="pagination">
       <li class="page-item"><a href="#pagination">Prev</a></li>
