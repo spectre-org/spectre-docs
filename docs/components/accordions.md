@@ -102,7 +102,7 @@ Accordions are used to toggle sections of content.
 
 ```
 
-Alternatively, you can use `details` and `summary` instead of `input` radio or checkbox trick. Add the `open` attribute to `details` to expand it. Microsoft Edge support is [under consideration](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/detailssummary/).
+Alternatively, you can use `details` and `summary` instead of `input` radio or checkbox trick. Add the `open` attribute to `details` to expand it.
 
 ```html
 <!-- details and summary Accordions example -->
