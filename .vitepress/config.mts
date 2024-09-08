@@ -40,30 +40,10 @@ sidebar[0].items.forEach(item => {
   }
 })
 
-// folder order
-const order = [
-  '/docs/introduction/',
-  '/docs/layout/',
-  '/docs/elements/',
-  '/docs/components/',
-  '/docs/experimentals/',
-  '/docs/utilities/',
-]
-sidebar[0].items.sort((a, b) => {
-  a = order.indexOf(a.link)
-  b = order.indexOf(b.link)
-  return a < b
-    ? -1
-    : a > b
-      ? 1
-      : 0
-})
-
 function stylesheet (href): HeadConfig {
   const id = href.split('/').pop().split('.').shift()
   return ['link', { rel: 'stylesheet', id, href }]
 }
-
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({

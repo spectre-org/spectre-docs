@@ -10,6 +10,7 @@ import VPSidebar from './components/VPSidebar.vue'
 import VPSkipLink from './components/VPSkipLink.vue'
 import { useData } from './composables/data'
 import { useCloseSidebarOnEscape, useSidebar } from './composables/sidebar'
+import { useMenu } from '../../utils'
 
 const {
   isOpen: isSidebarOpen,
@@ -21,6 +22,8 @@ const route = useRoute()
 watch(() => route.path, closeSidebar)
 
 useCloseSidebarOnEscape(isSidebarOpen, closeSidebar)
+
+useMenu()
 
 const { frontmatter } = useData()
 

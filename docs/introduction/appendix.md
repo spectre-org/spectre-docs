@@ -1,7 +1,7 @@
 ---
 title: Appendix
 description: 
-order: 5
+order: 6
 ---
 
 # Appendix
@@ -10,14 +10,14 @@ order: 5
 
 Spectre uses [Autoprefixer](https://github.com/postcss/autoprefixer) to make most styles compatible with earlier browsers and [Normalize.css](https://necolas.github.io/normalize.css/) for CSS resets. Spectre is designed for modern browsers. For best compatibility, these browsers are recommended:
 
-* Chrome LAST 4
-* Edge LAST 4
-* Firefox LAST 4
-* Firefox Extended Support Release
-* Safari LAST 4
+* Chrome <span class="label label-success text-tiny">LAST 4</span>
+* Edge <span class="label label-success text-tiny">LAST 4</span>
+* Firefox <span class="label label-success text-tiny">LAST 4</span>
+* Safari <span class="label label-success text-tiny">LAST 4</span>
 
 ## Changes
 
 See the main project repo:
 
-- https://github.com/spectre-org/spectre-css/blob/main/CHANGELOG.md
+- [github.com/spectre-org/spectre-css/CHANGELOG.md](https://github.com/spectre-org/spectre-css/blob/main/CHANGELOG.md)
+
