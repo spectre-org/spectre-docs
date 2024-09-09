@@ -10,6 +10,7 @@ order:
 
 Autocomplete form component provides suggestions while you type. It is often used for tags and contacts input.
 
+<ClientOnly>
 <div class="vp-raw docs-demo columns">
   <div class="column col-9 col-xs-12">
     <div class="form-group">
@@ -56,6 +57,7 @@ Autocomplete form component provides suggestions while you type. It is often use
     </div>
   </div>
 </div>
+</ClientOnly>
 
 Add a container element with the `form-autocomplete` class. There are 2 parts of it, one is `form-autocomplete-input`,
 another is `menu` component. You may add the `is-focused` class to `form-autocomplete-input` to make it appear as focus
@@ -65,7 +67,8 @@ Spectre CSS does NOT include JavaScript code, you will need to implement your JS
 autocomplete HTML structure is exampled below.
 
 
-<div class="vp-raw docs-demo columns">
+<ClientOnly>
+<div class="vp-raw docs-demo columns" data-allow-mismatch>
   <div class="column col-9 col-xs-12">
     <div class="form-group">
       <div class="form-autocomplete autocomplete-oneline">
@@ -81,6 +84,7 @@ autocomplete HTML structure is exampled below.
     </div>
   </div>
 </div>
+</ClientOnly>
 
 ```html
 

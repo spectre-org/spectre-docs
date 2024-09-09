@@ -8,10 +8,11 @@ order:
 
 Bars represent the progress of a task or the value within the known range. Bars are custom components for displaying HTML5 `<progress>`, `<meter>` and input range elements.
 
+<ClientOnly>
 <div class="vp-raw docs-demo columns">
   <div class="column col-8 col-xs-12">
     <div class="bar bar-sm">
-      <div class="bar-item tooltip" data-tooltip="25%" role="progressbar" style="width:25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+      <div class="bar-item tooltip" data-tooltip="25%" role="progressbar" style="width:25%;"></div>
     </div>
   </div>
   <div class="column col-8 col-xs-12">
@@ -28,6 +29,7 @@ Bars represent the progress of a task or the value within the known range. Bars 
     </div>
   </div>
 </div>
+</ClientOnly>
 
 Add a container element with the `bar` class. And add child elements with the `bar-item` class. The width percentage value is needed for every `bar-item`.
 
@@ -48,6 +50,7 @@ There is the `bar-sm` class for thinner Bars. Also, you could use [Tooltips](#to
 
 ## Slider bars
 
+<ClientOnly>
 <div class="vp-raw docs-demo columns">
   <div class="column col-8 col-xs-12">
     <div class="bar bar-slider">
@@ -67,6 +70,7 @@ There is the `bar-sm` class for thinner Bars. Also, you could use [Tooltips](#to
     </div>
   </div>
 </div>
+</ClientOnly>
 
 You can add the `bar-slider` class to the Bars container. And add child elements with the `bar-item` class and `bar-slider-btn` inside bar-item. You need to set the `bar-item` width manually to have the slider point.
 
