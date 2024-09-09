@@ -9,9 +9,6 @@ order: 4
 The Experimentals include experimental elements and features, mostly are not yet ready for wide use. These elements and components are limited inside `spectre-exp.scss` before browsers fully support them. Sometimes, there are some specific browsers targeted components.
 
 <div class="vp-raw docs-demo columns">
-  <Card title="360-Degree Viewer"
-        desc="Interactive 360-degree product photo viewer"
-        path="autocomplete.html" />
   <Card title="Autocomplete"
         desc="Form component provides suggestions while you type"
         path="autocomplete.html" />
@@ -45,6 +42,9 @@ The Experimentals include experimental elements and features, mostly are not yet
   <Card title="Timelines"
         desc="Ordered sequences of activities"
         path="timelines.html" />
+  <Card title="360-Degree Viewer"
+        desc="Interactive 360-degree product photo viewer"
+        path="autocomplete.html" />
 </div>
 
 <!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->
