@@ -6,7 +6,7 @@ order: 2
 
 # Elements
 
-Spectre provides basic styles for typography and elements.
+Elements mirror built-in HTML elements, providing styling and basic typography.
 
 <div class="vp-raw docs-demo columns">
   <Card title="Typography"

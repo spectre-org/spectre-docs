@@ -6,12 +6,16 @@ order:
 
 # ![Spectre CSS Framework](/img/spectre-logo.svg) Spectre CSS
 
-> A Lightweight, Responsive and Modern CSS Framework
+Spectre CSS is a lightweight, responsive and modern CSS framework.
+
+Spectre provides basic styles for typography and elements, flexbox based responsive layout system, pure CSS components and utilities with best practice coding and consistent design language.
+
+> _Note that this is a fork of the original [Spectre.css](https://picturepan2.github.io/spectre/index.html#google_vignette) library, which aims to continue development by keeping up with pull requests and working on more modern features. See full statement [here](https://github.com/spectre-org)._
 
 <div class="vp-raw docs-demo columns">
-    <Card title="Introduction"
-          desc="Install the framework or compile from source"
-          path="introduction/index.html" />
+    <Card title="Get Started"
+          desc="Get started with the Spectre CSS library"
+          path="get-started/index.html" />
     <Card title="Layout"
           desc="Responsive columns, grids and nav bars"
           path="layout/index.html" />

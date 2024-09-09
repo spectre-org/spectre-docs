@@ -33,7 +33,7 @@ Add the `btn` class to `<a>`, `<input>` or `<button>` elements for a default but
   </div>
 </div>
 
-Add the `btn-success` or `btn-error` class for success (green) or error (red) button color. If you need more button colors, please use [button mixins](../introduction/variables#buttons) to create your own button color variants.
+Add the `btn-success` or `btn-error` class for success (green) or error (red) button color. If you need more button colors, please use [button mixins](../get-started/variables#buttons) to create your own button color variants.
 
 ```html
 <button class="btn btn-success">success button</button>

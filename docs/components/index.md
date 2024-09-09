@@ -6,7 +6,7 @@ order: 3
 
 # Components
 
-Spectre provides a range of pure CSS components.
+Components provide a range of application-ready functionality, built in pure-CSS.
 
 <div class="vp-raw docs-demo columns">
   <Card title="Accordions"

@@ -8,7 +8,7 @@ hero:
   #tagline: My great project tagline
   actions:
     - theme: brand
-      text: Get started
+      text: Read the docs
       link: docs/index.html
     - theme: alt
       text: View on GitHub

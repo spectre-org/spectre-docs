@@ -45,7 +45,7 @@ export function useMenu (init = true) {
   }
 
   function getCurrent () {
-    const matches = location.href.match(/^.+\/docs\/\w+\//)
+    const matches = location.href.match(/^.+\/docs\/[^/]+\//)
     if (matches) {
       const section = matches[0]
       return getGroups().find(e => {

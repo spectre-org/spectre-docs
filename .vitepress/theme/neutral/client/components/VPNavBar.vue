@@ -37,7 +37,7 @@ watchPostEffect(() => {
 
 <template>
   <div class="VPNavBar" :class="classes">
-    <div class="container">
+    <div class="container" style="padding: 0">
       <div class="title">
         <VPNavBarTitle>
           <template #nav-bar-title-before><slot name="nav-bar-title-before" /></template>

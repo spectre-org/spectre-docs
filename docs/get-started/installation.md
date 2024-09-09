@@ -18,6 +18,12 @@ Link directly to the minified CSS:
 <link rel="stylesheet" href="https://unpkg.com/@spectre-org/spectre-css/dist/spectre-icons.min.css">
 ```
 
+You can link to a specific version (for example `1.0.0`) by modifying the URL like so:
+
+```
+https://unpkg.com/@spectre-org/spectre-css@1.0.0/dist/spectre.css
+```
+
 ## Source
 
 Install the CSS and SCSS sources:

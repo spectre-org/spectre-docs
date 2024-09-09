@@ -6,7 +6,7 @@ order: 4
 
 # Experimentals
 
-The Experimentals include experimental elements and features, mostly are not yet ready for wide use. These elements and components are limited inside `spectre-exp.scss` before browsers fully support them. Sometimes, there are some specific browsers targeted components.
+Experimentals provide additional functionality that can be installed in addition to the core components, by including the `spectre-exp.scss` file.
 
 <div class="vp-raw docs-demo columns">
   <Card title="Autocomplete"
