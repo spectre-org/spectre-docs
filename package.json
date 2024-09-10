@@ -16,6 +16,6 @@
     "vitepress-sidebar": "^1.25.3"
   },
   "dependencies": {
-    "@spectre-org/spectre-css": "^1.0.0"
+    "@spectre-org/spectre-css": "^1.1.0"
   }
 }

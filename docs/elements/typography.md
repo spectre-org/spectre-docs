@@ -50,7 +50,6 @@ Climb leg rub face on everything give attitude nap all day for under the bed. Ch
 
 ## Semantic elements
 
-
 <table class="table">
   <tr>
     <td><code class="ml-2">abbr</code></td>
@@ -134,12 +133,12 @@ Climb leg rub face on everything give attitude nap all day for under the bed. Ch
 
 > The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life.
 > 
-> \- Bill Gates 
+> <cite>Bill Gates</cite> 
 
 ```html
 <blockquote>
   <p>The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life. </p>
-  <cite>- Bill Gates</cite>
+  <cite>Bill Gates</cite>
 </blockquote>
 ```
 
@@ -148,38 +147,38 @@ Climb leg rub face on everything give attitude nap all day for under the bed. Ch
 <div class="vp-raw docs-demo columns">
   <div class="column col-4 col-xs-12">
     <ul class="list">
-      <li>list item 1</li>
-      <li>list item 2
+      <li>List item 1</li>
+      <li>List item 2
         <ul>
-          <li>list item 2.1</li>
-          <li>list item 2.2</li>
-          <li>list item 2.3</li>
+          <li>List item 2.1 which wraps over several lines</li>
+          <li>List item 2.2 which wraps over several lines</li>
+          <li>List item 2.3 which wraps over several lines</li>
         </ul>
       </li>
-      <li>list item 3</li>
+      <li>List item 3</li>
     </ul>
   </div>
   <div class="column col-4 col-xs-12">
     <ol class="list">
-      <li>list item 1</li>
-      <li>list item 2
+      <li>List item 1</li>
+      <li>List item 2
         <ol>
-          <li>list item 2.1</li>
-          <li>list item 2.2</li>
-          <li>list item 2.3</li>
+          <li>List item 2.1 which wraps over several lines</li>
+          <li>List item 2.2 which wraps over several lines</li>
+          <li>List item 2.3 which wraps over several lines</li>
         </ol>
       </li>
-      <li>list item 3</li>
+      <li>List item 3</li>
     </ol>
   </div>
   <div class="column col-4 col-xs-12">
     <dl class="list">
-      <dt>description list term 1</dt>
-      <dd>description list description 1</dd>
-      <dt>description list term 2</dt>
-      <dd>description list description 2</dd>
-      <dt>description list term 3</dt>
-      <dd>description list description 3</dd>
+      <dt>Description list term 1</dt>
+      <dd>Description list description 1 which wraps over several lines</dd>
+      <dt>Description list term 2</dt>
+      <dd>Description list description 2 which wraps over several lines</dd>
+      <dt>Description list term 3</dt>
+      <dd>Description list description 3 which wraps over several lines</dd>
     </dl>
   </div>
 </div>
@@ -210,9 +209,10 @@ Climb leg rub face on everything give attitude nap all day for under the bed. Ch
 Spectre sets the most common and best `font-family` for each OS with fallback support in old systems.
 
 ```scss
-/* Western typography targeted */
+// Western typography targeted
 font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-/* Monospace typography targeted */
+
+// Monospace typography targeted
 font-family: "SF Mono", "Segoe UI Mono", "Roboto Mono", Menlo, Courier, monospace;
 ```
 
@@ -222,14 +222,18 @@ font-family: "SF Mono", "Segoe UI Mono", "Roboto Mono", Menlo, Courier, monospac
 There are also fonts targeted to East Asian typography.
 
 ```scss
-/* Chinese (lang="zh" and lang="zh-Hans") targeted */
+// Chinese (lang="zh" and lang="zh-Hans") targeted
 font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", sans-serif;
-/* Chinese (lang="zh-Hant") targeted */
+
+// Chinese (lang="zh-Hant") targeted
 font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang TC", "Hiragino Sans CNS", "Microsoft JhengHei", "Helvetica Neue", sans-serif;
-/* Japanese (lang="ja") targeted */
+
+// Japanese (lang="ja") targeted
 font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Sans", "Hiragino Kaku Gothic Pro", "Yu Gothic", YuGothic, Meiryo, "Helvetica Neue", sans-serif;
-/* Korean (lang="ko") targeted */
+
+// Korean (lang="ko") targeted
 font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Malgun Gothic", "Helvetica Neue", sans-serif;
+
 ```
 
 

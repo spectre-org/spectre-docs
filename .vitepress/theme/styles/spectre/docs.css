@@ -146,8 +146,8 @@
 }
 
 .vp-doc .docs-demo {
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .vp-doc .docs-demo .card {

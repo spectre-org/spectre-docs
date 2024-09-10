@@ -38,18 +38,22 @@ If there is no `data-badge` or the attribute is not specified, the badge will ap
 Badges support `button` and `avatars` elements as well.
 
 ```html
+<!-- text + dot -->
 <span class="badge">
   Notifications
 </span>
 
+<!-- text + number -->
 <span class="badge" data-badge="8">
   Notifications
 </span>
 
+<!-- button + number -->
 <button class="btn badge" data-badge="8">
   Button
 </button>
 
+<!-- image figure + number -->
 <figure class="avatar badge" data-badge="8" data-initial="YZ">
   <img src="/img/avatar-3.png" alt="YZ">
 </figure>
