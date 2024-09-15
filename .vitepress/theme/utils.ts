@@ -12,7 +12,7 @@ import { useRoute } from 'vitepress'
  *
  */
 export function fixClicks () {
-  document.querySelector('main').addEventListener('click', e => {
+  document.querySelector('main')?.addEventListener('click', e => {
     const target: HTMLElement = e.target as HTMLElement
     const href = target?.getAttribute('href')
     if (href?.startsWith('#')) {
