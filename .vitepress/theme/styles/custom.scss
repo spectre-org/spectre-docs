@@ -44,6 +44,31 @@ h1 img {
   }
 }
 
+.VPSidebarItem {
+
+  .label {
+    background: #eef0f3;
+    border-radius: .1rem;
+    color: #455060;
+    display: inline-block;
+    line-height: 1.25;
+    padding: .1rem .4em;
+  }
+  .label.label-rounded {
+    border-radius: 5rem;
+    padding-left: .4rem;
+    padding-right: .4rem;
+  }
+  .label.label-primary {
+    background: #5755d9;
+    color: #fff;
+  }
+  .label.label-secondary {
+    background: #f1f1fc;
+    color: #5755d9;
+  }
+}
+
 // fix search
 .results li {
   list-style: none;
