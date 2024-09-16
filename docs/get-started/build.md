@@ -118,7 +118,7 @@ export function namespace () {
 }
 
 // prefix with `sp-` and generate a minified version of `spectre.css` in `./dist/lib/`
-export function namespace () {
+export function prefix () {
   return isolate('prefix', 'sp-', {
     names: 'spectre',
     output: './dist/lib/',
@@ -132,3 +132,10 @@ The full options to pass to the `isolate()` helper are:
 - `names` – One (`string`) or more (`string[]`) names of files to prefix, defaults to `"*"` (all files)
 - `output` – The output folder, defaults to `./dist/<type>`
 - `minOnly` – Output minified files only, defaults to `false`
+
+You can then run these scripts from the command line with:
+
+```
+gulp namespace
+gulp prefix
+```
