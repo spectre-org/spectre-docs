@@ -65,11 +65,6 @@ h1 img {
   }
 }
 
-// fix search
-.results li {
-  list-style: none;
-}
-
 // enable hero text to go wider
 .VPHero .text {
   max-width: unset !important;
@@ -77,6 +72,11 @@ h1 img {
   @media (min-width: 1280px) {
     max-width: 66% !important;
   }
+}
+
+// shrink tagline for version number
+.VPHero .tagline {
+  font-size: 18px;
 }
 
 .vp-doc > div > :where(h2, h3, h4, h5) {
