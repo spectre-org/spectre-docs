@@ -1,5 +1,6 @@
-import { defineConfig, HeadConfig } from 'vitepress'
+import { defineConfig } from 'vitepress'
 import { generateSidebar } from 'vitepress-sidebar'
+import { log, walk } from './theme/utils'
 
 // https://github.com/jooy2/vitepress-sidebar
 const sidebar = generateSidebar({
@@ -30,13 +31,13 @@ const sidebar = generateSidebar({
   // convertSameNameSubFileToGroupIndexPage: false,
   // folderLinkNotIncludesFileName: false,
   // keepMarkdownSyntaxFromTitle: false,
-  // debugPrint: true,
+  // debugPrint: true
 })
 
-// add links
-sidebar[0].items.forEach(item => {
-  if (item.link?.endsWith('/')) {
-    item.link = `/${item.link}`
+// fix links
+walk(sidebar, (value, key, parent) => {
+  if (key === 'link') {
+    return `/${value}`
   }
 })
 
@@ -60,29 +61,22 @@ const links = [
   'calendars',
   'off-canvas',
   '360-viewer!',
-  'sliders',
+  'sliders'
 ].map(text => {
   return {
     page: '/' + text.split('!').at(0),
-    class: text.includes('!') ? 'primary' : 'secondary',
-  }
-})
-sidebar[0].items.forEach(item => {
-  if (item.items) {
-    item.items.forEach(item => {
-      const link = links.find(link => item.link.endsWith(link.page))
-      if (link) {
-        item.text += ` <small class="label label-${link.class}">JS</small>`
-      }
-    })
+    class: text.includes('!') ? 'primary' : 'secondary'
   }
 })
 
-
-function stylesheet (href): HeadConfig {
-  const id = href.split('/').pop().split('.').shift()
-  return ['link', { rel: 'stylesheet', id, href }]
-}
+walk(sidebar, (value, key, item) => {
+  if (key === 'link') {
+    const link = links.find(link => item.link.endsWith(link.page))
+    if (link) {
+      item.text += ` <small class="label label-${link.class}">JS</small>`
+    }
+  }
+})
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -95,11 +89,7 @@ export default defineConfig({
 
   // https://vuepress.vuejs.org/config/#head
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
-    // stylesheet('https://unpkg.com/spectre-css/dist/spectre-css'),
-    // stylesheet('https://unpkg.com/spectre-css/dist/spectre-exp.css'),
-    // stylesheet('https://unpkg.com/spectre-css/dist/spectre-icons.css'),
-    // stylesheet('https://unpkg.com/spectre-css/dist/spectre-rtl.css'),
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
 
   // remove dark mode toggle
@@ -107,7 +97,7 @@ export default defineConfig({
 
   // ensure code only uses light theme
   markdown: {
-    theme: 'github-light',
+    theme: 'github-light'
   },
 
   // prevents inline HTML code examples running elements together
@@ -121,7 +111,9 @@ export default defineConfig({
 
   // https://vuepress.vuejs.org/theme/default-theme-config.html
   themeConfig: {
-    sidebar: sidebar[0].items,
+    sidebar,
+
+    outline: 'deep',
 
     search: {
       provider: 'local'
@@ -136,12 +128,5 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/spectre-org/spectre-css' }
     ]
-  },
-
-  vite: {
-    // ...
-    define: {
-      __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: true,
-    },
   }
 })

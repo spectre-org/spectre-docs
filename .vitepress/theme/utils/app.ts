@@ -27,13 +27,15 @@ export function fixClicks () {
 /**
  * Automatically open menu groups to the active section
  *
+ * @parameter init  Initialize for use in components
+ *
  * @usage
  *
- * Add `useMenu()` in Layout.vue
+ *  Run in a route handler in enhanceAll() or in a component setup function
  */
-export function useMenu (init = true) {
+export function useMenu (options: { watch?: boolean, initial?: boolean } = {}) {
   function getGroups () {
-    return Array.from(document.querySelectorAll('.VPSidebarItem.level-0.collapsible'))
+    return Array.from(document.querySelectorAll('.VPSidebarItem.level-1.collapsible'))
   }
 
   function getOpen () {
@@ -74,10 +76,16 @@ export function useMenu (init = true) {
     }
   }
 
-  if (init) {
+  // run in component
+  if (options.watch) {
     onMounted(showCurrent)
     const route = useRoute()
     watch(() => route.path, showCurrent)
+  }
+
+  // run in route handler
+  else if (options.initial) {
+    showCurrent()
   }
 
   return {
@@ -86,6 +94,6 @@ export function useMenu (init = true) {
     getCurrent,
     closeAll,
     openAll,
-    showCurrent,
+    showCurrent
   }
 }

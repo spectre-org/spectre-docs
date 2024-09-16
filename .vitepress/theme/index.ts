@@ -1,6 +1,5 @@
-// https://vitepress.dev/guide/custom-theme
 import { h } from 'vue'
-import Theme from './neutral/client'
+import Theme from 'vitepress/theme'
 
 // lib
 import './styles/spectre/docs.css'
@@ -16,16 +15,25 @@ import './styles/custom.scss'
 import Card from './components/Card.vue'
 
 // utils
-import { fixClicks } from './utils'
+import { fixClicks, useMenu } from './utils/app'
 
 // theme
 export default {
   extends: Theme,
   Layout: () => {
     // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    return h({ ...Theme.Layout, mounted: fixClicks })
+    return h({
+      ...Theme.Layout,
+      mounted () {
+        fixClicks()
+        useMenu()
+      }
+    })
   },
   enhanceApp ({ app, router, siteData }) {
     app.component('Card', Card)
+    router.onAfterRouteChanged = (to: string) => {
+      useMenu({ initial: true })
+    }
   }
 }
