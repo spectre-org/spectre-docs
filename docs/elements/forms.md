@@ -10,7 +10,9 @@ order: 2
 
 Forms provide the most common control styles used in forms, including input, textarea, select, checkbox, radio and switch.
 
-## Form input
+## Form controls
+
+### Input
 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
@@ -33,7 +35,88 @@ Forms provide the most common control styles used in forms, including input, tex
 </div>
 ```
 
-## Form textarea
+#### Input types
+
+<div class="vp-raw docs-demo columns">
+  <div class="column col-9 col-sm-12">
+    <form class="form-horizontal" action="#forms">
+      <div class="form-group">
+        <div class="col-3">
+          <label class="form-label" for="input-example-8">Email</label>
+        </div>
+        <div class="col-9">
+          <input class="form-input" id="input-example-8" type="email" placeholder="Email" value="spectre@example.com" pattern="[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-3">
+          <label class="form-label" for="input-example-9">URL</label>
+        </div>
+        <div class="col-9">
+          <input class="form-input" id="input-example-9" type="url" placeholder="URL" value="https://github.com/spectre-org/spectre-css">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-3">
+          <label class="form-label" for="input-example-10">Search</label>
+        </div>
+        <div class="col-9">
+          <input class="form-input" id="input-example-10" type="search" placeholder="Search">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-3">
+          <label class="form-label" for="input-example-11">Tel</label>
+        </div>
+        <div class="col-9">
+          <input class="form-input" id="input-example-11" type="tel" placeholder="Tel" value="1-(888)-888-8888">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-3">
+          <label class="form-label" for="input-example-12">Password</label>
+        </div>
+        <div class="col-9">
+          <input class="form-input" id="input-example-12" type="password" placeholder="Password" value="123456789">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-3">
+          <label class="form-label" for="input-example-13">Number</label>
+        </div>
+        <div class="col-9">
+          <input class="form-input" id="input-example-13" type="number" placeholder="00" value="66">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-3">
+          <label class="form-label" for="input-example-14">Date</label>
+        </div>
+        <div class="col-9">
+          <input class="form-input" id="input-example-14" type="date" value="2016-12-31">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-3">
+          <label class="form-label" for="input-example-15">Color</label>
+        </div>
+        <div class="col-9">
+          <input class="form-input" id="input-example-15" type="color" value="#5755d9">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-3">
+          <label class="form-label" for="input-example-16">File</label>
+        </div>
+        <div class="col-9">
+          <input class="form-input" id="input-example-16" type="file">
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+### Textarea
 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
@@ -52,7 +135,7 @@ Forms provide the most common control styles used in forms, including input, tex
 </div>
 ```
 
-## Form select
+### Select
 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
@@ -87,7 +170,7 @@ Forms provide the most common control styles used in forms, including input, tex
 </div>
 ```
 
-## Form radio
+### Radio
 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
@@ -120,7 +203,7 @@ Forms provide the most common control styles used in forms, including input, tex
 </div>
 ```
 
-## Form switch
+### Switch
 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
@@ -147,7 +230,7 @@ Forms provide the most common control styles used in forms, including input, tex
 </div>
 ```
 
-## Form checkbox
+### Checkbox
  
 <div class="vp-raw docs-demo columns" id="checkbox-example">
   <div class="column col-6 col-xs-12">
@@ -180,7 +263,85 @@ You can change checkbox to indeterminate state by setting the `indeterminate` pr
 $('#checkbox-example input').indeterminate = true
 ```
 
-## Inline forms
+
+### Icons
+
+Spectre Forms components has [Spectre Icons](icons) support.
+
+Add a wrapper with the `has-icon-left`/`has-icon-right` class to `<input>` element. And add the icon with `form-icon` class next to the `<input>`.
+
+<div class="vp-raw docs-demo columns">
+  <div class="column col-4 col-xs-12">
+    <div class="has-icon-left">
+      <input class="form-input input-sm" type="text" placeholder="Name"><i class="form-icon icon icon-arrow-right"></i>
+    </div>
+  </div>
+  <div class="column col-4 col-xs-12">
+    <div class="has-icon-left tooltip" data-tooltip="Lorem ipsum dolor sit amet">
+      <input class="form-input" type="text" placeholder="Name"><i class="form-icon icon icon-arrow-right"></i>
+    </div>
+  </div>
+  <div class="column col-4 col-xs-12">
+    <div class="has-icon-left">
+      <input class="form-input input-lg" type="text" placeholder="Name"><i class="form-icon icon icon-arrow-right"></i>
+    </div>
+  </div>
+  <div class="column col-4 col-xs-12">
+    <div class="has-icon-right">
+      <input class="form-input input-sm" type="text" placeholder="Name"><i class="form-icon icon icon-check"></i>
+    </div>
+  </div>
+  <div class="column col-4 col-xs-12">
+    <div class="has-icon-right">
+      <input class="form-input" type="text" placeholder="Name"><i class="form-icon icon icon-check"></i>
+    </div>
+  </div>
+  <div class="column col-4 col-xs-12">
+    <div class="has-icon-right">
+      <input class="form-input input-lg" type="text" placeholder="Name"><i class="form-icon icon icon-check"></i>
+    </div>
+  </div>
+</div>
+
+```html
+<!-- form input with Spectre icon -->
+<div class="has-icon-left">
+  <input type="text" class="form-input" placeholder="...">
+  <i class="form-icon icon icon-check"></i>
+</div>
+```
+
+You can use the `loading` class for loading or posting state.
+
+<div class="vp-raw docs-demo columns">
+  <div class="column col-4 col-xs-12">
+    <div class="has-icon-right">
+      <input class="form-input input-sm" type="text" placeholder="Name"><i class="form-icon loading"></i>
+    </div>
+  </div>
+  <div class="column col-4 col-xs-12">
+    <div class="has-icon-right">
+      <input class="form-input" type="text" placeholder="Name"><i class="form-icon loading"></i>
+    </div>
+  </div>
+  <div class="column col-4 col-xs-12">
+    <div class="has-icon-right">
+      <input class="form-input input-lg" type="text" placeholder="Name"><i class="form-icon loading"></i>
+    </div>
+  </div>
+</div>
+
+```html
+<!-- form input with loading icon -->
+<div class="has-icon-right">
+  <input type="text" class="form-input" placeholder="...">
+  <i class="form-icon loading"></i>
+</div>
+```
+
+## Layout
+
+### Inline forms
  
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
@@ -227,7 +388,7 @@ You can add the `form-inline` class to the form components to make them inline i
 </div>
 ```
 
-## Horizontal forms
+### Horizontal forms
 
 If you want to have a horizontal form, add the `form-horizontal` class to the `<form>` container. And add the `col-<1-12>` and `col-xs/sm/lg/xl-<1-12>` class to the child elements for responsive form row layout.
 
@@ -315,200 +476,8 @@ If you want to have a horizontal form, add the `form-horizontal` class to the `<
 </form>
 ```
 
-## Form sizes
 
-For smaller or larger input and select controls, you could add the `input-sm`/`input-lg`, `select-sm`/`select-lg` and `label-sm`/`label-lg` classes to the elements.
-
-<div class="vp-raw docs-demo columns">
-  <div class="column col-4 col-xs-12">
-    <label class="form-label label-sm">Label</label>
-  </div>
-  <div class="column col-4 col-xs-12">
-    <input class="form-input input-sm" type="text" placeholder="Name">
-  </div>
-  <div class="column col-4 col-xs-12">
-    <select class="form-select select-sm">
-      <option>Choose an option</option>
-      <option>Slack</option>
-      <option>Skype</option>
-      <option>Hipchat</option>
-    </select>
-  </div>
-  <div class="column col-4 col-xs-12">
-    <label class="form-label label-lg">Label</label>
-  </div>
-  <div class="column col-4 col-xs-12">
-    <input class="form-input input-lg" type="text" placeholder="Name">
-  </div>
-  <div class="column col-4 col-xs-12">
-    <select class="form-select select-lg">
-      <option>Choose an option</option>
-      <option>Slack</option>
-      <option>Skype</option>
-      <option>Hipchat</option>
-    </select>
-  </div>
-</div>
-
-You can add the `input-sm`/`input-lg` classes to the input-checkbox, input-radio and input-switch to have different sizes.
-
-## Form icons
-
-Spectre Forms components has [Spectre Icons](icons) support.
-
-Add a wrapper with the `has-icon-left`/`has-icon-right` class to `<input>` element. And add the icon with `form-icon` class next to the `<input>`.
-
-<div class="vp-raw docs-demo columns">
-  <div class="column col-4 col-xs-12">
-    <div class="has-icon-left">
-      <input class="form-input input-sm" type="text" placeholder="Name"><i class="form-icon icon icon-arrow-right"></i>
-    </div>
-  </div>
-  <div class="column col-4 col-xs-12">
-    <div class="has-icon-left tooltip" data-tooltip="Lorem ipsum dolor sit amet">
-      <input class="form-input" type="text" placeholder="Name"><i class="form-icon icon icon-arrow-right"></i>
-    </div>
-  </div>
-  <div class="column col-4 col-xs-12">
-    <div class="has-icon-left">
-      <input class="form-input input-lg" type="text" placeholder="Name"><i class="form-icon icon icon-arrow-right"></i>
-    </div>
-  </div>
-  <div class="column col-4 col-xs-12">
-    <div class="has-icon-right">
-      <input class="form-input input-sm" type="text" placeholder="Name"><i class="form-icon icon icon-check"></i>
-    </div>
-  </div>
-  <div class="column col-4 col-xs-12">
-    <div class="has-icon-right">
-      <input class="form-input" type="text" placeholder="Name"><i class="form-icon icon icon-check"></i>
-    </div>
-  </div>
-  <div class="column col-4 col-xs-12">
-    <div class="has-icon-right">
-      <input class="form-input input-lg" type="text" placeholder="Name"><i class="form-icon icon icon-check"></i>
-    </div>
-  </div>
-</div>
-
-```html
-<!-- form input with Spectre icon -->
-<div class="has-icon-left">
-  <input type="text" class="form-input" placeholder="...">
-  <i class="form-icon icon icon-check"></i>
-</div>
-```
-
-You can use the `loading` class for loading or posting state.
-
-<div class="vp-raw docs-demo columns">
-  <div class="column col-4 col-xs-12">
-    <div class="has-icon-right">
-      <input class="form-input input-sm" type="text" placeholder="Name"><i class="form-icon loading"></i>
-    </div>
-  </div>
-  <div class="column col-4 col-xs-12">
-    <div class="has-icon-right">
-      <input class="form-input" type="text" placeholder="Name"><i class="form-icon loading"></i>
-    </div>
-  </div>
-  <div class="column col-4 col-xs-12">
-    <div class="has-icon-right">
-      <input class="form-input input-lg" type="text" placeholder="Name"><i class="form-icon loading"></i>
-    </div>
-  </div>
-</div>
-
-```html
-<!-- form input with loading icon -->
-<div class="has-icon-right">
-  <input type="text" class="form-input" placeholder="...">
-  <i class="form-icon loading"></i>
-</div>
-```
-
-## Input types
-
-<div class="vp-raw docs-demo columns">
-  <div class="column col-9 col-sm-12">
-    <form class="form-horizontal" action="#forms">
-      <div class="form-group">
-        <div class="col-3">
-          <label class="form-label" for="input-example-8">Email</label>
-        </div>
-        <div class="col-9">
-          <input class="form-input" id="input-example-8" type="email" placeholder="Email" value="spectre@example.com" pattern="[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$">
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="col-3">
-          <label class="form-label" for="input-example-9">URL</label>
-        </div>
-        <div class="col-9">
-          <input class="form-input" id="input-example-9" type="url" placeholder="URL" value="https://github.com/spectre-org/spectre-css">
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="col-3">
-          <label class="form-label" for="input-example-10">Search</label>
-        </div>
-        <div class="col-9">
-          <input class="form-input" id="input-example-10" type="search" placeholder="Search">
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="col-3">
-          <label class="form-label" for="input-example-11">Tel</label>
-        </div>
-        <div class="col-9">
-          <input class="form-input" id="input-example-11" type="tel" placeholder="Tel" value="1-(888)-888-8888">
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="col-3">
-          <label class="form-label" for="input-example-12">Password</label>
-        </div>
-        <div class="col-9">
-          <input class="form-input" id="input-example-12" type="password" placeholder="Password" value="123456789">
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="col-3">
-          <label class="form-label" for="input-example-13">Number</label>
-        </div>
-        <div class="col-9">
-          <input class="form-input" id="input-example-13" type="number" placeholder="00" value="66">
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="col-3">
-          <label class="form-label" for="input-example-14">Date</label>
-        </div>
-        <div class="col-9">
-          <input class="form-input" id="input-example-14" type="date" value="2016-12-31">
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="col-3">
-          <label class="form-label" for="input-example-15">Color</label>
-        </div>
-        <div class="col-9">
-          <input class="form-input" id="input-example-15" type="color" value="#5755d9">
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="col-3">
-          <label class="form-label" for="input-example-16">File</label>
-        </div>
-        <div class="col-9">
-          <input class="form-input" id="input-example-16" type="file">
-        </div>
-      </div>
-    </form>
-  </div>
-</div>
-
-## Input groups
+### Groups
 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
@@ -600,7 +569,46 @@ If you want to attach text and button along with an input, add the `input-group`
 </div>
 ```
 
-## Form validation styles
+### Sizes
+
+For smaller or larger input and select controls, you could add the `input-sm`/`input-lg`, `select-sm`/`select-lg` and `label-sm`/`label-lg` classes to the elements.
+
+<div class="vp-raw docs-demo columns">
+  <div class="column col-4 col-xs-12">
+    <label class="form-label label-sm">Label</label>
+  </div>
+  <div class="column col-4 col-xs-12">
+    <input class="form-input input-sm" type="text" placeholder="Name">
+  </div>
+  <div class="column col-4 col-xs-12">
+    <select class="form-select select-sm">
+      <option>Choose an option</option>
+      <option>Slack</option>
+      <option>Skype</option>
+      <option>Hipchat</option>
+    </select>
+  </div>
+  <div class="column col-4 col-xs-12">
+    <label class="form-label label-lg">Label</label>
+  </div>
+  <div class="column col-4 col-xs-12">
+    <input class="form-input input-lg" type="text" placeholder="Name">
+  </div>
+  <div class="column col-4 col-xs-12">
+    <select class="form-select select-lg">
+      <option>Choose an option</option>
+      <option>Slack</option>
+      <option>Skype</option>
+      <option>Hipchat</option>
+    </select>
+  </div>
+</div>
+
+You can add the `input-sm`/`input-lg` classes to the input-checkbox, input-radio and input-switch to have different sizes.
+
+## Styles
+
+### Validation styles
 
 <div class="vp-raw docs-demo columns">
   <div class="column col-9 col-sm-12">
@@ -713,7 +721,7 @@ You can use input `pattern` attribute to validate the value as well.
 <input class="form-input" type="password" placeholder="Password" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{8,}$">
 ```
 
-## Form disabled styles
+### Disabled styles
 
 Add the `disabled` attribute to the element or `<fieldset>` for a disabled form components style.
 

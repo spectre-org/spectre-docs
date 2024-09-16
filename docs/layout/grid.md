@@ -221,7 +221,7 @@ To nest grids, add the new `columns` and `column` structure within an existing c
 </div>
 ```
 
-## Auto width column
+## Auto width columns
 
 You can add the `col-auto` class to the `column` to have auto width columns. There are `col-xl-auto`, `col-lg-auto`, `col-md-auto`, `col-sm-auto` and `col-xs-auto` to set auto width in different viewport sizes.
 

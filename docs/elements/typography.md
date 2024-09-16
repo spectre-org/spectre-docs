@@ -51,81 +51,83 @@ Climb leg rub face on everything give attitude nap all day for under the bed. Ch
 ## Semantic elements
 
 <table class="table">
-  <tr>
-    <td><code class="ml-2">abbr</code></td>
-    <td><abbr title="Internationalization">I18N</abbr></td>
-  </tr>
-  <tr>
-    <td>
-      <code class="ml-2">b</code>
-      <code class="ml-2">strong</code>
-    </td>
-    <td><strong>Bold</strong></td>
-  </tr>
-  <tr>
-    <td><code class="ml-2">cite</code></td>
-    <td><cite>Citation</cite></td>
-  </tr>
-  <tr>
-    <td><code class="ml-2">em</code></td>
-    <td><em>Emphasis</em></td>
-  </tr>
-  <tr>
-    <td><code class="ml-2">code</code></td>
-    <td><code>Hello World!</code></td>
-  </tr>
-  <tr>
-    <td><code class="ml-2">del</code></td>
-    <td><del>Deleted</del></td>
-  </tr>
-  <tr>
-    <td><code class="ml-2">i</code></td>
-    <td><i>Italic</i></td>
-  </tr>
-  <tr>
-    <td><code class="ml-2">ins</code></td>
-    <td><ins>Inserted</ins></td>
-  </tr>
-  <tr>
-    <td><code class="ml-2">kbd</code></td>
-    <td><kbd>Ctrl + S</kbd></td>
-  </tr>
-  <tr>
-    <td><code class="ml-2">mark</code></td>
-    <td><mark>Highlighted</mark></td>
-  </tr>
-  <tr>
-    <td><code class="ml-2">ruby</code></td>
-    <td><ruby>漢 <rt>kan</rt>字 <rt>ji</rt> </ruby></td>
-  </tr>
-  <tr>
-    <td><code class="ml-2">s</code></td>
-    <td><s>Strikethrough</s></td>
-  </tr>
-  <tr>
-    <td><code class="ml-2">samp</code></td>
-    <td><samp>Sample</samp></td>
-  </tr>
-  <tr>
-    <td><code class="ml-2">sub</code></td>
-    <td>Text <sub>Subscripted</sub></td>
-  </tr>
-  <tr>
-    <td><code class="ml-2">sup</code></td>
-    <td>Text <sup>Superscripted</sup></td>
-  </tr>
-  <tr>
-    <td><code class="ml-2">time</code></td>
-    <td><time>20:00</time></td>
-  </tr>
-  <tr>
-    <td><code class="ml-2">u</code></td>
-    <td><u>Underline</u></td>
-  </tr>
-  <tr>
-    <td><code class="ml-2">var</code></td>
-    <td><span><var>x</var> = <var>y</var> + 2</span></td>
-  </tr>
+  <tbody>
+      <tr>
+        <td><code class="ml-2">abbr</code></td>
+        <td><abbr title="Internationalization">I18N</abbr></td>
+      </tr>
+      <tr>
+        <td>
+          <code class="ml-2">b</code>
+          <code class="ml-2">strong</code>
+        </td>
+        <td><strong>Bold</strong></td>
+      </tr>
+      <tr>
+        <td><code class="ml-2">cite</code></td>
+        <td><cite>Citation</cite></td>
+      </tr>
+      <tr>
+        <td><code class="ml-2">em</code></td>
+        <td><em>Emphasis</em></td>
+      </tr>
+      <tr>
+        <td><code class="ml-2">code</code></td>
+        <td><code>Hello World!</code></td>
+      </tr>
+      <tr>
+        <td><code class="ml-2">del</code></td>
+        <td><del>Deleted</del></td>
+      </tr>
+      <tr>
+        <td><code class="ml-2">i</code></td>
+        <td><i>Italic</i></td>
+      </tr>
+      <tr>
+        <td><code class="ml-2">ins</code></td>
+        <td><ins>Inserted</ins></td>
+      </tr>
+      <tr>
+        <td><code class="ml-2">kbd</code></td>
+        <td><kbd>Ctrl + S</kbd></td>
+      </tr>
+      <tr>
+        <td><code class="ml-2">mark</code></td>
+        <td><mark>Highlighted</mark></td>
+      </tr>
+      <tr>
+        <td><code class="ml-2">ruby</code></td>
+        <td><ruby>漢 <rt>kan</rt>字 <rt>ji</rt> </ruby></td>
+      </tr>
+      <tr>
+        <td><code class="ml-2">s</code></td>
+        <td><s>Strikethrough</s></td>
+      </tr>
+      <tr>
+        <td><code class="ml-2">samp</code></td>
+        <td><samp>Sample</samp></td>
+      </tr>
+      <tr>
+        <td><code class="ml-2">sub</code></td>
+        <td>Text <sub>Subscripted</sub></td>
+      </tr>
+      <tr>
+        <td><code class="ml-2">sup</code></td>
+        <td>Text <sup>Superscripted</sup></td>
+      </tr>
+      <tr>
+        <td><code class="ml-2">time</code></td>
+        <td><time>20:00</time></td>
+      </tr>
+      <tr>
+        <td><code class="ml-2">u</code></td>
+        <td><u>Underline</u></td>
+      </tr>
+      <tr>
+        <td><code class="ml-2">var</code></td>
+        <td><span><var>x</var> = <var>y</var> + 2</span></td>
+      </tr>
+  </tbody>
 </table>
 
 
@@ -216,7 +218,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "
 font-family: "SF Mono", "Segoe UI Mono", "Roboto Mono", Menlo, Courier, monospace;
 ```
 
-## East Asian font optimizations
+### East Asian font optimizations
 
 
 There are also fonts targeted to East Asian typography.

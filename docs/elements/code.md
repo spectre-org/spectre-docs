@@ -16,7 +16,7 @@ Code is used for styling inline and multiline code snippets.
 
 For inline code, you can use the `<code>` element. 
 
-## Code snippet
+## Snippets
 
 For multiline code snippet blocks, you can use `<pre>` with the `code` class as a container, and add `<code>` inside it. The `data-lang` attribute is rendered as the language name in the top right.
 

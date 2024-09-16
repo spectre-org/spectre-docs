@@ -24,7 +24,7 @@ Add the `btn` class to `<a>`, `<input>` or `<button>` elements for a default but
 <button class="btn btn-link">link button</button>
 ```
 
-## Button colors
+## Colors
 
 <div class="vp-raw docs-demo columns">
   <div class="column col-12">
@@ -40,7 +40,7 @@ Add the `btn-success` or `btn-error` class for success (green) or error (red) bu
 <button class="btn btn-error">error button</button>
 ```
 
-## Button sizes
+## Sizes
 
 <div class="vp-raw docs-demo columns">
   <div class="column col-12">
@@ -90,7 +90,7 @@ Please note that you could use the `btn-action` class for a square button, or ad
 <button class="btn btn-action s-circle"><i class="icon icon-arrow-left"></i></button>
 ```
 
-## Button states
+## States
 
 Add the `active` class for active button state style.
 
@@ -134,7 +134,7 @@ A button with the `loading` class can show loading indicator.
 <button class="btn btn-primary loading">primary button</button>
 ```
 
-## Button groups
+## Groups
 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-md-12">

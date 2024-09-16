@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Spectre CSS"
   text: "A lightweight, responsive and modern CSS framework"
-  #tagline: My great project tagline
+  tagline: "Latest version: v1.1.1"
   actions:
     - theme: brand
       text: Read the docs

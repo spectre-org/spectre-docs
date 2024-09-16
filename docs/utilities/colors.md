@@ -8,7 +8,7 @@ order:
 
 Color utilities are used for changing colors for text, link and background.
 
-## Text colors
+## Text
 
 <div class="vp-raw docs-demo container">
   <div class="columns">
@@ -52,7 +52,7 @@ Color utilities are used for changing colors for text, link and background.
 <span class="text-error">error color</span>
 ```
 
-## Background colors
+## Background
 
 <div class="vp-raw docs-demo container">
   <div class="columns">

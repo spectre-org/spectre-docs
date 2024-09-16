@@ -191,7 +191,7 @@ You can include `spectre-icons.css` located in the `dist` folder to your web `<h
 <i class="icon icon-menu"></i>
 ```
 
-## Icon sizes
+## Sizes
 
 Use `icon-2x`, `icon-3x` and `icon-4x` classes to increase icon sizes. You can set `font-size` to have different icon sizes.
 

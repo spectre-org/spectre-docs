@@ -6,7 +6,7 @@ order:
 
 # Meters
 
-<span class="label label-warning">Deprecated</span>
+<span class="label label-warning">Awaiting Fix</span>
 
 Meters represent the value within the known range.
 

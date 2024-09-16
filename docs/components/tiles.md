@@ -8,6 +8,8 @@ order:
 
 Tiles are repeatable or embeddable information blocks.
 
+## Full size
+
 <div class="vp-raw docs-demo columns">
   <div class="column col-9 col-sm-12">
     <div class="tile">
@@ -62,7 +64,7 @@ There are `tile-title` and `tile-subtitle` classes for title and subtitle text s
 </div>
 ```
 
-## Compact tiles
+## Compact
 
 There is compact version of Tiles component, which is often used as contact and file info blocks.
 
