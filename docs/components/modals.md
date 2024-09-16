@@ -74,7 +74,7 @@ The CSS-only version works by leveraging the CSS pseudo-property [`:target`](htt
 
 In JavaScript, you can toggle `modal` container visibility by adding the `active` class.
 
-## Modal sizes
+## Sizes
 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">

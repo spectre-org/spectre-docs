@@ -11,7 +11,7 @@ order:
 Autocomplete form component provides suggestions while you type. It is often used for tags and contacts input.
 
 <ClientOnly>
-<div class="vp-raw docs-demo columns">
+<div class="vp-raw docs-demo columns" style="margin-bottom: 110px">
   <div class="column col-9 col-xs-12">
     <div class="form-group">
       <div class="form-autocomplete">

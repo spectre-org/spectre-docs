@@ -8,6 +8,8 @@ order:
 
 <small class="label label-secondary">JS Optional</small>
 
+### Picker
+
 Calendars are designed for date or date range picker and events display.
 
 <div class="vp-raw docs-demo columns">
@@ -221,7 +223,7 @@ Calendars are designed for date or date range picker and events display.
 </div>
 ```
 
-## Calendars sizes
+## Full size
 
 <div class="vp-raw docs-demo columns">
   <div class="column col-12">

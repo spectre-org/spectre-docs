@@ -218,7 +218,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "
 font-family: "SF Mono", "Segoe UI Mono", "Roboto Mono", Menlo, Courier, monospace;
 ```
 
-## East Asian font optimizations
+### East Asian font optimizations
 
 
 There are also fonts targeted to East Asian typography.

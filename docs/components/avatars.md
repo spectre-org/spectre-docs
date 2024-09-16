@@ -50,7 +50,7 @@ For users who don't have profile pictures, you may use their initials for avatar
 </figure>
 ```
 
-## Avatar icons
+## Icons
 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
@@ -69,7 +69,7 @@ For users who don't have profile pictures, you may use their initials for avatar
 </figure>
 ```
 
-## Avatar presence
+## Presence
 
 <div class="vp-raw docs-demo columns">
   <div class="column col-6 col-xs-12">
