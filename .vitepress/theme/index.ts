@@ -32,8 +32,10 @@ export default {
   },
   enhanceApp ({ app, router, siteData }) {
     app.component('Card', Card)
-    router.onAfterRouteChanged = (to: string) => {
-      useMenu({ initial: true })
+    if (typeof document !== 'undefined') {
+      router.onAfterRouteChanged = (to: string) => {
+        useMenu({ initial: true })
+      }
     }
   }
 }
