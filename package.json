@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "setup": "npm link @spectre-org/spectre-css",
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "preview": "vitepress preview"
+    "preview": "vitepress preview",
+    "setup": "npm link @spectre-org/spectre-css"
   },
   "author": "Dave Stewart",
   "license": "ISC",

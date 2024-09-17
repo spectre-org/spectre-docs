@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { generateSidebar } from 'vitepress-sidebar'
-import { log, walk } from './theme/utils'
+import { walk } from './theme/utils'
 
 // @see https://github.com/jooy2/vitepress-sidebar/issues/179
 const sidebar = generateSidebar([
@@ -11,50 +11,18 @@ const sidebar = generateSidebar([
     resolvePath: '/docs/',
 
     // titles
-    useTitleFromFileHeading: true,
-    // useTitleFromFrontmatter: true,
+    // useTitleFromFileHeading: true,
+    useTitleFromFrontmatter: true,
     useFolderTitleFromIndexFile: true,
     useFolderLinkFromIndexFile: true,
-    // hyphenToSpace: true,
-    // underscoreToSpace: true,
 
     // structure
     collapsed: true,
     collapseDepth: 0,
-    // sortMenusByName: false,
     sortMenusByFrontmatterOrder: true,
-    // sortMenusOrderByDescending: false,
-    // manualSortFileNameByPriority: ['first.md', 'second', 'third.md'],
-
-    // includes
-    // excludeFiles: ['first.md', 'secret.md'],
-    // excludeFolders: [],
-    // includeDotFiles: false,
-    // includeRootIndexFile: false,
-    // includeFolderIndexFile: false,
-    // includeEmptyFolder: false,
-
-    // indices
-    // rootGroupText: 'Contents',
-    // rootGroupLink: 'https://github.com/jooy2',
     rootGroupCollapsed: false,
-    // convertSameNameSubFileToGroupIndexPage: false,
-    // folderLinkNotIncludesFileName: false,
-    // keepMarkdownSyntaxFromTitle: false,
-
-    // debug
-    // debugPrint: true
   }
 ])
-
-// fix links
-/*
-walk(sidebar, (value, key, parent) => {
-  if (key === 'link') {
-    return `/${value}`
-  }
-})
-*/
 
 // add js badge; use ! for "required"
 const links = [
@@ -104,7 +72,7 @@ export default defineConfig({
 
   // https://vuepress.vuejs.org/config/#head
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/spectre-docs/img/favicons/favicon.png' }]
   ],
 
   // remove dark mode toggle
