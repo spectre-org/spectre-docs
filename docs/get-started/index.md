@@ -15,12 +15,12 @@ Get started with the Spectre CSS library.
   <Card title="Build"
         desc="Including Spectre CSS in a bundled project"
         path="build.html" />
+  <Card title="Customisation"
+        desc="Customise the look and feel Spectre CSS"
+        path="customisation.html" />
   <Card title="JavaScript"
         desc="When to use JavaScript in addition to CSS"
         path="javascript.html" />
-  <Card title="Variables"
-        desc="Customise the look and feel Spectre CSS"
-        path="variables.html" />
   <Card title="Appendix"
         desc="Browser compatibility and changes"
         path="variables.html" />

@@ -1,12 +1,12 @@
 ---
-title: Variables
+title: Customisation
 description: 
-order: 5
+order: 4
 ---
 
-# Variables
+# Customisation
 
-Spectre CSS is designed with consistent design language, and is supported by a [core list](https://github.com/spectre-org/spectre-css/blob/main/src/_variables.scss) of variables:
+Spectre CSS is designed with consistent design language, and is supported by a [core list](https://github.com/spectre-org/spectre-css/blob/main/src/_variables.scss) of SCSS variables:
 
 [Colors](#colors):
 

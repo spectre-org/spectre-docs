@@ -19,7 +19,7 @@ There are various ways to customise the build output:
 
 Create a new file, for example `assets/spectre.scss`.
 
-In this file, override Spectre's [variables](variables.md) then import Spectre's SCSS source: 
+In this file, override Spectre's [variables](customisation) then import Spectre's SCSS source: 
 
 ```scss
 $primary-color: #2e5bec;
