@@ -8,7 +8,7 @@ order: 4
 
 Experimentals provide additional functionality that can be installed in addition to the core components, by including the `spectre-exp.scss` file.
 
-<div class="vp-raw docs-demo columns">
+<div class="docs-demo columns">
   <Card title="Autocomplete"
         desc="Form component provides suggestions while you type"
         path="autocomplete.html" />
@@ -46,5 +46,3 @@ Experimentals provide additional functionality that can be installed in addition
         desc="Interactive 360-degree product photo viewer"
         path="autocomplete.html" />
 </div>
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

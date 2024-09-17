@@ -8,7 +8,7 @@ order: 2
 
 Elements mirror built-in HTML elements, providing styling and basic typography.
 
-<div class="vp-raw docs-demo columns">
+<div class="docs-demo columns">
   <Card title="Typography"
         desc="Headings, paragraphs, semantic text, blockquote and lists elements"
         path="typography.html" />
@@ -34,5 +34,3 @@ Elements mirror built-in HTML elements, providing styling and basic typography.
         desc="Single-element, responsive and pure CSS icons"
         path="icons.html" />
 </div>
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

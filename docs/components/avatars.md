@@ -89,5 +89,3 @@ Avatars support presence indicators. You can add an `<i>` element with the `avat
   <i class="avatar-presence online"></i>
 </figure>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

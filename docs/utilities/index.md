@@ -8,7 +8,7 @@ order: 5
 
 Spectre provides some basic utilities.
  
-<div class="vp-raw docs-demo columns">
+<div class="docs-demo columns">
   <Card title="Color" 
         desc="Colors for text, link and background"
         path="colors.html" />

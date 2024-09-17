@@ -88,5 +88,3 @@ The default image number of Carousels is `8`. You can add more images by changin
   </div>
 </div>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

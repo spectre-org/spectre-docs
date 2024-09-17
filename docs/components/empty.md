@@ -59,5 +59,3 @@ An empty state component can include icons, messages (title and subtitle message
   </div>
 </div>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

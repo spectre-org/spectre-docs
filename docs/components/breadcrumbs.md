@@ -46,5 +46,3 @@ Add a container element with the `breadcrumb` class. And add child elements with
   </li>
 </ul>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

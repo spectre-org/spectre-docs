@@ -121,5 +121,3 @@ autocomplete HTML structure is exampled below.
   </ul>
 </div>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

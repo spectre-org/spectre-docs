@@ -42,5 +42,3 @@ The default image numbers in CSS are `36`. You can copy the mixin and add more n
 @include viewer-slider-size(36);
 @include viewer-slider-size(30);
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

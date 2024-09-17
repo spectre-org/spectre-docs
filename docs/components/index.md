@@ -8,7 +8,7 @@ order: 3
 
 Components provide a range of application-ready functionality, built in pure-CSS.
 
-<div class="vp-raw docs-demo columns">
+<div class="docs-demo columns">
   <Card title="Accordions"
         desc="Used to toggle sections of content"
         path="accordions.html" />
@@ -67,5 +67,3 @@ Components provide a range of application-ready functionality, built in pure-CSS
         desc="Context information labels that appear on hover and focus"
         path="tooltips.html" />
 </div>
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

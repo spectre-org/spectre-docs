@@ -86,5 +86,3 @@ The `timeline-item` `id` and `timeline-icon` `href` work together to make the ti
   ...
 </div>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

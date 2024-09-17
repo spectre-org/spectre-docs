@@ -97,5 +97,3 @@ Also, you can add the `popover-right`, `popover-bottom` or `popover-left` class 
   </div>
 </div>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

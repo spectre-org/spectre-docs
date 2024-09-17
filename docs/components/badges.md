@@ -58,5 +58,3 @@ Badges support `button` and `avatars` elements as well.
   <img src="/img/avatar-3.png" alt="YZ">
 </figure>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

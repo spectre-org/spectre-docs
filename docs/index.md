@@ -12,7 +12,7 @@ Spectre provides basic styles for typography and elements, flexbox based respons
 
 > _Note that this is a fork of the original [Spectre.css](https://picturepan2.github.io/spectre/index.html#google_vignette) library, which aims to continue development by keeping up with pull requests and working on more modern features. See full statement [here](https://github.com/spectre-org)._
 
-<div class="vp-raw docs-demo columns">
+<div class="docs-demo columns">
     <Card title="Get Started"
           desc="Get started with the Spectre CSS library"
           path="get-started/index.html" />

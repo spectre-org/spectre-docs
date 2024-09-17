@@ -118,5 +118,3 @@ Alternatively, you can use `details` and `summary` instead of `input` radio or c
   </div>
 </details>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

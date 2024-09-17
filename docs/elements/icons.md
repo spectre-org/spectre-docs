@@ -213,5 +213,3 @@ Use `icon-2x`, `icon-3x` and `icon-4x` classes to increase icon sizes. You can s
 ```html
 <i class="icon icon-2x icon-mail"></i>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

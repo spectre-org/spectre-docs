@@ -176,5 +176,3 @@ If you want to use buttons as a group, add the `btn-group` class to the containe
   <button class="btn">third button</button>
 </div>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

@@ -96,5 +96,3 @@ If there are two `bar-item` divs in one bar-slider, you will have a range slider
   </div>
 </div>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

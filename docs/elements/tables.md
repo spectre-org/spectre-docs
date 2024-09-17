@@ -186,5 +186,3 @@ Add the `table-scroll` class to `<table>` to have a horizontally scrollable tabl
   ...
 </table>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

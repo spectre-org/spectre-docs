@@ -379,5 +379,3 @@ Calendars are designed for date or date range picker and events display.
   </div>
 </div>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

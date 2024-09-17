@@ -104,5 +104,3 @@ Add the `tile-centered` class to the container `tile`. The `tile-icon`, `tile-co
   </div>
 </div>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

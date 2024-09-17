@@ -284,5 +284,3 @@ And you can use the `lang-cjk` class or the `lang` attribute to add spacing betw
   <del>祇園</del><del>精舎</del>の鐘の声、諸行無常の響きあり。……
 </p>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

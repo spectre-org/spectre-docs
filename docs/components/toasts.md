@@ -61,5 +61,3 @@ And you can add the `toast-primary`, `toast-success`, `toast-warning` or `toast-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 </div>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

@@ -112,5 +112,3 @@ You could add a search box or buttons inside a tab. Add the `tab-action` class t
   </li>
 </ul>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

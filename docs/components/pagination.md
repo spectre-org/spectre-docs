@@ -98,5 +98,3 @@ You could use previous and next pagination to navigate.
   </li>
 </ul>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

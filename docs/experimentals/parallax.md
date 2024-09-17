@@ -41,5 +41,3 @@ The Parallax acts like Apple TV/tvOS hover parallax effect.
   </div>
 </div>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

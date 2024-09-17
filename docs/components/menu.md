@@ -187,5 +187,3 @@ In JavaScript, you can toggle `dropdown` container visibility by adding the `act
   </div>
 </div>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

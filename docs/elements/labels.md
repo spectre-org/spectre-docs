@@ -32,5 +32,3 @@ Add the `label-rounded` class to have rounded labels.
 <!-- rounded labels -->
 <span class="label label-rounded label-primary">primary label</span>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

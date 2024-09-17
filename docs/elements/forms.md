@@ -813,5 +813,3 @@ Add the `disabled` attribute to the element or `<fieldset>` for a disabled form 
     </div>
   </fieldset>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

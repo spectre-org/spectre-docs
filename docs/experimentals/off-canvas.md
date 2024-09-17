@@ -49,5 +49,3 @@ In JavaScript you can open the sidebar by adding the class `active` to `off-canv
   </div>
 </div>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

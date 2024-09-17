@@ -8,7 +8,7 @@ order: 0
 
 Get started with the Spectre CSS library.
 
-<div class="vp-raw docs-demo columns">
+<div class="docs-demo columns">
   <Card title="Installation"
         desc="How to install and use Spectre CSS"
         path="installation.html" />
@@ -26,4 +26,3 @@ Get started with the Spectre CSS library.
         path="variables.html" />
 </div>
 
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

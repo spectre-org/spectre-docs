@@ -51,5 +51,3 @@ Use JavaScript to change this dynamically.
   </li>
 </ul>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

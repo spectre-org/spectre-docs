@@ -27,5 +27,3 @@ The Progress indicates the progress completion of a task.
 <progress class="progress" value="25" max="100"></progress>
 <progress class="progress" max="100"></progress>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

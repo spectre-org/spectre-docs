@@ -8,7 +8,7 @@ order: 1
 
 Spectre provides a flexbox based responsive layout system.
 
-<div class="vp-raw docs-demo columns">
+<div class="docs-demo columns">
   <Card title="Responsive"
       desc="Responsive layout grid system and responsive visibility utilities"
       path="responsive.html" />

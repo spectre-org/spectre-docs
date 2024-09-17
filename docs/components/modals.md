@@ -157,5 +157,3 @@ Use the `modal-lg` class for a full size modal. The container max width is `960p
   </div>
 </div>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

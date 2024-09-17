@@ -36,5 +36,3 @@ Comparison Sliders are sliders for comparing two images. It is built in pure CSS
   </figure>
 </div>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

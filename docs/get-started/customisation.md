@@ -138,5 +138,3 @@ There are 2 button variant mixins in `_mixins.scss` to generate different color 
   @include button-outline-variant($success-color);
 }
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

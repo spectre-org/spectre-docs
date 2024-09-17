@@ -90,5 +90,3 @@ For responsive `<video>` elements, you can add the `video-responsive` class dire
 
 <video class="video-responsive" src="...">...</video>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

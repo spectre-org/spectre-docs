@@ -152,5 +152,3 @@ It works by leveraging the `:checked` [pseudo-class](https://developer.mozilla.o
   </div>
 </div>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

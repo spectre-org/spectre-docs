@@ -60,5 +60,3 @@ Add a container element with the `nav` class. And add child elements with the `n
   </li>
 </ul>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

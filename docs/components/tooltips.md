@@ -48,5 +48,3 @@ Add the `\n` string between any text for multiline tooltips.
 ```html
 <button class="btn tooltip" data-tooltip="First Line Tooltip Text \n Second Line Tooltip Text">multiline tooltip</button>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

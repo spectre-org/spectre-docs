@@ -32,4 +32,3 @@ const content = document.querySelector('#content')
 </pre>
 ```
 
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->

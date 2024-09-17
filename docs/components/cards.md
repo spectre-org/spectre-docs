@@ -97,5 +97,3 @@ Add a container element with the `card` class. And add child elements with the `
   </div>
 </div>
 ```
-
-<!-- @see https://github.com/spectre-org/spectre-docs/issues/17 -->
