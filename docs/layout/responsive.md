@@ -112,6 +112,8 @@ The responsive visibility utilities help show and hide elements on specific view
 
 ### Hiding content
 
+Resize the window to see the table headings <span class="text-bold text-primary">turn on</span> as the window gets narrower:
+
 <div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <table class="docs-table table table-striped text-center">
@@ -127,30 +129,15 @@ The responsive visibility utilities help show and hide elements on specific view
       </thead>
       <tbody>
         <tr>
-          <td class="text-left">hide-xs</td>
-          <td>
-            <div class="bg-secondary docs-dot"></div>
-          </td>
-          <td>
-            <div class="bg-primary docs-dot"></div>
-          </td>
-          <td>
-            <div class="bg-primary docs-dot"></div>
-          </td>
-          <td>
-            <div class="bg-primary docs-dot"></div>
-          </td>
-          <td>
-            <div class="bg-primary docs-dot"></div>
-          </td>
-        </tr>
-        <tr>
-          <td class="text-left">hide-sm</td>
-          <td>
-            <div class="bg-secondary docs-dot"></div>
+          <td class="text-left no-wrap">
+            <span class="hide-xs">hide-xs</span>
+            <span class="show-xs text-bold text-primary">hide-xs</span>
           </td>
           <td>
             <div class="bg-secondary docs-dot"></div>
+          </td>
+          <td>
+            <div class="bg-primary docs-dot"></div>
           </td>
           <td>
             <div class="bg-primary docs-dot"></div>
@@ -163,7 +150,31 @@ The responsive visibility utilities help show and hide elements on specific view
           </td>
         </tr>
         <tr>
-          <td class="text-left">hide-md</td>
+          <td class="text-left no-wrap">
+            <span class="hide-sm">hide-sm</span>
+            <span class="show-sm text-bold text-primary">hide-sm</span>
+          </td>
+          <td>
+            <div class="bg-secondary docs-dot"></div>
+          </td>
+          <td>
+            <div class="bg-secondary docs-dot"></div>
+          </td>
+          <td>
+            <div class="bg-primary docs-dot"></div>
+          </td>
+          <td>
+            <div class="bg-primary docs-dot"></div>
+          </td>
+          <td>
+            <div class="bg-primary docs-dot"></div>
+          </td>
+        </tr>
+        <tr>
+          <td class="text-left no-wrap">
+            <span class="hide-md">hide-md</span>
+            <span class="show-md text-bold text-primary">hide-md</span>
+          </td>
           <td>
             <div class="bg-secondary docs-dot"></div>
           </td>
@@ -181,7 +192,10 @@ The responsive visibility utilities help show and hide elements on specific view
           </td>
         </tr>
         <tr>
-          <td class="text-left">hide-lg</td>
+          <td class="text-left no-wrap">
+            <span class="hide-lg">hide-lg</span>
+            <span class="show-lg text-bold text-primary">hide-lg</span>
+          </td>
           <td>
             <div class="bg-secondary docs-dot"></div>
           </td>
@@ -199,7 +213,10 @@ The responsive visibility utilities help show and hide elements on specific view
           </td>
         </tr>
         <tr>
-          <td class="text-left">hide-xl</td>
+          <td class="text-left no-wrap">
+            <span class="hide-xl">hide-xl</span>
+            <span class="show-xl text-bold text-primary">hide-xl</span>
+          </td>
           <td>
             <div class="bg-secondary docs-dot"></div>
           </td>
@@ -232,6 +249,8 @@ The following 5 variants **hide** elements when the window width is **less than 
 
 ### Showing content
 
+Resize the window to see the table headings <span class="text-bold text-primary">turn on</span> as the window gets wider:
+
 <div class="vp-raw docs-demo columns">
   <div class="column col-12">
     <table class="docs-table table table-striped text-center">
@@ -247,30 +266,15 @@ The following 5 variants **hide** elements when the window width is **less than 
       </thead>
       <tbody>
         <tr>
-          <td class="text-left">show-xs</td>
-          <td>
-            <div class="bg-primary docs-dot"></div>
-          </td>
-          <td>
-            <div class="bg-secondary docs-dot"></div>
-          </td>
-          <td>
-            <div class="bg-secondary docs-dot"></div>
-          </td>
-          <td>
-            <div class="bg-secondary docs-dot"></div>
-          </td>
-          <td>
-            <div class="bg-secondary docs-dot"></div>
-          </td>
-        </tr>
-        <tr>
-          <td class="text-left">show-sm</td>
-          <td>
-            <div class="bg-primary docs-dot"></div>
+          <td class="text-left no-wrap">
+            <span class="hide-xs text-bold text-primary">show-xs</span>
+            <span class="show-xs">show-xs</span>
           </td>
           <td>
             <div class="bg-primary docs-dot"></div>
+          </td>
+          <td>
+            <div class="bg-secondary docs-dot"></div>
           </td>
           <td>
             <div class="bg-secondary docs-dot"></div>
@@ -283,7 +287,31 @@ The following 5 variants **hide** elements when the window width is **less than 
           </td>
         </tr>
         <tr>
-          <td class="text-left">show-md</td>
+          <td class="text-left no-wrap">
+            <span class="hide-sm text-bold text-primary">show-sm</span>
+            <span class="show-sm">show-sm</span>
+          </td>
+          <td>
+            <div class="bg-primary docs-dot"></div>
+          </td>
+          <td>
+            <div class="bg-primary docs-dot"></div>
+          </td>
+          <td>
+            <div class="bg-secondary docs-dot"></div>
+          </td>
+          <td>
+            <div class="bg-secondary docs-dot"></div>
+          </td>
+          <td>
+            <div class="bg-secondary docs-dot"></div>
+          </td>
+        </tr>
+        <tr>
+          <td class="text-left no-wrap">
+            <span class="hide-md text-bold text-primary">show-md</span>
+            <span class="show-md">show-md</span>
+          </td>
           <td>
             <div class="bg-primary docs-dot"></div>
           </td>
@@ -301,7 +329,10 @@ The following 5 variants **hide** elements when the window width is **less than 
           </td>
         </tr>
         <tr>
-          <td class="text-left">show-lg</td>
+          <td class="text-left no-wrap">
+            <span class="hide-lg text-bold text-primary">show-lg</span>
+            <span class="show-lg">show-lg</span>
+          </td>
           <td>
             <div class="bg-primary docs-dot"></div>
           </td>
@@ -319,7 +350,10 @@ The following 5 variants **hide** elements when the window width is **less than 
           </td>
         </tr>
         <tr>
-          <td class="text-left">show-xl</td>
+          <td class="text-left no-wrap">
+            <span class="hide-xl text-bold text-primary">show-xl</span>
+            <span class="show-xl">show-xl</span>
+          </td>
           <td>
             <div class="bg-primary docs-dot"></div>
           </td>

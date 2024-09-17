@@ -2,25 +2,23 @@ body {
   overflow-y: scroll;
 }
 
-// fix sidebar padding
-nav a,
-nav li,
-nav p {
-  margin: 0 !important;
-}
-
-nav h2 {
-  padding: 0 !important;
-  margin: 0 !important;
-}
-
-// fix page menu bullets
-nav ul {
-  list-style: none;
-}
-
+// make Spectre logo inline
 h1 img {
   display: inline;
+}
+
+// enable hero text to go wider
+.VPHero .text {
+  max-width: unset !important;
+
+  @media (min-width: 1280px) {
+    max-width: 66% !important;
+  }
+}
+
+// shrink tagline font size for version number
+.VPHero .tagline {
+  font-size: 18px;
 }
 
 // fix page padding
@@ -40,6 +38,7 @@ h1 img {
   }
 }
 
+// sidebar JS labels
 .VPSidebarItem {
   .label {
     background: #eef0f3;
@@ -65,24 +64,20 @@ h1 img {
   }
 }
 
-// enable hero text to go wider
-.VPHero .text {
-  max-width: unset !important;
-
-  @media (min-width: 1280px) {
-    max-width: 66% !important;
-  }
-}
-
-// shrink tagline for version number
-.VPHero .tagline {
-  font-size: 18px;
-}
-
+// fix heading margins
 .vp-doc > div > :where(h2, h3, h4, h5) {
   margin-top: 1.4em;
 }
 
+// hide border from prev/next links
+a.VPLink.link.pager-link {
+  border-color: transparent;
+  &:hover {
+    border-color: var(--vp-c-divider);
+  }
+}
+
+// utils
 .flex-reverse {
   flex-direction: row-reverse;
 }
@@ -113,4 +108,8 @@ h1 img {
 
 .justify-stretch {
   justify-content: stretch;
+}
+
+.no-wrap {
+  white-space: nowrap;
 }
